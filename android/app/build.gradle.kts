@@ -22,6 +22,7 @@ android {
         applicationId = "com.holyapp.holyapp"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
+        // Firebase Auth / Firestore requieren minSdk 23.
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
