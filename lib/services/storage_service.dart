@@ -11,6 +11,7 @@ class ProgressSnapshot {
     required this.score,
     required this.correctFirstTryIds,
     required this.reviewIds,
+    this.updatedAt = 0,
   });
 
   final DifficultyLevel level;
@@ -21,6 +22,10 @@ class ProgressSnapshot {
 
   /// IDs falladas al menos una vez (pantalla "Repasar").
   final List<String> reviewIds;
+
+  /// Marca de tiempo (ms epoch) de la última modificación; sirve para
+  /// reconciliar con la nube por "última escritura gana".
+  final int updatedAt;
 
   static const empty = ProgressSnapshot(
     level: DifficultyLevel.entrada,
@@ -39,6 +44,7 @@ class StorageService {
   static const _kScore = 'holy.score';
   static const _kCorrect = 'holy.correctFirstTry';
   static const _kReview = 'holy.review';
+  static const _kUpdatedAt = 'holy.updatedAt';
 
   Future<ProgressSnapshot> load() async {
     final prefs = await SharedPreferences.getInstance();
@@ -49,6 +55,7 @@ class StorageService {
       score: prefs.getInt(_kScore) ?? 0,
       correctFirstTryIds: _decodeList(prefs.getString(_kCorrect)),
       reviewIds: _decodeList(prefs.getString(_kReview)),
+      updatedAt: prefs.getInt(_kUpdatedAt) ?? 0,
     );
   }
 
@@ -58,6 +65,7 @@ class StorageService {
     await prefs.setInt(_kScore, snapshot.score);
     await prefs.setString(_kCorrect, json.encode(snapshot.correctFirstTryIds));
     await prefs.setString(_kReview, json.encode(snapshot.reviewIds));
+    await prefs.setInt(_kUpdatedAt, snapshot.updatedAt);
   }
 
   Future<void> clear() async {
@@ -65,6 +73,7 @@ class StorageService {
     await prefs.remove(_kScore);
     await prefs.remove(_kCorrect);
     await prefs.remove(_kReview);
+    await prefs.remove(_kUpdatedAt);
   }
 
   List<String> _decodeList(String? raw) {

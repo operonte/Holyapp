@@ -14,7 +14,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Timoteo 3:2"
-      ]
+      ],
+      "explanation": "El obispo/anciano debe ser irreprensible, marido de una sola mujer y sobrio (1 Ti 3:2)."
     },
     {
       "id": "pas-0002",
@@ -29,7 +30,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Timoteo 3:8"
-      ]
+      ],
+      "explanation": "Los diáconos deben ser honestos, sin doblez, no dados al vino ni a ganancias deshonestas (1 Ti 3:8)."
     },
     {
       "id": "pas-0003",
@@ -44,7 +46,8 @@
       "difficulty": "pastorado",
       "references": [
         "Tito 1:5"
-      ]
+      ],
+      "explanation": "Pablo dejó a Tito en Creta para corregir lo deficiente y nombrar ancianos en cada ciudad."
     },
     {
       "id": "pas-0004",
@@ -59,7 +62,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Timoteo 3:6"
-      ]
+      ],
+      "explanation": "El anciano no debe ser un recién convertido, para que no se envanezca y caiga."
     },
     {
       "id": "pas-0005",
@@ -74,7 +78,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 4:2"
-      ]
+      ],
+      "explanation": "Pablo encarga a Timoteo predicar la palabra, instando a tiempo y fuera de tiempo."
     },
     {
       "id": "pas-0006",
@@ -89,7 +94,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Timoteo 3:4-5"
-      ]
+      ],
+      "explanation": "Quien no sabe gobernar su propia casa difícilmente podrá cuidar de la iglesia de Dios."
     },
     {
       "id": "pas-0007",
@@ -104,7 +110,8 @@
       "difficulty": "pastorado",
       "references": [
         "Mateo 18:15"
-      ]
+      ],
+      "explanation": "El primer paso ante el pecado de un hermano es reprenderlo a solas."
     },
     {
       "id": "pas-0008",
@@ -119,7 +126,8 @@
       "difficulty": "pastorado",
       "references": [
         "Mateo 18:16"
-      ]
+      ],
+      "explanation": "Si no escucha a solas, se llevan uno o dos testigos para confirmar todo asunto."
     },
     {
       "id": "pas-0009",
@@ -134,7 +142,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 15:5-11"
-      ]
+      ],
+      "explanation": "El Concilio de Jerusalén resolvió que los gentiles no debían circuncidarse para salvarse."
     },
     {
       "id": "pas-0010",
@@ -149,7 +158,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Corintios 11:23-26"
-      ]
+      ],
+      "explanation": "Jesús instituyó la Cena del Señor con pan y copa, en memoria de su muerte."
     },
     {
       "id": "pas-0011",
@@ -164,7 +174,8 @@
       "difficulty": "pastorado",
       "references": [
         "Mateo 28:19"
-      ]
+      ],
+      "explanation": "El bautismo se hace en el nombre del Padre, del Hijo y del Espíritu Santo."
     },
     {
       "id": "pas-0012",
@@ -179,7 +190,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 6:2-4"
-      ]
+      ],
+      "explanation": "Se eligieron siete para servir las mesas y que los apóstoles se dieran a la oración y la palabra."
     },
     {
       "id": "pas-0013",
@@ -194,7 +206,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 6:4"
-      ]
+      ],
+      "explanation": "Los apóstoles se dedicaban prioritariamente a la oración y al ministerio de la palabra."
     },
     {
       "id": "pas-0014",
@@ -209,7 +222,8 @@
       "difficulty": "pastorado",
       "references": [
         "Efesios 3:14"
-      ]
+      ],
+      "explanation": "Pablo oraba por la iglesia de rodillas ante el Padre (Ef 3:14)."
     },
     {
       "id": "pas-0015",
@@ -224,7 +238,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 20:19"
-      ]
+      ],
+      "explanation": "Pablo sirvió en Éfeso con humildad y lágrimas, no buscando su propia gloria."
     },
     {
       "id": "pas-0016",
@@ -239,7 +254,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Timoteo 3:6"
-      ]
+      ],
+      "explanation": "Un novato como líder puede envanecerse y caer en la condenación del diablo."
     },
     {
       "id": "pas-0017",
@@ -254,7 +270,8 @@
       "difficulty": "pastorado",
       "references": [
         "Santiago 5:14"
-      ]
+      ],
+      "explanation": "Los ancianos deben orar por el enfermo, ungiéndolo en el nombre del Señor (Stg 5:14)."
     },
     {
       "id": "pas-0018",
@@ -269,7 +286,8 @@
       "difficulty": "pastorado",
       "references": [
         "Génesis 9:12-13"
-      ]
+      ],
+      "explanation": "El pacto noéico: el arco iris es la señal de no destruir más la tierra con diluvio."
     },
     {
       "id": "pas-0019",
@@ -284,7 +302,8 @@
       "difficulty": "pastorado",
       "references": [
         "Génesis 12:2-3"
-      ]
+      ],
+      "explanation": "El pacto abrahámico: en Abraham serían benditas todas las familias de la tierra."
     },
     {
       "id": "pas-0020",
@@ -299,7 +318,8 @@
       "difficulty": "pastorado",
       "references": [
         "Éxodo 24:7-8"
-      ]
+      ],
+      "explanation": "El pacto mosaico: Dios dio la Ley por medio de Moisés en el Sinaí."
     },
     {
       "id": "pas-0021",
@@ -314,7 +334,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Samuel 7:16"
-      ]
+      ],
+      "explanation": "El pacto davídico: Dios prometió a David un trono establecido para siempre."
     },
     {
       "id": "pas-0022",
@@ -329,7 +350,8 @@
       "difficulty": "pastorado",
       "references": [
         "Jeremías 31:31-33"
-      ]
+      ],
+      "explanation": "El Nuevo Pacto (Jer 31) escribe la ley de Dios en el corazón."
     },
     {
       "id": "pas-0023",
@@ -344,7 +366,8 @@
       "difficulty": "pastorado",
       "references": [
         "Gálatas 6:1"
-      ]
+      ],
+      "explanation": "Al caído se le restaura con espíritu de mansedumbre, cuidándose uno mismo (Gá 6:1)."
     },
     {
       "id": "pas-0024",
@@ -359,7 +382,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 2:24-25"
-      ]
+      ],
+      "explanation": "El siervo del Señor corrige con mansedumbre, esperando que Dios conceda arrepentimiento."
     },
     {
       "id": "pas-0025",
@@ -374,7 +398,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 20:29"
-      ]
+      ],
+      "explanation": "Pablo advirtió que entrarían lobos rapaces que no perdonarían al rebaño (Hch 20:29)."
     },
     {
       "id": "pas-0026",
@@ -389,7 +414,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Pedro 5:2-3"
-      ]
+      ],
+      "explanation": "Los ancianos pastorean con ánimo pronto, siendo ejemplos, no por ganancia ni señoreándose."
     },
     {
       "id": "pas-0027",
@@ -404,7 +430,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 3:16"
-      ]
+      ],
+      "explanation": "Toda la Escritura es útil para enseñar, redargüir, corregir e instruir en justicia."
     },
     {
       "id": "pas-0028",
@@ -419,7 +446,8 @@
       "difficulty": "pastorado",
       "references": [
         "Tito 1:9"
-      ]
+      ],
+      "explanation": "El anciano retiene la sana doctrina para exhortar y convencer a los que contradicen."
     },
     {
       "id": "pas-0029",
@@ -434,7 +462,8 @@
       "difficulty": "pastorado",
       "references": [
         "Santiago 1:5"
-      ]
+      ],
+      "explanation": "Quien tiene falta de sabiduría debe pedirla a Dios, que la da abundantemente y sin reproche."
     },
     {
       "id": "pas-0030",
@@ -449,7 +478,8 @@
       "difficulty": "pastorado",
       "references": [
         "Gálatas 6:2"
-      ]
+      ],
+      "explanation": "Sobrellevar las cargas unos de otros cumple la ley de Cristo (Gá 6:2)."
     },
     {
       "id": "pas-0031",
@@ -464,7 +494,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Pedro 3:15"
-      ]
+      ],
+      "explanation": "La defensa de la fe se hace con mansedumbre y reverencia (1 P 3:15)."
     },
     {
       "id": "pas-0032",
@@ -479,7 +510,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 17:2-3"
-      ]
+      ],
+      "explanation": "Pablo razonaba en la sinagoga, probando por las Escrituras que Jesús es el Cristo."
     },
     {
       "id": "pas-0033",
@@ -494,7 +526,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 4:2"
-      ]
+      ],
+      "explanation": "La homilética es el arte y la técnica de preparar y predicar sermones."
     },
     {
       "id": "pas-0034",
@@ -509,7 +542,8 @@
       "difficulty": "pastorado",
       "references": [
         "Nehemías 8:8"
-      ]
+      ],
+      "explanation": "La predicación expositiva explica el texto bíblico en su contexto."
     },
     {
       "id": "pas-0035",
@@ -524,7 +558,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 2:15"
-      ]
+      ],
+      "explanation": "El obrero aprobado 'traza bien' (usa con rectitud) la palabra de verdad (2 Ti 2:15)."
     },
     {
       "id": "pas-0036",
@@ -539,7 +574,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Corintios 4:2"
-      ]
+      ],
+      "explanation": "De los administradores (mayordomos) se requiere que cada uno sea hallado fiel."
     },
     {
       "id": "pas-0037",
@@ -554,7 +590,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Corintios 14:40"
-      ]
+      ],
+      "explanation": "En la iglesia todo debe hacerse decentemente y con orden (1 Co 14:40)."
     },
     {
       "id": "pas-0038",
@@ -569,7 +606,8 @@
       "difficulty": "pastorado",
       "references": [
         "Salmo 150:3-6"
-      ]
+      ],
+      "explanation": "El Salmo 150 llama a alabar a Dios con instrumentos y todo lo que respira."
     },
     {
       "id": "pas-0039",
@@ -584,7 +622,8 @@
       "difficulty": "pastorado",
       "references": [
         "Colosenses 3:16"
-      ]
+      ],
+      "explanation": "Los creyentes se enseñan y exhortan con salmos, himnos y cánticos espirituales."
     },
     {
       "id": "pas-0040",
@@ -599,7 +638,8 @@
       "difficulty": "pastorado",
       "references": [
         "1 Crónicas 25:1-7"
-      ]
+      ],
+      "explanation": "Los levitas tenían a su cargo la música del templo (1 Cr 25)."
     },
     {
       "id": "pas-0041",
@@ -614,7 +654,8 @@
       "difficulty": "pastorado",
       "references": [
         "Hechos 17:18"
-      ]
+      ],
+      "explanation": "El estoicismo buscaba dominar las pasiones por la razón, en contraste con la dependencia del Espíritu."
     },
     {
       "id": "pas-0042",
@@ -629,7 +670,8 @@
       "difficulty": "pastorado",
       "references": [
         "2 Timoteo 2:2"
-      ]
+      ],
+      "explanation": "Lo aprendido se encarga a hombres fieles e idóneos para enseñar a otros (2 Ti 2:2)."
     },
     {
       "id": "pas-0043",
@@ -644,7 +686,8 @@
       "difficulty": "pastorado",
       "references": [
         "Marcos 10:43-44"
-      ]
+      ],
+      "explanation": "La grandeza en el reino es servir: el que quiera ser grande, sea servidor de todos."
     },
     {
       "id": "pas-0044",
@@ -659,7 +702,8 @@
       "difficulty": "pastorado",
       "references": [
         "Romanos 12:18"
-      ]
+      ],
+      "explanation": "El líder busca, en cuanto dependa de él, estar en paz con todos (Ro 12:18)."
     },
     {
       "id": "pas-0045",
@@ -674,7 +718,8 @@
       "difficulty": "pastorado",
       "references": [
         "Romanos 10:14-15"
-      ]
+      ],
+      "explanation": "Hacen falta predicadores enviados, pues nadie creerá en aquel de quien no ha oído (Ro 10:14-15)."
     }
   ]
 }

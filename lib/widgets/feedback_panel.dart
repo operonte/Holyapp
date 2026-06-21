@@ -12,11 +12,15 @@ class FeedbackPanel extends StatelessWidget {
     required this.correct,
     required this.references,
     required this.onContinue,
+    this.explanation,
   });
 
   final bool correct;
   final List<String> references;
   final VoidCallback onContinue;
+
+  /// Explicación didáctica opcional de la respuesta.
+  final String? explanation;
 
   @override
   Widget build(BuildContext context) {
@@ -52,6 +56,13 @@ class FeedbackPanel extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 4),
+              if (explanation != null && explanation!.isNotEmpty) ...[
+                Text(
+                  explanation!,
+                  style: Theme.of(context).textTheme.bodyMedium,
+                ),
+                const SizedBox(height: 12),
+              ],
               Text(
                 correct
                     ? 'Refuerza con estas citas:'

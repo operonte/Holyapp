@@ -15,7 +15,8 @@
       "references": [
         "Génesis 1:1",
         "Génesis 2:4"
-      ]
+      ],
+      "explanation": "La Hipótesis Documental (teoría académica) propone cuatro fuentes: Yavista (J), Elohísta (E), Deuteronomista (D) y Sacerdotal (P)."
     },
     {
       "id": "teo-0002",
@@ -31,7 +32,8 @@
       "references": [
         "Génesis 2:4",
         "Éxodo 3:14-15"
-      ]
+      ],
+      "explanation": "Un criterio clásico distingue J y E por el nombre divino: YHWH frente a Elohim."
     },
     {
       "id": "teo-0003",
@@ -47,7 +49,8 @@
       "references": [
         "Levítico 1:1-3",
         "Génesis 1:1-2:3"
-      ]
+      ],
+      "explanation": "La fuente Sacerdotal (P) se asocia con genealogías, leyes rituales y el culto."
     },
     {
       "id": "teo-0004",
@@ -62,7 +65,8 @@
       "difficulty": "teologia",
       "references": [
         "Deuteronomio 12:1"
-      ]
+      ],
+      "explanation": "La fuente Deuteronomista (D) se vincula sobre todo con el libro de Deuteronomio."
     },
     {
       "id": "teo-0005",
@@ -78,7 +82,8 @@
       "references": [
         "Génesis 1:1-2:3",
         "Génesis 2:4-25"
-      ]
+      ],
+      "explanation": "Se citan los dos relatos de la creación (Génesis 1 y 2) como indicio de varias fuentes."
     },
     {
       "id": "teo-0006",
@@ -93,7 +98,8 @@
       "difficulty": "teologia",
       "references": [
         "Santiago 2:1-6"
-      ]
+      ],
+      "explanation": "La 'hermenéutica de la sospecha' lee el texto atenta a las estructuras de poder e intereses tras su redacción."
     },
     {
       "id": "teo-0007",
@@ -108,7 +114,8 @@
       "difficulty": "teologia",
       "references": [
         "Nehemías 5:1-5"
-      ]
+      ],
+      "explanation": "La crítica histórico-cultural estudia el contexto histórico, social y económico del texto."
     },
     {
       "id": "teo-0008",
@@ -123,7 +130,8 @@
       "difficulty": "teologia",
       "references": [
         "Salmo 13:1-2"
-      ]
+      ],
+      "explanation": "La crítica de las formas (Formgeschichte) analiza los géneros literarios y su contexto previo a la escritura."
     },
     {
       "id": "teo-0009",
@@ -138,7 +146,8 @@
       "difficulty": "teologia",
       "references": [
         "2 Timoteo 3:16"
-      ]
+      ],
+      "explanation": "Un riesgo de los métodos críticos sin fe es reducir la Escritura a un mero documento humano."
     },
     {
       "id": "teo-0010",
@@ -153,7 +162,8 @@
       "difficulty": "teologia",
       "references": [
         "Jueces 4:4-9"
-      ]
+      ],
+      "explanation": "Débora fue jueza y profetisa que, con Barac, llevó a Israel a la victoria."
     },
     {
       "id": "teo-0011",
@@ -168,7 +178,8 @@
       "difficulty": "teologia",
       "references": [
         "Ester 4:14-16"
-      ]
+      ],
+      "explanation": "Ester arriesgó su vida ante el rey para salvar a su pueblo de la aniquilación."
     },
     {
       "id": "teo-0012",
@@ -183,7 +194,8 @@
       "difficulty": "teologia",
       "references": [
         "Rut 4:13-17"
-      ]
+      ],
+      "explanation": "Rut, moabita fiel, llegó a ser bisabuela del rey David."
     },
     {
       "id": "teo-0013",
@@ -198,7 +210,8 @@
       "difficulty": "teologia",
       "references": [
         "Hechos 18:24-26"
-      ]
+      ],
+      "explanation": "Priscila, junto a su esposo Aquila, instruyó con más exactitud a Apolos."
     },
     {
       "id": "teo-0014",
@@ -213,7 +226,8 @@
       "difficulty": "teologia",
       "references": [
         "Romanos 16:1-2"
-      ]
+      ],
+      "explanation": "Pablo recomienda a Febe como diaconisa (sierva) de la iglesia de Cencrea (Ro 16)."
     },
     {
       "id": "teo-0015",
@@ -229,7 +243,8 @@
       "references": [
         "Lucas 24:1-10",
         "Juan 20:1"
-      ]
+      ],
+      "explanation": "Unas mujeres, entre ellas María Magdalena, fueron las primeras en hallar la tumba vacía."
     },
     {
       "id": "teo-0016",
@@ -244,7 +259,8 @@
       "difficulty": "teologia",
       "references": [
         "1 Corintios 8:1"
-      ]
+      ],
+      "explanation": "El conocimiento envanece, pero el amor edifica (1 Co 8:1)."
     },
     {
       "id": "teo-0017",
@@ -259,7 +275,8 @@
       "difficulty": "teologia",
       "references": [
         "Salmo 111:10"
-      ]
+      ],
+      "explanation": "La frase resalta que el estudio profundo debe unirse a la oración y la piedad."
     },
     {
       "id": "teo-0018",
@@ -274,7 +291,8 @@
       "difficulty": "teologia",
       "references": [
         "Proverbios 1:7"
-      ]
+      ],
+      "explanation": "El temor de Jehová es el principio de la sabiduría y el conocimiento (Pr 1:7)."
     },
     {
       "id": "teo-0019",
@@ -289,7 +307,8 @@
       "difficulty": "teologia",
       "references": [
         "1 Corintios 13:2"
-      ]
+      ],
+      "explanation": "El saber sin amor se vuelve estéril y envanece; no edifica (1 Co 13:2)."
     },
     {
       "id": "teo-0020",
@@ -305,7 +324,8 @@
       "references": [
         "Juan 1:1",
         "Colosenses 2:9"
-      ]
+      ],
+      "explanation": "El Concilio de Nicea (325) afirmó la plena divinidad del Hijo frente al arrianismo."
     },
     {
       "id": "teo-0021",
@@ -320,7 +340,8 @@
       "difficulty": "teologia",
       "references": [
         "Juan 10:30"
-      ]
+      ],
+      "explanation": "'Homoousios' afirma que el Hijo es de la misma sustancia que el Padre."
     },
     {
       "id": "teo-0022",
@@ -336,7 +357,8 @@
       "references": [
         "Juan 1:14",
         "Filipenses 2:6-7"
-      ]
+      ],
+      "explanation": "El Concilio de Calcedonia (451) definió a Cristo como una persona en dos naturalezas."
     },
     {
       "id": "teo-0023",
@@ -351,7 +373,8 @@
       "difficulty": "teologia",
       "references": [
         "Lucas 1:43"
-      ]
+      ],
+      "explanation": "'Theotokos' significa 'portadora de Dios' (madre de Dios), afirmando la unidad de la persona de Cristo."
     },
     {
       "id": "teo-0024",
@@ -366,7 +389,8 @@
       "difficulty": "teologia",
       "references": [
         "Mateo 28:19"
-      ]
+      ],
+      "explanation": "Los primeros concilios trataron la Trinidad y la persona de Cristo (Cristología)."
     },
     {
       "id": "teo-0025",
@@ -381,7 +405,8 @@
       "difficulty": "teologia",
       "references": [
         "Efesios 2:8-9"
-      ]
+      ],
+      "explanation": "La Soteriología estudia la doctrina de la salvación."
     },
     {
       "id": "teo-0026",
@@ -396,7 +421,8 @@
       "difficulty": "teologia",
       "references": [
         "Juan 16:13"
-      ]
+      ],
+      "explanation": "La Pneumatología estudia la persona y obra del Espíritu Santo."
     },
     {
       "id": "teo-0027",
@@ -411,7 +437,8 @@
       "difficulty": "teologia",
       "references": [
         "Jeremías 36:4"
-      ]
+      ],
+      "explanation": "La crítica textual compara manuscritos para establecer el texto original más fiable."
     },
     {
       "id": "teo-0028",
@@ -426,7 +453,8 @@
       "difficulty": "teologia",
       "references": [
         "Isaías 40:8"
-      ]
+      ],
+      "explanation": "El Códice Sinaítico es uno de los manuscritos griegos más antiguos y completos (siglo IV)."
     },
     {
       "id": "teo-0029",
@@ -442,7 +470,8 @@
       "references": [
         "2 Timoteo 3:16",
         "2 Pedro 1:21"
-      ]
+      ],
+      "explanation": "La inspiración afirma que toda la Escritura es 'soplada por Dios' (theopneustos)."
     },
     {
       "id": "teo-0030",
@@ -457,7 +486,8 @@
       "difficulty": "teologia",
       "references": [
         "1 Tesalonicenses 4:16-17"
-      ]
+      ],
+      "explanation": "La Escatología estudia las últimas cosas: muerte, juicio y el fin."
     },
     {
       "id": "teo-0031",
@@ -472,7 +502,8 @@
       "difficulty": "teologia",
       "references": [
         "Salmo 119 (acróstico alfabético)"
-      ]
+      ],
+      "explanation": "Álef es la primera letra del alefato (alfabeto) hebreo."
     },
     {
       "id": "teo-0032",
@@ -487,7 +518,8 @@
       "difficulty": "teologia",
       "references": [
         "Apocalipsis 22:13"
-      ]
+      ],
+      "explanation": "'Alfa y Omega' son la primera y la última letra griegas: el principio y el fin."
     },
     {
       "id": "teo-0033",
@@ -502,7 +534,8 @@
       "difficulty": "teologia",
       "references": [
         "Alfabeto hebreo"
-      ]
+      ],
+      "explanation": "El hebreo bíblico se escribe y se lee de derecha a izquierda."
     },
     {
       "id": "teo-0034",
@@ -517,7 +550,8 @@
       "difficulty": "teologia",
       "references": [
         "Gramática del griego koiné"
-      ]
+      ],
+      "explanation": "En griego, el caso acusativo marca el complemento directo."
     },
     {
       "id": "teo-0035",
@@ -532,7 +566,8 @@
       "difficulty": "teologia",
       "references": [
         "Gramática del griego koiné"
-      ]
+      ],
+      "explanation": "El genitivo griego indica posesión o relación ('de')."
     },
     {
       "id": "teo-0036",
@@ -547,7 +582,8 @@
       "difficulty": "teologia",
       "references": [
         "2 Timoteo 2:15"
-      ]
+      ],
+      "explanation": "La exégesis extrae del texto su sentido original; la eiségesis le impone ideas ajenas."
     },
     {
       "id": "teo-0037",
@@ -562,7 +598,8 @@
       "difficulty": "teologia",
       "references": [
         "2 Pedro 1:20-21"
-      ]
+      ],
+      "explanation": "Leer el versículo en su contexto es un principio básico para no malinterpretarlo."
     },
     {
       "id": "teo-0038",
@@ -577,7 +614,8 @@
       "difficulty": "teologia",
       "references": [
         "2 Reyes 25:1-11"
-      ]
+      ],
+      "explanation": "Babilonia llevó a Judá al exilio en el 586 a.C."
     },
     {
       "id": "teo-0039",
@@ -592,7 +630,8 @@
       "difficulty": "teologia",
       "references": [
         "Esdras 1:1-2"
-      ]
+      ],
+      "explanation": "El rey persa Ciro permitió a los judíos volver y reconstruir el templo."
     },
     {
       "id": "teo-0040",
@@ -608,7 +647,8 @@
       "references": [
         "Reforma Protestante (1517)",
         "Romanos 1:17"
-      ]
+      ],
+      "explanation": "Martín Lutero inició la Reforma al publicar las 95 tesis en 1517."
     },
     {
       "id": "teo-0041",
@@ -623,7 +663,8 @@
       "difficulty": "teologia",
       "references": [
         "Juan Calvino, 'Institución' (1536)"
-      ]
+      ],
+      "explanation": "Juan Calvino escribió 'La Institución de la Religión Cristiana'."
     },
     {
       "id": "teo-0042",
@@ -638,7 +679,8 @@
       "difficulty": "teologia",
       "references": [
         "Agustín de Hipona"
-      ]
+      ],
+      "explanation": "Agustín de Hipona escribió 'Confesiones' y 'La Ciudad de Dios'."
     },
     {
       "id": "teo-0043",
@@ -653,7 +695,8 @@
       "difficulty": "teologia",
       "references": [
         "Vulgata latina (s. IV-V)"
-      ]
+      ],
+      "explanation": "Jerónimo tradujo la Biblia al latín en la versión llamada Vulgata."
     },
     {
       "id": "teo-0044",
@@ -668,7 +711,8 @@
       "difficulty": "teologia",
       "references": [
         "Rollos del Mar Muerto (Qumrán, 1947)"
-      ]
+      ],
+      "explanation": "Los Rollos del Mar Muerto (Qumrán, 1947) confirmaron la fiel transmisión del Antiguo Testamento."
     },
     {
       "id": "teo-0045",
@@ -683,7 +727,8 @@
       "difficulty": "teologia",
       "references": [
         "Éxodo 1:8-14"
-      ]
+      ],
+      "explanation": "Israel fue esclavizado en Egipto antes del Éxodo."
     },
     {
       "id": "teo-0046",
@@ -698,7 +743,8 @@
       "difficulty": "teologia",
       "references": [
         "Canon protestante (libros deuterocanónicos)"
-      ]
+      ],
+      "explanation": "Macabeos es un libro deuterocanónico, fuera del canon protestante."
     },
     {
       "id": "teo-0047",
@@ -713,7 +759,8 @@
       "difficulty": "teologia",
       "references": [
         "Hechos 17:18"
-      ]
+      ],
+      "explanation": "En el Areópago de Atenas, Pablo dialogó con filósofos epicúreos y estoicos (Hch 17:18)."
     },
     {
       "id": "teo-0048",
@@ -728,7 +775,333 @@
       "difficulty": "teologia",
       "references": [
         "Septuaginta (LXX, s. III-II a.C.)"
-      ]
+      ],
+      "explanation": "La Septuaginta (LXX) es la traducción griega del Antiguo Testamento usada por la iglesia primitiva."
+    },
+    {
+      "id": "teo-0049",
+      "text": "En el sistema verbal hebreo, ¿qué binyan expresa la acción simple y activa, sin matiz especial?",
+      "options": [
+        "Qal",
+        "Piel",
+        "Hifil",
+        "Nifal"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del hebreo bíblico (binyanim)"
+      ],
+      "explanation": "El Qal es el binyan básico: acción simple y activa, sin matiz especial."
+    },
+    {
+      "id": "teo-0050",
+      "text": "¿Qué binyan hebreo funciona como el pasivo o reflexivo simple (contraparte del Qal)?",
+      "options": [
+        "Piel",
+        "Nifal",
+        "Hifil",
+        "Hofal"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del hebreo bíblico (binyanim)"
+      ],
+      "explanation": "El Nifal es el pasivo o reflexivo simple, contraparte del Qal."
+    },
+    {
+      "id": "teo-0051",
+      "text": "¿Qué binyan hebreo expresa típicamente la acción intensiva o factitiva activa?",
+      "options": [
+        "Qal",
+        "Hofal",
+        "Piel",
+        "Nifal"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del hebreo bíblico (binyanim)"
+      ],
+      "explanation": "El Piel expresa típicamente acción intensiva o factitiva activa."
+    },
+    {
+      "id": "teo-0052",
+      "text": "¿Qué binyan hebreo expresa la acción causativa activa ('hacer que alguien haga')?",
+      "options": [
+        "Qal",
+        "Nifal",
+        "Pual",
+        "Hifil"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del hebreo bíblico (binyanim)"
+      ],
+      "explanation": "El Hifil expresa acción causativa activa ('hacer que alguien haga')."
+    },
+    {
+      "id": "teo-0053",
+      "text": "¿Cómo se llama la construcción hebrea que une dos sustantivos en relación de posesión, como 'la casa de David'?",
+      "options": [
+        "Estado constructo (smikut)",
+        "Vav consecutivo",
+        "Dagesh forte",
+        "Estado absoluto"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del hebreo bíblico"
+      ],
+      "explanation": "El estado constructo (smikut) une dos sustantivos en relación de posesión."
+    },
+    {
+      "id": "teo-0054",
+      "text": "¿Qué nombre recibe el sistema de puntos vocálicos que los masoretas añadieron al texto consonántico hebreo?",
+      "options": [
+        "Te'amim (cantilación)",
+        "Niqqud",
+        "Maqaf",
+        "Dagesh"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Texto masorético"
+      ],
+      "explanation": "El niqqud es el sistema de puntos vocálicos añadido por los masoretas."
+    },
+    {
+      "id": "teo-0055",
+      "text": "En griego koiné, ¿qué tiempo presenta la acción como un todo (aspecto perfectivo) y es el más común en la narrativa?",
+      "options": [
+        "El imperfecto",
+        "El presente",
+        "El aoristo",
+        "El pluscuamperfecto"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné (aspecto verbal)"
+      ],
+      "explanation": "El aoristo presenta la acción como un todo (aspecto perfectivo) y abunda en la narrativa."
+    },
+    {
+      "id": "teo-0056",
+      "text": "¿Qué tiempo griego denota una acción completada cuyos efectos permanecen en el presente?",
+      "options": [
+        "El aoristo",
+        "El imperfecto",
+        "El futuro",
+        "El perfecto"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné (aspecto verbal)"
+      ],
+      "explanation": "El perfecto griego denota una acción completada cuyos efectos permanecen en el presente."
+    },
+    {
+      "id": "teo-0057",
+      "text": "Según la regla de Granville Sharp (artículo–sustantivo–καί–sustantivo, ambos singulares y personales), ¿qué se concluye?",
+      "options": [
+        "Que ambos sustantivos se refieren a la misma persona",
+        "Que son dos personas distintas",
+        "Que el segundo es plural",
+        "Que no tiene implicación teológica"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Tito 2:13",
+        "2 Pedro 1:1"
+      ],
+      "explanation": "La regla de Granville Sharp concluye que ambos sustantivos se refieren a la misma persona."
+    },
+    {
+      "id": "teo-0058",
+      "text": "En griego, ¿qué caso marca normalmente el complemento indirecto?",
+      "options": [
+        "El acusativo",
+        "El dativo",
+        "El genitivo",
+        "El vocativo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné"
+      ],
+      "explanation": "En griego, el dativo marca normalmente el complemento indirecto."
+    },
+    {
+      "id": "teo-0059",
+      "text": "¿Qué es el 'genitivo absoluto' en griego?",
+      "options": [
+        "Un genitivo que marca posesión enfática",
+        "El sujeto obligatorio de la oración",
+        "Una frase de sustantivo y participio en genitivo, gramaticalmente independiente de la oración principal",
+        "Una forma del objeto directo"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné"
+      ],
+      "explanation": "El genitivo absoluto es una frase de sustantivo y participio en genitivo, independiente de la oración principal."
+    },
+    {
+      "id": "teo-0060",
+      "text": "La palabra griega ἀγάπη designa principalmente...",
+      "options": [
+        "El amor erótico",
+        "La amistad (φιλία)",
+        "El afecto familiar",
+        "El amor incondicional y sacrificial"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "1 Corintios 13:4-7",
+        "Juan 3:16"
+      ],
+      "explanation": "ἀγάπη designa el amor incondicional y sacrificial."
+    },
+    {
+      "id": "teo-0061",
+      "text": "El término hebreo חֶסֶד (hesed) se refiere sobre todo a...",
+      "options": [
+        "El amor leal y misericordioso del pacto",
+        "La ira santa",
+        "La gloria",
+        "El temor reverente"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Lamentaciones 3:22-23"
+      ],
+      "explanation": "חֶסֶד (hesed) es el amor leal y misericordioso del pacto."
+    },
+    {
+      "id": "teo-0062",
+      "text": "El término griego κένωσις, en Filipenses 2:7, describe...",
+      "options": [
+        "La glorificación de Cristo",
+        "El anonadamiento o despojo voluntario de Cristo",
+        "La encarnación del Padre",
+        "La segunda venida"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Filipenses 2:7"
+      ],
+      "explanation": "κένωσις (Fil 2:7) describe el despojo o anonadamiento voluntario de Cristo."
+    },
+    {
+      "id": "teo-0063",
+      "text": "La palabra griega μετάνοια significa...",
+      "options": [
+        "Apostasía",
+        "Martirio",
+        "Arrepentimiento: un cambio de mente y de dirección",
+        "Bautismo"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Marcos 1:15",
+        "Hechos 2:38"
+      ],
+      "explanation": "μετάνοια es el arrepentimiento: un cambio de mente y de dirección."
+    },
+    {
+      "id": "teo-0064",
+      "text": "La palabra hebrea רוּחַ (ruaj) puede significar...",
+      "options": [
+        "Ley",
+        "Pacto",
+        "Gloria",
+        "Espíritu, viento o aliento"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Génesis 1:2",
+        "Juan 3:8"
+      ],
+      "explanation": "רוּחַ (ruaj) puede significar espíritu, viento o aliento."
+    },
+    {
+      "id": "teo-0065",
+      "text": "El término griego παράκλητος, aplicado al Espíritu Santo, significa...",
+      "options": [
+        "Consolador o Abogado (uno llamado a nuestro lado)",
+        "Mensajero",
+        "Juez",
+        "Maestro"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Juan 14:26",
+        "Juan 16:7"
+      ],
+      "explanation": "παράκλητος significa Consolador o Abogado: 'uno llamado a nuestro lado'."
+    },
+    {
+      "id": "teo-0066",
+      "text": "En los estudios bíblicos, ¿qué designa una 'perícopa'?",
+      "options": [
+        "Un error de un copista",
+        "Una unidad o pasaje delimitado del texto",
+        "Una nota al margen",
+        "Un libro apócrifo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Crítica literaria (estudios bíblicos)"
+      ],
+      "explanation": "Una perícopa es una unidad o pasaje delimitado del texto bíblico."
+    },
+    {
+      "id": "teo-0067",
+      "text": "¿Qué estudia la 'hamartiología'?",
+      "options": [
+        "La doctrina de la salvación",
+        "La doctrina del Espíritu Santo",
+        "La doctrina del pecado",
+        "La doctrina de la iglesia"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Teología sistemática"
+      ],
+      "explanation": "La hamartiología es la doctrina del pecado."
+    },
+    {
+      "id": "teo-0068",
+      "text": "¿Qué familia textual se asocia con los manuscritos más antiguos, como el Códice Sinaítico y el Vaticano?",
+      "options": [
+        "La familia bizantina",
+        "La familia occidental",
+        "El Textus Receptus",
+        "La familia alejandrina"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Crítica textual del Nuevo Testamento"
+      ],
+      "explanation": "La familia alejandrina agrupa manuscritos tempranos como el Sinaítico y el Vaticano."
     }
   ]
 }

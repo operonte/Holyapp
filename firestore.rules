@@ -1,0 +1,22 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Progreso del usuario: cada quien solo lee y escribe su propio documento.
+    // (El ranking público se servirá luego desde una colección aparte de solo
+    // lectura, para no exponer datos privados como el correo.)
+    match /users/{uid} {
+      allow read, write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Ranking público: cualquier usuario autenticado puede leerlo; cada quien
+    // solo escribe su propia entrada (nombre, foto y puntaje).
+    match /leaderboard/{uid} {
+      allow read: if request.auth != null;
+      allow write: if request.auth != null && request.auth.uid == uid;
+    }
+
+    // Todo lo demás queda denegado por defecto.
+  }
+}

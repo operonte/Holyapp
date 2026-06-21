@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "884925060769",
+    "project_id": "holyapp-8b41f",
+    "storage_bucket": "holyapp-8b41f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884925060769:android:62e5578b73f7e15e6502e0",
+        "android_client_info": {
+          "package_name": "com.holyapp.holyapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884925060769-cdpdf0jsjqikjj5381mpakes79edhvu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-bWzCxFZ1wPZ92nGsL8F57arDQ30fjjs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884925060769-cdpdf0jsjqikjj5381mpakes79edhvu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

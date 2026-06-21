@@ -14,7 +14,8 @@
       "difficulty": "medio",
       "references": [
         "1 Reyes 12:16-20"
-      ]
+      ],
+      "explanation": "Tras Salomón, el reino se dividió en Israel (norte) y Judá (sur)."
     },
     {
       "id": "med-0002",
@@ -29,7 +30,8 @@
       "difficulty": "medio",
       "references": [
         "1 Reyes 12:20"
-      ]
+      ],
+      "explanation": "Jeroboam fue el primer rey del reino del norte (Israel)."
     },
     {
       "id": "med-0003",
@@ -44,7 +46,8 @@
       "difficulty": "medio",
       "references": [
         "2 Reyes 22:8-11"
-      ]
+      ],
+      "explanation": "Josías reformó a Judá al hallarse el libro de la Ley en el templo."
     },
     {
       "id": "med-0004",
@@ -59,7 +62,8 @@
       "difficulty": "medio",
       "references": [
         "2 Reyes 19:35-36"
-      ]
+      ],
+      "explanation": "Ezequías confió en Dios y el ejército asirio fue destruido junto a Jerusalén."
     },
     {
       "id": "med-0005",
@@ -74,7 +78,8 @@
       "difficulty": "medio",
       "references": [
         "1 Reyes 16:30-33"
-      ]
+      ],
+      "explanation": "Acab, con Jezabel, promovió la idolatría y persiguió a los profetas."
     },
     {
       "id": "med-0006",
@@ -89,7 +94,8 @@
       "difficulty": "medio",
       "references": [
         "2 Crónicas 33:9-13"
-      ]
+      ],
+      "explanation": "Manasés fue el rey más idólatra de Judá, pero al final se humilló y se arrepintió."
     },
     {
       "id": "med-0007",
@@ -104,7 +110,8 @@
       "difficulty": "medio",
       "references": [
         "Isaías 53:5"
-      ]
+      ],
+      "explanation": "Isaías 53 describe al siervo sufriente, herido por nuestras rebeliones."
     },
     {
       "id": "med-0008",
@@ -119,7 +126,8 @@
       "difficulty": "medio",
       "references": [
         "Jeremías 9:1"
-      ]
+      ],
+      "explanation": "Jeremías, 'el profeta llorón', vivió y lamentó la caída de Jerusalén."
     },
     {
       "id": "med-0009",
@@ -134,7 +142,8 @@
       "difficulty": "medio",
       "references": [
         "Oseas 1:2"
-      ]
+      ],
+      "explanation": "El matrimonio de Oseas con una mujer infiel ilustró el adulterio espiritual de Israel."
     },
     {
       "id": "med-0010",
@@ -149,7 +158,8 @@
       "difficulty": "medio",
       "references": [
         "Amós 5:24"
-      ]
+      ],
+      "explanation": "Amós, pastor de Tecoa, clamó: 'corra el juicio como las aguas, y la justicia como arroyo'."
     },
     {
       "id": "med-0011",
@@ -164,7 +174,8 @@
       "difficulty": "medio",
       "references": [
         "Jonás 1:17"
-      ]
+      ],
+      "explanation": "Jonás huyó de Dios y fue tragado por un gran pez antes de obedecer."
     },
     {
       "id": "med-0012",
@@ -179,7 +190,8 @@
       "difficulty": "medio",
       "references": [
         "Miqueas 5:2"
-      ]
+      ],
+      "explanation": "Miqueas profetizó que el Mesías nacería en Belén."
     },
     {
       "id": "med-0013",
@@ -195,7 +207,8 @@
       "references": [
         "Salmo 51:1-4",
         "2 Samuel 12:13"
-      ]
+      ],
+      "explanation": "El Salmo 51 es la oración de David arrepentido tras su pecado con Betsabé."
     },
     {
       "id": "med-0014",
@@ -210,7 +223,8 @@
       "difficulty": "medio",
       "references": [
         "Salmo 32:1-5"
-      ]
+      ],
+      "explanation": "El Salmo 32 declara bienaventurado al hombre cuyo pecado es perdonado."
     },
     {
       "id": "med-0015",
@@ -225,7 +239,8 @@
       "difficulty": "medio",
       "references": [
         "Daniel 9:4-5"
-      ]
+      ],
+      "explanation": "Daniel confesó los pecados de su nación como propios y suplicó misericordia."
     },
     {
       "id": "med-0016",
@@ -240,7 +255,8 @@
       "difficulty": "medio",
       "references": [
         "Salmo 13:1-2"
-      ]
+      ],
+      "explanation": "Un salmo de lamentación expresa dolor y clama a Dios en medio de la angustia."
     },
     {
       "id": "med-0017",
@@ -255,7 +271,8 @@
       "difficulty": "medio",
       "references": [
         "Joel 2:12-13"
-      ]
+      ],
+      "explanation": "Por medio de Joel, Dios pidió rasgar el corazón —no los vestidos— y volverse a Él."
     },
     {
       "id": "med-0018",
@@ -270,7 +287,8 @@
       "difficulty": "medio",
       "references": [
         "Éxodo 25:8-9"
-      ]
+      ],
+      "explanation": "El Tabernáculo fue la tienda portátil donde Dios habitaba entre Israel en el desierto."
     },
     {
       "id": "med-0019",
@@ -285,7 +303,8 @@
       "difficulty": "medio",
       "references": [
         "Levítico 1:1-4"
-      ]
+      ],
+      "explanation": "Levítico detalla el sistema de sacrificios y el llamado a la santidad."
     },
     {
       "id": "med-0020",
@@ -300,7 +319,8 @@
       "difficulty": "medio",
       "references": [
         "Éxodo 25:10-16"
-      ]
+      ],
+      "explanation": "El Arca del Pacto, en el Lugar Santísimo, guardaba las tablas de la Ley."
     },
     {
       "id": "med-0021",
@@ -315,7 +335,8 @@
       "difficulty": "medio",
       "references": [
         "Éxodo 12:13-14"
-      ]
+      ],
+      "explanation": "La Pascua recuerda cuando la muerte 'pasó por alto' las casas marcadas con sangre."
     },
     {
       "id": "med-0022",
@@ -330,7 +351,8 @@
       "difficulty": "medio",
       "references": [
         "Levítico 16:34"
-      ]
+      ],
+      "explanation": "En el Día de la Expiación el sumo sacerdote entraba una vez al año al Lugar Santísimo."
     },
     {
       "id": "med-0023",
@@ -345,7 +367,8 @@
       "difficulty": "medio",
       "references": [
         "Santiago 2:17"
-      ]
+      ],
+      "explanation": "Santiago enseña que la fe verdadera se demuestra por las obras que la acompañan."
     },
     {
       "id": "med-0024",
@@ -360,7 +383,8 @@
       "difficulty": "medio",
       "references": [
         "1 Pedro 4:12-13"
-      ]
+      ],
+      "explanation": "Pedro anima a gozarse en el sufrimiento, participando de los padecimientos de Cristo."
     },
     {
       "id": "med-0025",
@@ -375,7 +399,8 @@
       "difficulty": "medio",
       "references": [
         "1 Juan 4:7-8"
-      ]
+      ],
+      "explanation": "Juan señala que amar a los hermanos es señal de que conocemos a Dios."
     },
     {
       "id": "med-0026",
@@ -390,7 +415,8 @@
       "difficulty": "medio",
       "references": [
         "Judas 1:3"
-      ]
+      ],
+      "explanation": "Judas exhorta a contender por la fe una vez dada a los santos."
     },
     {
       "id": "med-0027",
@@ -405,7 +431,8 @@
       "difficulty": "medio",
       "references": [
         "1 Reyes 18:21-39"
-      ]
+      ],
+      "explanation": "Elías confrontó a Acab y a los profetas de Baal en el monte Carmelo."
     },
     {
       "id": "med-0028",
@@ -420,7 +447,8 @@
       "difficulty": "medio",
       "references": [
         "2 Reyes 25:8-11"
-      ]
+      ],
+      "explanation": "Nabucodonosor, rey de Babilonia, destruyó Jerusalén y el templo y llevó cautivo a Judá."
     },
     {
       "id": "med-0029",
@@ -435,7 +463,8 @@
       "difficulty": "medio",
       "references": [
         "Ezequiel 37:1-6"
-      ]
+      ],
+      "explanation": "Ezequiel vio el valle de huesos secos que volvían a la vida, símbolo de restauración."
     },
     {
       "id": "med-0030",
@@ -450,7 +479,8 @@
       "difficulty": "medio",
       "references": [
         "2 Pedro 1:21"
-      ]
+      ],
+      "explanation": "Pedro enseña que los profetas hablaron movidos por el Espíritu Santo, no por voluntad humana."
     },
     {
       "id": "med-0031",
@@ -465,7 +495,8 @@
       "difficulty": "medio",
       "references": [
         "Esdras 7:10"
-      ]
+      ],
+      "explanation": "Esdras dirigió la enseñanza de la Ley tras el retorno del exilio."
     },
     {
       "id": "med-0032",
@@ -480,7 +511,8 @@
       "difficulty": "medio",
       "references": [
         "Nehemías 2:17"
-      ]
+      ],
+      "explanation": "Nehemías lideró la reconstrucción de los muros de Jerusalén."
     },
     {
       "id": "med-0033",
@@ -496,7 +528,8 @@
       "references": [
         "Éxodo 12:5-7",
         "Juan 1:29"
-      ]
+      ],
+      "explanation": "El cordero pascual, sin defecto, es figura de Cristo, el Cordero de Dios."
     },
     {
       "id": "med-0034",
@@ -512,7 +545,8 @@
       "references": [
         "Números 21:9",
         "Juan 3:14"
-      ]
+      ],
+      "explanation": "La serpiente de bronce levantada por Moisés prefigura a Cristo levantado en la cruz (Jn 3:14)."
     },
     {
       "id": "med-0035",
@@ -527,7 +561,8 @@
       "difficulty": "medio",
       "references": [
         "1 Corintios 12:4"
-      ]
+      ],
+      "explanation": "Los diversos dones provienen de un mismo Espíritu, repartidos para el bien común."
     },
     {
       "id": "med-0036",
@@ -542,7 +577,8 @@
       "difficulty": "medio",
       "references": [
         "Josué 6:20"
-      ]
+      ],
+      "explanation": "Jericó cayó cuando Israel marchó por fe y sus muros se derrumbaron."
     }
   ]
 }

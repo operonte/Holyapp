@@ -14,7 +14,8 @@
       "difficulty": "evangelista",
       "references": [
         "Leonard Ravenhill, 'Why Revival Tarries'"
-      ]
+      ],
+      "explanation": "Leonard Ravenhill, en 'Why Revival Tarries', escribió que ningún hombre es más grande que su vida de oración."
     },
     {
       "id": "evg-0002",
@@ -29,7 +30,8 @@
       "difficulty": "evangelista",
       "references": [
         "David Wilkerson, 'La cruz y el puñal' (1963)"
-      ]
+      ],
+      "explanation": "David Wilkerson fundó Teen Challenge y escribió 'La cruz y el puñal'."
     },
     {
       "id": "evg-0003",
@@ -45,7 +47,8 @@
       "references": [
         "Jonathan Edwards (sermón, 1741)",
         "Hebreos 10:31"
-      ]
+      ],
+      "explanation": "El sermón de Jonathan Edwards 'Pecadores en manos de un Dios airado' (1741) avivó el Gran Despertar."
     },
     {
       "id": "evg-0004",
@@ -61,7 +64,8 @@
       "references": [
         "George Müller",
         "Filipenses 4:19"
-      ]
+      ],
+      "explanation": "George Müller sostuvo orfanatos en Bristol confiando solo en la oración, sin pedir dinero a nadie."
     },
     {
       "id": "evg-0005",
@@ -76,7 +80,8 @@
       "difficulty": "evangelista",
       "references": [
         "William Booth (Ejército de Salvación, 1865)"
-      ]
+      ],
+      "explanation": "William Booth fundó el Ejército de Salvación para predicar y servir a los necesitados."
     },
     {
       "id": "evg-0006",
@@ -92,7 +97,8 @@
       "references": [
         "Hudson Taylor",
         "Marcos 16:15"
-      ]
+      ],
+      "explanation": "Hudson Taylor llevó el evangelio al interior de China con la Misión al Interior de la China."
     },
     {
       "id": "evg-0007",
@@ -107,7 +113,8 @@
       "difficulty": "evangelista",
       "references": [
         "William Carey (sermón, 1792)"
-      ]
+      ],
+      "explanation": "William Carey, 'padre de las misiones modernas', dijo: 'Espera grandes cosas de Dios; intenta grandes cosas para Dios'."
     },
     {
       "id": "evg-0008",
@@ -122,7 +129,8 @@
       "difficulty": "evangelista",
       "references": [
         "Jim Elliot (diario, 1949)"
-      ]
+      ],
+      "explanation": "Jim Elliot, mártir en Ecuador, escribió: 'No es necio el que da lo que no puede retener para ganar lo que no puede perder'."
     },
     {
       "id": "evg-0009",
@@ -137,7 +145,8 @@
       "difficulty": "evangelista",
       "references": [
         "Avivamiento de Gales (1904)"
-      ]
+      ],
+      "explanation": "Evan Roberts fue el joven usado por Dios en el Avivamiento de Gales de 1904."
     },
     {
       "id": "evg-0010",
@@ -153,7 +162,8 @@
       "references": [
         "Avivamiento de la Calle Azusa (1906)",
         "Hechos 2:1-4"
-      ]
+      ],
+      "explanation": "El avivamiento de la Calle Azusa (1906), con William Seymour, marcó el inicio del pentecostalismo moderno."
     },
     {
       "id": "evg-0011",
@@ -168,7 +178,8 @@
       "difficulty": "evangelista",
       "references": [
         "E.M. Bounds, 'El poder a través de la oración'"
-      ]
+      ],
+      "explanation": "E.M. Bounds es conocido por sus libros sobre la oración, como 'El poder a través de la oración'."
     },
     {
       "id": "evg-0012",
@@ -183,7 +194,8 @@
       "difficulty": "evangelista",
       "references": [
         "Mateo 28:19-20"
-      ]
+      ],
+      "explanation": "La Gran Comisión impulsa a ir y hacer discípulos a todas las naciones (Mt 28:19)."
     },
     {
       "id": "evg-0013",
@@ -198,7 +210,8 @@
       "difficulty": "evangelista",
       "references": [
         "John Wesley"
-      ]
+      ],
+      "explanation": "John Wesley fundó el metodismo y dijo: 'El mundo es mi parroquia'."
     },
     {
       "id": "evg-0014",
@@ -213,7 +226,8 @@
       "difficulty": "evangelista",
       "references": [
         "Gran Despertar (s. XVIII)"
-      ]
+      ],
+      "explanation": "George Whitefield fue famoso por su poderosa predicación al aire libre ante multitudes."
     },
     {
       "id": "evg-0015",
@@ -228,7 +242,8 @@
       "difficulty": "evangelista",
       "references": [
         "Charles Finney, 'Lectures on Revivals of Religion' (1835)"
-      ]
+      ],
+      "explanation": "Charles Finney, del Segundo Gran Despertar, escribió 'Lecciones sobre el avivamiento'."
     },
     {
       "id": "evg-0016",
@@ -243,7 +258,8 @@
       "difficulty": "evangelista",
       "references": [
         "D.L. Moody"
-      ]
+      ],
+      "explanation": "D.L. Moody fundó en Chicago el instituto bíblico que lleva su nombre."
     },
     {
       "id": "evg-0017",
@@ -258,7 +274,8 @@
       "difficulty": "evangelista",
       "references": [
         "Charles Spurgeon"
-      ]
+      ],
+      "explanation": "Charles Spurgeon, predicador bautista de Londres, es llamado 'el príncipe de los predicadores'."
     },
     {
       "id": "evg-0018",
@@ -273,7 +290,8 @@
       "difficulty": "evangelista",
       "references": [
         "Andrew Murray"
-      ]
+      ],
+      "explanation": "Andrew Murray, sudafricano, escribió clásicos sobre la oración como 'La escuela de la oración'."
     },
     {
       "id": "evg-0019",
@@ -288,7 +306,8 @@
       "difficulty": "evangelista",
       "references": [
         "Smith Wigglesworth"
-      ]
+      ],
+      "explanation": "Smith Wigglesworth, 'apóstol de la fe', tuvo un ministerio de fe y sanidad."
     },
     {
       "id": "evg-0020",
@@ -303,7 +322,8 @@
       "difficulty": "evangelista",
       "references": [
         "Corrie ten Boom, 'El refugio secreto'"
-      ]
+      ],
+      "explanation": "Corrie ten Boom, sobreviviente de un campo nazi, escribió 'El refugio secreto' y predicó el perdón."
     },
     {
       "id": "evg-0021",
@@ -318,7 +338,8 @@
       "difficulty": "evangelista",
       "references": [
         "Avivamiento de las Hébridas (1949-1952)"
-      ]
+      ],
+      "explanation": "El Avivamiento de las Hébridas (~1949) se asocia con el predicador Duncan Campbell."
     },
     {
       "id": "evg-0022",
@@ -334,7 +355,8 @@
       "references": [
         "Joel 2:12",
         "Mateo 6:16-18"
-      ]
+      ],
+      "explanation": "Muchos líderes de avivamiento unieron el ayuno a la oración para buscar a Dios con intensidad."
     },
     {
       "id": "evg-0023",
@@ -349,7 +371,8 @@
       "difficulty": "evangelista",
       "references": [
         "Hechos 1:8"
-      ]
+      ],
+      "explanation": "Los discípulos recibirían poder al venir sobre ellos el Espíritu Santo (Hch 1:8)."
     },
     {
       "id": "evg-0024",
@@ -364,7 +387,8 @@
       "difficulty": "evangelista",
       "references": [
         "Hechos 1:8"
-      ]
+      ],
+      "explanation": "Serían testigos hasta lo último de la tierra (Hch 1:8)."
     },
     {
       "id": "evg-0025",
@@ -379,7 +403,8 @@
       "difficulty": "evangelista",
       "references": [
         "Amy Carmichael"
-      ]
+      ],
+      "explanation": "Amy Carmichael, misionera en la India, rescató niños del abuso y escribió libros devocionales."
     },
     {
       "id": "evg-0026",
@@ -394,7 +419,8 @@
       "difficulty": "evangelista",
       "references": [
         "1 Pedro 3:15"
-      ]
+      ],
+      "explanation": "El creyente debe estar siempre listo para dar razón de su esperanza, con mansedumbre y reverencia."
     },
     {
       "id": "evg-0027",
@@ -409,7 +435,8 @@
       "difficulty": "evangelista",
       "references": [
         "Hechos 8:26-39"
-      ]
+      ],
+      "explanation": "Felipe explicó la Escritura al funcionario etíope y lo bautizó (Hch 8)."
     },
     {
       "id": "evg-0028",
@@ -424,7 +451,8 @@
       "difficulty": "evangelista",
       "references": [
         "1 Corintios 9:16"
-      ]
+      ],
+      "explanation": "Pablo exclamó: '¡Ay de mí si no anunciare el evangelio!' (1 Co 9:16)."
     },
     {
       "id": "evg-0029",
@@ -439,7 +467,8 @@
       "difficulty": "evangelista",
       "references": [
         "Mateo 9:37-38"
-      ]
+      ],
+      "explanation": "La mies es mucha y los obreros pocos: roguemos al Señor que envíe obreros (Mt 9:37-38)."
     },
     {
       "id": "evg-0030",
@@ -454,7 +483,8 @@
       "difficulty": "evangelista",
       "references": [
         "Daniel 12:3"
-      ]
+      ],
+      "explanation": "Los que enseñan justicia resplandecerán como las estrellas a perpetua eternidad (Dn 12:3)."
     }
   ]
 }

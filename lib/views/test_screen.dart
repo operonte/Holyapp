@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../models/bible_question.dart';
@@ -29,13 +30,47 @@ class _TestScreenState extends State<TestScreen> {
       value: widget.controller,
       child: Consumer<TestController>(
         builder: (context, ctrl, _) {
-          if (ctrl.phase == TestPhase.finished) {
-            return _FinishedView(controller: ctrl);
-          }
-          return _ActiveView(controller: ctrl);
+          final finished = ctrl.phase == TestPhase.finished;
+          // Si el test sigue en curso, intercepta el "atrás" para no perder el
+          // progreso ya logrado (los puntos se confirman solo al terminar).
+          return PopScope(
+            canPop: finished,
+            onPopInvokedWithResult: (didPop, _) async {
+              if (didPop) return;
+              final leave = await _confirmExit(context);
+              if (leave && context.mounted) Navigator.of(context).pop();
+            },
+            child: finished
+                ? _FinishedView(controller: ctrl)
+                : _ActiveView(controller: ctrl),
+          );
         },
       ),
     );
+  }
+
+  Future<bool> _confirmExit(BuildContext context) async {
+    final leave = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('¿Salir del test?'),
+        content: const Text(
+          'Si sales ahora perderás el progreso de este test (los puntos se '
+          'guardan solo al terminarlo). ¿Seguro que quieres salir?',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('Seguir jugando'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            child: const Text('Salir'),
+          ),
+        ],
+      ),
+    );
+    return leave ?? false;
   }
 }
 
@@ -63,6 +98,8 @@ class _ActiveView extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
+            if (!controller.isInfinite)
+              LinearProgressIndicator(value: controller.progress),
             _ProgressBar(controller: controller),
             Expanded(
               child: ListView(
@@ -90,7 +127,15 @@ class _ActiveView extends StatelessWidget {
                       index: i,
                       selectedIndex: controller.selectedIndex,
                       locked: isFeedback,
-                      onTap: () => controller.answer(i),
+                      onTap: () {
+                        controller.answer(i);
+                        // Vibración: suave si acierta, fuerte si falla.
+                        if (controller.lastWasCorrect) {
+                          HapticFeedback.lightImpact();
+                        } else {
+                          HapticFeedback.heavyImpact();
+                        }
+                      },
                     );
                   }),
                 ],
@@ -100,6 +145,7 @@ class _ActiveView extends StatelessWidget {
               FeedbackPanel(
                 correct: controller.lastWasCorrect,
                 references: controller.currentReferences,
+                explanation: controller.current?.explanation,
                 onContinue: controller.next,
               ),
           ],
@@ -169,9 +215,20 @@ class _OptionTile extends StatelessWidget {
       }
     }
 
+    final letter = String.fromCharCode(65 + index);
+    final semanticLabel = locked && isCorrect
+        ? 'Opción $letter, correcta: ${question.options[index]}'
+        : locked && isPicked
+            ? 'Opción $letter, incorrecta: ${question.options[index]}'
+            : 'Opción $letter: ${question.options[index]}';
+
     return Padding(
       padding: const EdgeInsets.only(bottom: 12),
-      child: Material(
+      child: Semantics(
+        button: !locked,
+        selected: isPicked,
+        label: semanticLabel,
+        child: Material(
         color: bg ?? scheme.surfaceContainerHighest,
         borderRadius: BorderRadius.circular(12),
         child: InkWell(
@@ -202,6 +259,7 @@ class _OptionTile extends StatelessWidget {
             ),
           ),
         ),
+      ),
       ),
     );
   }
