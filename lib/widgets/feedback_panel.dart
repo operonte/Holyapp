@@ -25,8 +25,17 @@ class FeedbackPanel extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final scheme = Theme.of(context).colorScheme;
-    final bg = correct ? Colors.green.shade50 : scheme.errorContainer;
-    final accent = correct ? Colors.green.shade700 : scheme.error;
+    final isDark = Theme.of(context).brightness == Brightness.dark;
+    final bg = correct
+        ? (isDark ? Colors.green.shade900 : Colors.green.shade50)
+        : scheme.errorContainer;
+    final accent = correct
+        ? (isDark ? Colors.green.shade200 : Colors.green.shade700)
+        : scheme.error;
+    // Texto del botón "Continuar" con contraste sobre el color de acento.
+    final onAccent = correct
+        ? (isDark ? Colors.black : Colors.white)
+        : scheme.onError;
 
     return Material(
       elevation: 12,
@@ -77,6 +86,7 @@ class FeedbackPanel extends StatelessWidget {
                 style: FilledButton.styleFrom(
                   minimumSize: const Size.fromHeight(48),
                   backgroundColor: accent,
+                  foregroundColor: onAccent,
                 ),
                 child: const Text('Continuar'),
               ),

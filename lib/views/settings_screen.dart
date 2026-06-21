@@ -30,6 +30,8 @@ class SettingsScreen extends StatelessWidget {
           _SectionTitle('Preguntas'),
           const SizedBox(height: 8),
           const _RepeatSetting(),
+          const SizedBox(height: 8),
+          const _SoundSetting(),
           const Divider(height: 48),
           _SectionTitle('Nivel actual'),
           const SizedBox(height: 8),
@@ -236,6 +238,13 @@ class _AccountSection extends StatelessWidget {
                 MaterialPageRoute(builder: (_) => const RankingScreen()),
               ),
             ),
+            const Divider(height: 1),
+            ListTile(
+              leading: Icon(Icons.delete_forever, color: scheme.error),
+              title: Text('Eliminar mi cuenta y datos',
+                  style: TextStyle(color: scheme.error)),
+              onTap: () => _confirmDelete(context),
+            ),
           ],
         ),
       );
@@ -292,6 +301,46 @@ class _AccountSection extends StatelessWidget {
       );
     }
   }
+
+  Future<void> _confirmDelete(BuildContext context) async {
+    final app = context.read<AppState>();
+    final auth = context.read<AuthController>();
+    final messenger = ScaffoldMessenger.of(context);
+    final scheme = Theme.of(context).colorScheme;
+
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        title: const Text('Eliminar cuenta'),
+        content: const Text(
+          'Se borrarán de forma permanente tu progreso en la nube y tu entrada '
+          'del ranking, y se eliminará tu cuenta. Tu progreso local en este '
+          'dispositivo se conserva. ¿Continuar?',
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx, false),
+            child: const Text('Cancelar'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.pop(ctx, true),
+            style: FilledButton.styleFrom(backgroundColor: scheme.error),
+            child: const Text('Eliminar'),
+          ),
+        ],
+      ),
+    );
+    if (ok != true) return;
+
+    // Primero los datos en la nube (mientras hay sesión), luego la cuenta.
+    try {
+      await app.deleteCloudData();
+    } catch (_) {}
+    final error = await auth.deleteAccount();
+    messenger.showSnackBar(
+      SnackBar(content: Text(error ?? 'Tu cuenta y datos fueron eliminados.')),
+    );
+  }
 }
 
 /// Estadística compacta (valor grande + etiqueta) para el perfil.
@@ -330,6 +379,27 @@ class _RepeatSetting extends StatelessWidget {
                   'tests (la verás una sola vez).',
         ),
         secondary: const Icon(Icons.repeat),
+      ),
+    );
+  }
+}
+
+/// Interruptor: efectos de sonido en el test.
+class _SoundSetting extends StatelessWidget {
+  const _SoundSetting();
+
+  @override
+  Widget build(BuildContext context) {
+    final settings = context.watch<SettingsController>();
+    return Card(
+      child: SwitchListTile(
+        value: settings.soundEnabled,
+        onChanged: settings.setSoundEnabled,
+        title: const Text('Sonido'),
+        subtitle: const Text('Efectos de sonido al acertar o fallar.'),
+        secondary: Icon(
+          settings.soundEnabled ? Icons.volume_up : Icons.volume_off,
+        ),
       ),
     );
   }

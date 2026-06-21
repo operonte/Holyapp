@@ -43,6 +43,12 @@ class FirestoreService {
     return _leaderboard.doc(uid).set(data, SetOptions(merge: true));
   }
 
+  /// Borra todos los datos en la nube del usuario (progreso + ranking).
+  Future<void> deleteUserData(String uid) async {
+    await _users.doc(uid).delete();
+    await _leaderboard.doc(uid).delete();
+  }
+
   /// Ranking global: top de usuarios por puntaje (en vivo).
   Stream<List<RankEntry>> topScores({int limit = 100}) {
     return _leaderboard
