@@ -11,10 +11,18 @@ service cloud.firestore {
     }
 
     // Ranking público: cualquier usuario autenticado puede leerlo; cada quien
-    // solo escribe su propia entrada (nombre, foto y puntaje).
+    // solo escribe su propia entrada, y con campos validados (anti-manipulación:
+    // no se pueden inyectar campos arbitrarios ni tipos inesperados).
     match /leaderboard/{uid} {
       allow read: if request.auth != null;
-      allow write: if request.auth != null && request.auth.uid == uid;
+      allow write: if request.auth != null
+        && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(
+             ['displayName', 'photoUrl', 'score', 'updatedAt'])
+        && request.resource.data.score is int
+        && request.resource.data.score >= 0
+        && request.resource.data.displayName is string
+        && request.resource.data.displayName.size() <= 120;
     }
 
     // Todo lo demás queda denegado por defecto.
