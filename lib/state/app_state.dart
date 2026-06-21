@@ -167,6 +167,15 @@ class AppState extends ChangeNotifier {
     }
   }
 
+  /// Borra los datos del usuario en la nube (progreso + ranking). El llamador
+  /// debe estar con sesión iniciada.
+  Future<void> deleteCloudData() async {
+    final cloud = _cloud;
+    final uid = _uid;
+    if (cloud == null || uid == null) return;
+    await cloud.deleteUserData(uid);
+  }
+
   void _adoptRemote(Map<String, dynamic> r) {
     _level = DifficultyLevel.fromId(r['level'] as String? ?? _level.id);
     _score = (r['score'] as num?)?.toInt() ?? 0;

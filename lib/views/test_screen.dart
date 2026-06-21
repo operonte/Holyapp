@@ -3,7 +3,9 @@ import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 
 import '../models/bible_question.dart';
+import '../services/audio_service.dart';
 import '../state/app_state.dart';
+import '../state/settings_controller.dart';
 import '../state/test_controller.dart';
 import '../widgets/feedback_panel.dart';
 import 'results_screen.dart';
@@ -129,11 +131,15 @@ class _ActiveView extends StatelessWidget {
                       locked: isFeedback,
                       onTap: () {
                         controller.answer(i);
-                        // Vibración: suave si acierta, fuerte si falla.
+                        final soundOn =
+                            context.read<SettingsController>().soundEnabled;
+                        // Vibración + sonido: distinto si acierta o falla.
                         if (controller.lastWasCorrect) {
                           HapticFeedback.lightImpact();
+                          if (soundOn) AudioService.instance.correct();
                         } else {
                           HapticFeedback.heavyImpact();
+                          if (soundOn) AudioService.instance.wrong();
                         }
                       },
                     );

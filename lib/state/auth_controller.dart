@@ -66,4 +66,22 @@ class AuthController extends ChangeNotifier {
   Future<void> signOut() async {
     await _auth?.signOut();
   }
+
+  /// Elimina la cuenta de Firebase Auth del usuario. Devuelve `null` si tuvo
+  /// éxito, o un mensaje de error legible. Borra primero los datos en la nube.
+  Future<String?> deleteAccount() async {
+    final user = _auth?.currentUser;
+    if (user == null) return 'No hay una sesión activa.';
+    try {
+      await user.delete();
+      return null;
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'requires-recent-login') {
+        return 'Por seguridad, vuelve a iniciar sesión y reinténtalo.';
+      }
+      return e.message ?? 'No se pudo eliminar la cuenta.';
+    } catch (e) {
+      return 'No se pudo eliminar la cuenta.';
+    }
+  }
 }

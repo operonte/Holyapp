@@ -5,6 +5,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 class SettingsController extends ChangeNotifier {
   static const _kRepeat = 'holy.repeatMastered';
   static const _kOnboarding = 'holy.onboardingSeen';
+  static const _kSound = 'holy.soundEnabled';
 
   /// Si es `true` (por defecto), las preguntas pueden repetirse en futuros
   /// tests. Si es `false`, una pregunta ya acertada (dominada) no vuelve a
@@ -16,6 +17,10 @@ class SettingsController extends ChangeNotifier {
   bool _onboardingSeen = false;
   bool get onboardingSeen => _onboardingSeen;
 
+  /// Efectos de sonido en el test (acierto/fallo).
+  bool _soundEnabled = true;
+  bool get soundEnabled => _soundEnabled;
+
   bool _loaded = false;
   bool get isLoaded => _loaded;
 
@@ -23,8 +28,17 @@ class SettingsController extends ChangeNotifier {
     final prefs = await SharedPreferences.getInstance();
     _repeatMastered = prefs.getBool(_kRepeat) ?? true;
     _onboardingSeen = prefs.getBool(_kOnboarding) ?? false;
+    _soundEnabled = prefs.getBool(_kSound) ?? true;
     _loaded = true;
     notifyListeners();
+  }
+
+  Future<void> setSoundEnabled(bool value) async {
+    if (value == _soundEnabled) return;
+    _soundEnabled = value;
+    notifyListeners();
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_kSound, value);
   }
 
   Future<void> markOnboardingSeen() async {
