@@ -13,6 +13,7 @@ class BibleQuestion {
     required this.correctIndex,
     required this.difficulty,
     required this.references,
+    this.explanation,
   });
 
   /// Identificador único y estable (sirve para historial y persistencia).
@@ -33,6 +34,10 @@ class BibleQuestion {
   /// Citas bíblicas de respaldo: mínimo 1, máximo 3.
   final List<String> references;
 
+  /// Explicación didáctica opcional (el "porqué" de la respuesta), que se
+  /// muestra en el feedback y en el historial. Puede ser null.
+  final String? explanation;
+
   String get correctOption => options[correctIndex];
 
   bool isCorrect(int selectedIndex) => selectedIndex == correctIndex;
@@ -42,13 +47,18 @@ class BibleQuestion {
     final options = (json['options'] as List).cast<String>();
     final references = (json['references'] as List).cast<String>();
     final correctIndex = json['correctIndex'] as int;
+    final id = json['id'];
 
-    assert(options.length == 4, 'Cada pregunta debe tener 4 opciones');
-    assert(correctIndex >= 0 && correctIndex < 4, 'correctIndex fuera de rango');
-    assert(
-      references.isNotEmpty && references.length <= 3,
-      'Las citas deben ser entre 1 y 3',
-    );
+    // Validación dura (los assert se eliminan en release; esto no).
+    if (options.length != 4) {
+      throw FormatException('La pregunta $id debe tener 4 opciones');
+    }
+    if (correctIndex < 0 || correctIndex >= 4) {
+      throw FormatException('correctIndex fuera de rango en $id');
+    }
+    if (references.isEmpty || references.length > 3) {
+      throw FormatException('Las citas de $id deben ser entre 1 y 3');
+    }
 
     return BibleQuestion(
       id: json['id'] as String,
@@ -57,6 +67,7 @@ class BibleQuestion {
       correctIndex: correctIndex,
       difficulty: DifficultyLevel.fromId(json['difficulty'] as String),
       references: references,
+      explanation: json['explanation'] as String?,
     );
   }
 
@@ -67,5 +78,6 @@ class BibleQuestion {
         'correctIndex': correctIndex,
         'difficulty': difficulty.id,
         'references': references,
+        if (explanation != null) 'explanation': explanation,
       };
 }

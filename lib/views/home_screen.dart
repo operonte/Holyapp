@@ -5,6 +5,7 @@ import '../models/difficulty_level.dart';
 import '../models/test_length.dart';
 import '../services/question_service.dart';
 import '../state/app_state.dart';
+import '../state/settings_controller.dart';
 import '../state/test_controller.dart';
 import 'correct_screen.dart';
 import 'review_screen.dart';
@@ -21,13 +22,23 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   TestLength _selectedLength = TestLength.ten;
   bool _starting = false;
+  bool _onboardingChecked = false;
 
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
+    final settings = context.watch<SettingsController>();
 
     if (!app.isLoaded) {
       return const Scaffold(body: Center(child: CircularProgressIndicator()));
+    }
+
+    // Tutorial la primera vez (una sola vez por dispositivo).
+    if (settings.isLoaded && !settings.onboardingSeen && !_onboardingChecked) {
+      _onboardingChecked = true;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted) _showOnboarding(context);
+      });
     }
 
     return Scaffold(
@@ -106,13 +117,81 @@ class _HomeScreenState extends State<HomeScreen> {
     Navigator.of(context).push(MaterialPageRoute(builder: (_) => screen));
   }
 
+  Future<void> _showOnboarding(BuildContext context) async {
+    final settings = context.read<SettingsController>();
+    await showDialog<void>(
+      context: context,
+      barrierDismissible: false,
+      builder: (ctx) => AlertDialog(
+        title: const Text('¡Bienvenido a HolyApp!'),
+        content: const SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _OnboardPoint(
+                icon: Icons.layers,
+                text: 'Aprende por niveles (de Entrada a Evangelista). Tu nivel '
+                    'desbloquea en cascada todos los inferiores.',
+              ),
+              _OnboardPoint(
+                icon: Icons.replay,
+                text: 'Método de fallo y corrección: si te equivocas, la '
+                    'pregunta vuelve al final hasta que la aciertes.',
+              ),
+              _OnboardPoint(
+                icon: Icons.star,
+                text: 'Cada acierto al primer intento suma puntos según el '
+                    'nivel de la pregunta.',
+              ),
+              _OnboardPoint(
+                icon: Icons.menu_book,
+                text: 'Tras responder verás una explicación y las citas '
+                    'bíblicas para aprender el porqué.',
+              ),
+              _OnboardPoint(
+                icon: Icons.cloud_done,
+                text: 'Opcional: inicia sesión con Google (en Configuración) '
+                    'para guardar tu progreso y entrar al ranking.',
+              ),
+            ],
+          ),
+        ),
+        actions: [
+          FilledButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('¡Entendido!'),
+          ),
+        ],
+      ),
+    );
+    await settings.markOnboardingSeen();
+  }
+
   Future<void> _startTest(BuildContext context) async {
     setState(() => _starting = true);
     final app = context.read<AppState>();
+    final settings = context.read<SettingsController>();
     try {
       // Mezcla las preguntas de todos los niveles desbloqueados (1..N).
-      final bank = await QuestionService.instance.loadUpTo(app.level);
+      var bank = await QuestionService.instance.loadUpTo(app.level);
+      // Si el usuario eligió "ver una sola vez", excluye las ya dominadas.
+      if (!settings.repeatMastered) {
+        final mastered = app.correctFirstTryIds.toSet();
+        bank = bank.where((q) => !mastered.contains(q.id)).toList();
+      }
       if (!context.mounted) return;
+      if (bank.isEmpty) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(
+            content: Text(
+              '¡Ya dominaste todas las preguntas disponibles! Activa "repetir '
+              'preguntas" en Configuración o reinicia el puntaje.',
+            ),
+          ),
+        );
+        return;
+      }
       final controller = TestController(
         level: app.level,
         length: _selectedLength,
@@ -198,6 +277,28 @@ class _LengthSelector extends StatelessWidget {
       ],
       selected: {selected},
       onSelectionChanged: (s) => onChanged(s.first),
+    );
+  }
+}
+
+/// Un punto del tutorial inicial (ícono + texto).
+class _OnboardPoint extends StatelessWidget {
+  const _OnboardPoint({required this.icon, required this.text});
+  final IconData icon;
+  final String text;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, size: 20, color: Theme.of(context).colorScheme.primary),
+          const SizedBox(width: 10),
+          Expanded(child: Text(text)),
+        ],
+      ),
     );
   }
 }

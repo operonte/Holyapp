@@ -14,7 +14,8 @@
       "difficulty": "basico",
       "references": [
         "2 Timoteo 3:16"
-      ]
+      ],
+      "explanation": "La Biblia reúne 66 libros: 39 del Antiguo Testamento y 27 del Nuevo."
     },
     {
       "id": "bas-0002",
@@ -29,7 +30,8 @@
       "difficulty": "basico",
       "references": [
         "Hebreos 1:1-2"
-      ]
+      ],
+      "explanation": "Se divide en Antiguo Testamento (antes de Cristo) y Nuevo Testamento (Cristo y la iglesia)."
     },
     {
       "id": "bas-0003",
@@ -44,7 +46,8 @@
       "difficulty": "basico",
       "references": [
         "Lucas 24:44"
-      ]
+      ],
+      "explanation": "El Pentateuco son los cinco primeros libros: Génesis, Éxodo, Levítico, Números y Deuteronomio."
     },
     {
       "id": "bas-0004",
@@ -60,7 +63,8 @@
       "references": [
         "Mateo 1:1",
         "Juan 21:25"
-      ]
+      ],
+      "explanation": "Los cuatro evangelios son Mateo, Marcos, Lucas y Juan, que narran la vida de Jesús."
     },
     {
       "id": "bas-0005",
@@ -75,7 +79,8 @@
       "difficulty": "basico",
       "references": [
         "Génesis 1:1"
-      ]
+      ],
+      "explanation": "Génesis ('principio') es el primer libro de la Biblia."
     },
     {
       "id": "bas-0006",
@@ -90,7 +95,8 @@
       "difficulty": "basico",
       "references": [
         "Apocalipsis 22:21"
-      ]
+      ],
+      "explanation": "Apocalipsis, la revelación de Jesucristo, cierra el canon bíblico."
     },
     {
       "id": "bas-0007",
@@ -105,7 +111,8 @@
       "difficulty": "basico",
       "references": [
         "Jueces 16:17"
-      ]
+      ],
+      "explanation": "Sansón fue el juez de gran fuerza, ligada al voto nazareo de no cortar su cabello."
     },
     {
       "id": "bas-0008",
@@ -120,7 +127,8 @@
       "difficulty": "basico",
       "references": [
         "Jueces 7:7"
-      ]
+      ],
+      "explanation": "Dios redujo el ejército de Gedeón a 300 hombres para que la victoria fuera suya."
     },
     {
       "id": "bas-0009",
@@ -135,7 +143,8 @@
       "difficulty": "basico",
       "references": [
         "Jueces 4:4"
-      ]
+      ],
+      "explanation": "Débora fue jueza y profetisa que, junto a Barac, libró a Israel."
     },
     {
       "id": "bas-0010",
@@ -150,7 +159,8 @@
       "difficulty": "basico",
       "references": [
         "1 Samuel 10:1"
-      ]
+      ],
+      "explanation": "Saúl fue ungido por Samuel como el primer rey de Israel."
     },
     {
       "id": "bas-0011",
@@ -165,7 +175,8 @@
       "difficulty": "basico",
       "references": [
         "1 Reyes 6:1"
-      ]
+      ],
+      "explanation": "Salomón, hijo de David, edificó el templo de Jerusalén."
     },
     {
       "id": "bas-0012",
@@ -180,7 +191,8 @@
       "difficulty": "basico",
       "references": [
         "1 Samuel 1:10-11"
-      ]
+      ],
+      "explanation": "Ana oró angustiada por un hijo y Dios le concedió a Samuel."
     },
     {
       "id": "bas-0013",
@@ -195,7 +207,8 @@
       "difficulty": "basico",
       "references": [
         "1 Samuel 1:27-28"
-      ]
+      ],
+      "explanation": "Ana cumplió su voto y dedicó a Samuel al servicio del Señor."
     },
     {
       "id": "bas-0014",
@@ -210,7 +223,8 @@
       "difficulty": "basico",
       "references": [
         "Éxodo 2:23-25"
-      ]
+      ],
+      "explanation": "Dios oyó el clamor de Israel, se acordó de su pacto y los libró de Egipto."
     },
     {
       "id": "bas-0015",
@@ -225,7 +239,8 @@
       "difficulty": "basico",
       "references": [
         "1 Reyes 3:9"
-      ]
+      ],
+      "explanation": "Salomón pidió sabiduría para gobernar, y Dios se la concedió junto con riquezas."
     },
     {
       "id": "bas-0016",
@@ -240,7 +255,8 @@
       "difficulty": "basico",
       "references": [
         "Isaías 37:14-15"
-      ]
+      ],
+      "explanation": "Ezequías llevó la amenaza ante Dios en oración y el Señor defendió la ciudad."
     },
     {
       "id": "bas-0017",
@@ -255,7 +271,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 13:23"
-      ]
+      ],
+      "explanation": "La buena tierra representa a quien oye y entiende la palabra, y da fruto."
     },
     {
       "id": "bas-0018",
@@ -270,7 +287,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 13:31-32"
-      ]
+      ],
+      "explanation": "El grano de mostaza, semilla diminuta que crece, ilustra el reino de los cielos."
     },
     {
       "id": "bas-0019",
@@ -285,7 +303,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 5:8"
-      ]
+      ],
+      "explanation": "Bienaventurados los de limpio corazón, porque ellos verán a Dios."
     },
     {
       "id": "bas-0020",
@@ -300,7 +319,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 5:13-14"
-      ]
+      ],
+      "explanation": "Jesús llamó a sus discípulos 'la sal de la tierra y la luz del mundo'."
     },
     {
       "id": "bas-0021",
@@ -315,7 +335,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 5:5"
-      ]
+      ],
+      "explanation": "Los mansos son bienaventurados porque heredarán la tierra."
     },
     {
       "id": "bas-0022",
@@ -330,7 +351,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 5:3"
-      ]
+      ],
+      "explanation": "Las Bienaventuranzas empiezan con los pobres en espíritu, de quienes es el reino."
     },
     {
       "id": "bas-0023",
@@ -345,7 +367,8 @@
       "difficulty": "basico",
       "references": [
         "Hechos 1:8"
-      ]
+      ],
+      "explanation": "Hechos narra el inicio de la iglesia y la expansión del evangelio."
     },
     {
       "id": "bas-0024",
@@ -360,7 +383,8 @@
       "difficulty": "basico",
       "references": [
         "Hechos 9:1-4"
-      ]
+      ],
+      "explanation": "Antes de su conversión, Pablo era Saulo de Tarso, perseguidor de la iglesia."
     },
     {
       "id": "bas-0025",
@@ -375,7 +399,8 @@
       "difficulty": "basico",
       "references": [
         "Hechos 9:3-5"
-      ]
+      ],
+      "explanation": "Camino a Damasco, una luz del cielo lo rodeó y oyó la voz de Jesús."
     },
     {
       "id": "bas-0026",
@@ -390,7 +415,8 @@
       "difficulty": "basico",
       "references": [
         "Hechos 2:1-4"
-      ]
+      ],
+      "explanation": "En Pentecostés descendió el Espíritu Santo con lenguas como de fuego."
     },
     {
       "id": "bas-0027",
@@ -405,7 +431,8 @@
       "difficulty": "basico",
       "references": [
         "Mateo 3:13"
-      ]
+      ],
+      "explanation": "Jesús fue bautizado por Juan en el río Jordán."
     },
     {
       "id": "bas-0028",
@@ -420,7 +447,8 @@
       "difficulty": "basico",
       "references": [
         "Lucas 2:39-40"
-      ]
+      ],
+      "explanation": "Jesús creció en Nazaret de Galilea."
     },
     {
       "id": "bas-0029",
@@ -436,7 +464,8 @@
       "references": [
         "Marcos 1:16-17",
         "Marcos 4:39"
-      ]
+      ],
+      "explanation": "En el mar de Galilea Jesús calmó la tempestad y llamó a pescadores como discípulos."
     },
     {
       "id": "bas-0030",
@@ -451,7 +480,8 @@
       "difficulty": "basico",
       "references": [
         "1 Reyes 8:1"
-      ]
+      ],
+      "explanation": "Jerusalén era la ciudad principal, donde estaba el templo."
     },
     {
       "id": "bas-0031",
@@ -466,7 +496,8 @@
       "difficulty": "basico",
       "references": [
         "Marcos 3:14"
-      ]
+      ],
+      "explanation": "Jesús escogió a doce apóstoles como sus discípulos más cercanos."
     },
     {
       "id": "bas-0032",
@@ -481,7 +512,8 @@
       "difficulty": "basico",
       "references": [
         "Génesis 21:3"
-      ]
+      ],
+      "explanation": "Isaac fue el hijo de la promesa de Abraham y Sara."
     },
     {
       "id": "bas-0033",
@@ -496,7 +528,8 @@
       "difficulty": "basico",
       "references": [
         "Génesis 32:28"
-      ]
+      ],
+      "explanation": "Tras luchar con Dios, Jacob recibió el nombre de Israel."
     },
     {
       "id": "bas-0034",
@@ -511,7 +544,8 @@
       "difficulty": "basico",
       "references": [
         "Génesis 49:28"
-      ]
+      ],
+      "explanation": "Las doce tribus descienden de los doce hijos de Jacob (Israel)."
     },
     {
       "id": "bas-0035",
@@ -526,7 +560,8 @@
       "difficulty": "basico",
       "references": [
         "Romanos 1:1"
-      ]
+      ],
+      "explanation": "Romanos es una de las epístolas escritas por el apóstol Pablo."
     },
     {
       "id": "bas-0036",
@@ -541,7 +576,8 @@
       "difficulty": "basico",
       "references": [
         "Salmo 1:1"
-      ]
+      ],
+      "explanation": "Los Salmos son 150 cánticos y oraciones del pueblo de Dios."
     }
   ]
 }

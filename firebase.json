@@ -1,0 +1,28 @@
+{
+  "firestore": [
+    {
+      "database": "holyapp",
+      "rules": "firestore.rules"
+    }
+  ],
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "holyapp-8b41f",
+          "appId": "1:884925060769:android:62e5578b73f7e15e6502e0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "holyapp-8b41f",
+          "configurations": {
+            "android": "1:884925060769:android:62e5578b73f7e15e6502e0",
+            "web": "1:884925060769:web:867170635fb4fc586502e0"
+          }
+        }
+      }
+    }
+  }
+}

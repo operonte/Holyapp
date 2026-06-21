@@ -49,6 +49,10 @@ class QuestionHistoryView extends StatelessWidget {
                 'Respuesta: ${q.correctOption}',
                 style: const TextStyle(fontWeight: FontWeight.bold),
               ),
+              if (q.explanation != null && q.explanation!.isNotEmpty) ...[
+                const SizedBox(height: 6),
+                Text(q.explanation!),
+              ],
               const SizedBox(height: 8),
               ReferencesList(references: q.references),
             ],

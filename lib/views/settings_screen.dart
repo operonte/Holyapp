@@ -3,10 +3,13 @@ import 'package:provider/provider.dart';
 
 import '../models/difficulty_level.dart';
 import '../state/app_state.dart';
+import '../state/auth_controller.dart';
+import '../state/settings_controller.dart';
+import 'ranking_screen.dart';
 
 /// Pantalla de Configuración: contiene lo propio de la configuración del
-/// jugador, principalmente el NIVEL actual (con la regla de desafío) y el
-/// reinicio total del puntaje.
+/// jugador: la cuenta (login opcional), el NIVEL actual (con la regla de
+/// desafío) y el reinicio total del puntaje.
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
 
@@ -20,6 +23,14 @@ class SettingsScreen extends StatelessWidget {
       body: ListView(
         padding: const EdgeInsets.all(16),
         children: [
+          _SectionTitle('Cuenta'),
+          const SizedBox(height: 8),
+          const _AccountSection(),
+          const Divider(height: 48),
+          _SectionTitle('Preguntas'),
+          const SizedBox(height: 8),
+          const _RepeatSetting(),
+          const Divider(height: 48),
           _SectionTitle('Nivel actual'),
           const SizedBox(height: 8),
           Card(
@@ -164,4 +175,162 @@ class _SectionTitle extends StatelessWidget {
             .titleMedium
             ?.copyWith(fontWeight: FontWeight.bold),
       );
+}
+
+/// Sección de cuenta: login OPCIONAL con Google. Si hay sesión, muestra el
+/// perfil y "Cerrar sesión"; si no, invita a iniciar sesión para guardar el
+/// progreso en la nube.
+class _AccountSection extends StatelessWidget {
+  const _AccountSection();
+
+  @override
+  Widget build(BuildContext context) {
+    final auth = context.watch<AuthController>();
+    final app = context.watch<AppState>();
+    final scheme = Theme.of(context).colorScheme;
+    final user = auth.currentUser;
+
+    if (user != null) {
+      return Card(
+        child: Column(
+          children: [
+            ListTile(
+              leading: CircleAvatar(
+                backgroundImage: user.photoUrl != null
+                    ? NetworkImage(user.photoUrl!)
+                    : null,
+                child:
+                    user.photoUrl == null ? const Icon(Icons.person) : null,
+              ),
+              title: Text(user.displayName),
+              subtitle: Text(user.email ?? 'Sesión iniciada'),
+              trailing: TextButton.icon(
+                onPressed: auth.signOut,
+                icon: const Icon(Icons.logout),
+                label: const Text('Salir'),
+              ),
+            ),
+            const Divider(height: 1),
+            // Estadísticas rápidas del perfil.
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  _Stat(label: 'Puntaje', value: '${app.score}'),
+                  _Stat(
+                      label: 'Dominadas',
+                      value: '${app.correctFirstTryIds.length}'),
+                  _Stat(
+                      label: 'Por repasar',
+                      value: '${app.reviewIds.length}'),
+                ],
+              ),
+            ),
+            const Divider(height: 1),
+            ListTile(
+              leading: const Icon(Icons.leaderboard),
+              title: const Text('Ranking global'),
+              trailing: const Icon(Icons.chevron_right),
+              onTap: () => Navigator.of(context).push(
+                MaterialPageRoute(builder: (_) => const RankingScreen()),
+              ),
+            ),
+          ],
+        ),
+      );
+    }
+
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Row(
+              children: [
+                Icon(Icons.person_outline, color: scheme.primary),
+                const SizedBox(width: 8),
+                const Text('Estás jugando como invitado'),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Inicia sesión con Google para guardar tu progreso en la nube, '
+              'recuperarlo en cualquier dispositivo y competir en el ranking. '
+              'El inicio de sesión es opcional: puedes seguir jugando sin él.',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+            const SizedBox(height: 12),
+            FilledButton.icon(
+              onPressed: () => _onSignIn(context),
+              icon: const Icon(Icons.login),
+              label: const Text('Iniciar sesión con Google'),
+              style: FilledButton.styleFrom(
+                minimumSize: const Size.fromHeight(48),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  Future<void> _onSignIn(BuildContext context) async {
+    final auth = context.read<AuthController>();
+    final ok = await auth.signInWithGoogle();
+    if (!context.mounted) return;
+    if (ok) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('¡Sesión iniciada! Tu progreso se guardará.')),
+      );
+    } else {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('No se pudo iniciar sesión. Inténtalo de nuevo.'),
+        ),
+      );
+    }
+  }
+}
+
+/// Estadística compacta (valor grande + etiqueta) para el perfil.
+class _Stat extends StatelessWidget {
+  const _Stat({required this.label, required this.value});
+  final String label;
+  final String value;
+
+  @override
+  Widget build(BuildContext context) {
+    return Column(
+      children: [
+        Text(value, style: Theme.of(context).textTheme.titleLarge),
+        Text(label, style: Theme.of(context).textTheme.bodySmall),
+      ],
+    );
+  }
+}
+
+/// Interruptor: repetir preguntas o verlas una sola vez (desde que se aciertan).
+class _RepeatSetting extends StatelessWidget {
+  const _RepeatSetting();
+
+  @override
+  Widget build(BuildContext context) {
+    final settings = context.watch<SettingsController>();
+    return Card(
+      child: SwitchListTile(
+        value: settings.repeatMastered,
+        onChanged: settings.setRepeatMastered,
+        title: const Text('Repetir preguntas'),
+        subtitle: Text(
+          settings.repeatMastered
+              ? 'Las preguntas pueden volver a aparecer en futuros tests.'
+              : 'Cada pregunta que aciertes no volverá a aparecer en nuevos '
+                  'tests (la verás una sola vez).',
+        ),
+        secondary: const Icon(Icons.repeat),
+      ),
+    );
+  }
 }

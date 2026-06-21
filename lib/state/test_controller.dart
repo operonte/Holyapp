@@ -58,6 +58,10 @@ class TestController extends ChangeNotifier {
   /// Cola activa de preguntas pendientes (el frente es la pregunta actual).
   final Queue<BibleQuestion> _queue = Queue<BibleQuestion>();
 
+  /// Total de preguntas distintas del test (modos de longitud fija). En modo
+  /// infinito no aplica (la barra de progreso se oculta).
+  int _initialTotal = 0;
+
   /// Preguntas aún no extraídas del banco (relevante en modo infinito).
   final List<BibleQuestion> _pool = [];
 
@@ -110,6 +114,11 @@ class TestController extends ChangeNotifier {
 
   bool get isInfinite => length.isInfinite;
 
+  /// Avance del test en longitud fija (0.0 a 1.0): preguntas resueltas sobre el
+  /// total. Las falladas siguen en la cola, así que no avanzan hasta acertarse.
+  double get progress =>
+      _initialTotal == 0 ? 0 : (_initialTotal - _queue.length) / _initialTotal;
+
   /// En modo infinito el usuario puede finalizar en cualquier momento.
   bool get canFinishEarly => isInfinite && _phase != TestPhase.finished;
 
@@ -125,6 +134,7 @@ class TestController extends ChangeNotifier {
       final take = length.count!.clamp(0, shuffled.length);
       _queue.addAll(shuffled.take(take));
       _pool.addAll(shuffled.skip(take)); // reserva por si acaso
+      _initialTotal = _queue.length;
     }
 
     if (_queue.isEmpty) _phase = TestPhase.finished;

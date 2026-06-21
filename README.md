@@ -1,102 +1,78 @@
-# HolyApp · Trivia Bíblica y Teológica (Flutter / Android, offline)
+# HolyApp · Trivia Bíblica y Teológica (Flutter)
 
-App de aprendizaje bíblico mediante trivia con el método de **fallo y corrección**.
-100% offline: las preguntas viven en `assets/` como JSON y el progreso se guarda
-con `shared_preferences`.
+App de aprendizaje bíblico/teológico mediante trivia con el método de **fallo y
+corrección**. **Offline-first**: las preguntas viven en `assets/` como JSON y el
+progreso se guarda local; con login opcional se sincroniza en la nube.
 
-## Arquitectura (Clean / por capas)
+## Funcionalidades
+
+- **7 niveles** (Entrada → Básico → Medio → Avanzado → Pastorado → Teología →
+  Evangelista) con **acceso en cascada**: tu nivel desbloquea y mezcla todos los
+  inferiores.
+- **Puntaje ponderado** por nivel (1 a 5 pts por acierto al primer intento).
+- **Cola dinámica**: una pregunta fallada vuelve al final hasta acertarse.
+- **Explicación + citas** tras cada respuesta (las 287 preguntas tienen
+  explicación didáctica).
+- **Historial**: "Respuestas correctas" y "Repasar".
+- **Opción**: repetir preguntas o verlas una sola vez (desde que se aciertan).
+- **Login con Google opcional** (Firebase Auth) → sincroniza progreso, perfil y
+  **ranking global**. Se puede jugar como invitado.
+- Tema claro/oscuro, splash, onboarding, vibración háptica.
+
+## Arquitectura (por capas, `provider`)
 
 ```
 lib/
-├── main.dart                  # Bootstrap + Provider(AppState) + tema Material 3
-├── models/                    # Datos puros e inmutables
-│   ├── bible_question.dart    # BibleQuestion (id, texto, 4 opciones, correcta, refs 1–3)
-│   ├── difficulty_level.dart  # enum DifficultyLevel (5 niveles) + ruta de su asset
-│   └── test_length.dart       # enum TestLength: 10 / 20 / infinito
-├── services/                  # Acceso a datos (sin UI)
-│   ├── question_service.dart  # Carga + parseo asíncrono del JSON, con caché por nivel
-│   └── storage_service.dart   # Persistencia del puntaje e historial (offline)
-├── state/                     # Lógica / state management (ChangeNotifier + Provider)
-│   ├── app_state.dart         # Puntaje global, nivel, historiales, reglas de reinicio
-│   └── test_controller.dart   # COLA DINÁMICA de fallo y corrección de un test activo
-├── widgets/
-│   ├── feedback_panel.dart    # "¡Acertaste!" / "Lo siento, para la próxima" + citas
-│   └── references_list.dart   # Render de las citas bíblicas (1–3)
-└── views/                     # Pantallas Material Design
-    ├── home_screen.dart       # Nivel + longitud + accesos a historial + reset
-    ├── test_screen.dart       # Pregunta, opciones, feedback, progreso
-    ├── results_screen.dart    # Resumen del test
-    └── history_screen.dart    # "Respuestas correctas" y "Repasar" (reutilizable)
-
-assets/questions/              # Un archivo por nivel (lazy-load: solo se carga el que se juega)
-├── entrada.json  basico.json  medio.json  avanzado.json  teologia.json
+├── main.dart                 # Bootstrap, Firebase.initializeApp, MultiProvider, tema
+├── firebase_options.dart     # Config de cliente Firebase (generado por flutterfire)
+├── models/                   # Datos puros (BibleQuestion, DifficultyLevel, TestLength, AppUser)
+├── services/                 # question_service (JSON+caché), storage_service (prefs),
+│                             #   firestore_service (progreso + leaderboard)
+├── state/                    # app_state (puntaje/sync), test_controller (cola dinámica),
+│                             #   auth_controller (Google), settings_controller (prefs)
+├── widgets/                  # feedback_panel, references_list, question_history_view
+└── views/                    # home, test, results, correct, review, settings, ranking
+assets/questions/<nivel>.json # Un archivo por nivel (lazy-load + caché)
+docs/guia_niveles.md          # Guía de autoría de preguntas (temas y reglas por nivel)
 ```
 
-**Por qué las preguntas NO están en Dart:** se leen de JSON externo de forma
-asíncrona (`rootBundle.loadString` → `json.decode`). El `QuestionService` cachea
-por nivel, así en memoria solo hay ~400 preguntas (el nivel jugado), no las 2000.
+## Datos en la nube (Firebase)
 
-## Esquema del JSON
+- **Offline-first**: `shared_preferences` es la fuente local; al iniciar sesión se
+  reconcilia con Firestore (`users/{uid}`) por *última escritura gana*.
+- **Ranking** en colección pública `leaderboard/{uid}` (solo nombre, foto y
+  puntaje — sin datos privados).
+- **Reglas de seguridad** en [`firestore.rules`](firestore.rules): cada usuario
+  solo lee/escribe su documento; el ranking es de solo lectura para autenticados.
 
-Cada archivo de nivel:
+### Nota de seguridad
 
-```json
-{
-  "level": "entrada",
-  "questions": [
-    {
-      "id": "ent-0001",
-      "text": "¿Quién construyó el arca para sobrevivir al diluvio?",
-      "options": ["Moisés", "Noé", "Abraham", "David"],
-      "correctIndex": 1,
-      "difficulty": "entrada",
-      "references": ["Génesis 6:13-14", "Génesis 7:1"]
-    }
-  ]
-}
-```
+Las claves de `firebase_options.dart` y `android/app/google-services.json` son
+**config de cliente, no secretos** (Google las diseña para ir embebidas). La
+protección de los datos son las **reglas de Firestore** + Auth. Endurecimiento
+recomendado en producción:
 
-`difficulty` debe coincidir con el `name` del enum: `entrada`, `basico`, `medio`,
-`avanzado`, `teologia`. `options` siempre 4; `references` entre 1 y 3
-(validado en `BibleQuestion.fromJson`).
-
-### Escalar a 2000 preguntas (400 por nivel)
-
-Los 5 archivos incluidos traen ejemplos. Rellena cada uno hasta 400 entradas con
-IDs únicos (`ent-0001..ent-0400`, `bas-0001..`, etc.). No hay que tocar código:
-el `QuestionService` toma todas las del archivo y, en modo 10/20, baraja y
-extrae las que pida la longitud.
-
-## Lógica de la cola dinámica (fallo y corrección)
-
-Implementada en `TestController` (`state/test_controller.dart`):
-
-- El frente de la cola es la pregunta actual.
-- **Acierto** → la pregunta sale de la cola. Si nunca se había fallado, cuenta
-  como acierto de primer intento (candidata a punto).
-- **Fallo** → la pregunta se mueve **al final** de la cola y reaparecerá más
-  tarde. Pierde la opción de punto en este test.
-- El test no termina hasta **vaciar la cola** (modos 10/20). En **modo infinito**
-  se mantiene una ventana de 10 preguntas que se rellena desde el banco; el
-  usuario finaliza con el botón "Finalizar".
-
-## Reglas de puntaje (desafío estricto)
-
-En `AppState`:
-
-- **Puntaje = nº de preguntas únicas acertadas al primer intento** y nunca
-  falladas (no se puede farmear la misma pregunta).
-- **"Repasar"** guarda toda pregunta fallada al menos una vez; la marca es
-  permanente: no vuelve a dar puntos aunque se acierte después.
-- **Cambiar de nivel** (regla de desafío máximo) reinicia puntaje **e** historial
-  a cero. Se confirma con diálogo.
-- **"Reiniciar todo el puntaje"** (botón manual) es la única forma de recuperar
-  los puntos perdidos en "Repasar": vuelve todo a cero conservando el nivel.
+- Restringir la API key en Google Cloud (referrers HTTP para web, firma de app
+  para Android).
+- Para login con Google en **Android**, añadir la huella **SHA-1** del keystore
+  en la consola de Firebase.
 
 ## Correr
 
 ```bash
 flutter pub get
-flutter test       # pruebas de la cola dinámica y el puntaje
-flutter run        # en un dispositivo/emulador Android
+flutter test            # pruebas de la cola dinámica y el puntaje
+flutter run -d chrome   # web; o un emulador/dispositivo Android
 ```
+
+## Build de producción (Android)
+
+```bash
+flutter build apk --release            # APK universal
+flutter build apk --release --split-per-abi   # APKs más livianos por arquitectura
+```
+> El APK release se firma con la clave de depuración salvo que configures un
+> keystore propio (`android/key.properties`). Para Google Play, usa un keystore
+> de publicación.
+
+## Generado parcialmente con [Claude Code](https://claude.com/claude-code).

@@ -43,6 +43,9 @@ la clave `"questions"`, con esta forma exacta:
     **atribución de la fuente** (p. ej. `"Leonard Ravenhill, 'Why Revival
     Tarries'"`) y, cuando aplique, suman un versículo.
   Deben justificar la respuesta correcta.
+- **`explanation`** (opcional): una explicación didáctica breve (1–2 frases) del
+  "porqué" de la respuesta. Se muestra en el feedback y en el historial. Si se
+  omite, la UI solo muestra las citas.
 - **Unicidad del `id`:** cada `id` debe ser único en **todo el banco** (no solo
   dentro de un nivel), porque en modo cascada un test mezcla varios niveles y el
   `id` se usa como clave para el puntaje y el historial. El prefijo por nivel +
@@ -204,6 +207,25 @@ consejería bíblica y teología de los pactos.
 
 **Enfoque:** Historia de la iglesia, hermenéutica crítica, análisis de fuentes
 del Pentateuco, concilios y métodos modernos.
+
+> **Techo de dificultad (nivel seminario):** Teología admite preguntas de rango
+> **licenciatura → doctorado**. Sub-bandas a cubrir con profundidad creciente:
+> - **Gramática hebrea bíblica:** los *binyanim* (Qal, Nifal, Piel, Pual, Hifil,
+>   Hofal, Hitpael), estado constructo, *vav* consecutivo, *niqqud*, *dagesh*.
+> - **Gramática griega koiné:** casos, **aspecto** verbal (aoristo, perfecto),
+>   voz media, modos, participios, genitivo absoluto, regla de Granville Sharp.
+> - **Vocabulario original:** términos clave en **escritura original** hebrea y
+>   griega con su significado (חֶסֶד, רוּחַ, ἀγάπη, κένωσις, μετάνοια, …).
+> - **Terminología técnica:** homilética, perícopa, quiasmo, propiciación,
+>   hamartiología, soteriología, unión hipostática, etc.
+> - **Crítica textual avanzada:** familias de manuscritos (alejandrina,
+>   bizantina, occidental), unciales/minúsculos, Textus Receptus vs. texto crítico.
+>
+> **Convención de idiomas:** usar **escritura original** (griego y hebreo). El
+> hebreo es de derecha a izquierda; para evitar problemas de orden visual, poner
+> la palabra hebrea/griega **aislada** (en una opción o destacada), no incrustada
+> a media frase. Marcar como *teoría/debate* lo que lo sea (p. ej. hipótesis
+> documental, matices de Granville Sharp).
 
 - **Las 4 Corrientes de Escritura (Hipótesis Documental):** Análisis y
   diferenciación de las fuentes tradicionales que componen el Pentateuco: Yavista

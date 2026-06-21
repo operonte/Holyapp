@@ -40,6 +40,9 @@ dependencies:
 
   # Persistencia local (puntaje, historial) — offline.
   shared_preferences: ^2.3.2
+  firebase_core: ^4.11.0
+  firebase_auth: ^6.5.3
+  cloud_firestore: ^6.6.0
 
 dev_dependencies:
   flutter_test:
@@ -51,6 +54,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -93,3 +98,22 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
+
+flutter_launcher_icons:
+  android: true
+  ios: false
+  web:
+    generate: true
+    background_color: "#6A4FB6"
+    theme_color: "#6A4FB6"
+  image_path: "assets/icon/icon.png"
+  adaptive_icon_background: "#6A4FB6"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+
+flutter_native_splash:
+  color: "#6A4FB6"
+  image: assets/icon/icon_foreground.png
+  android_12:
+    color: "#6A4FB6"
+    image: assets/icon/icon_foreground.png
+  web: false
