@@ -1,0 +1,547 @@
+{
+  "level": "avanzado",
+  "questions": [
+    {
+      "id": "ava-0001",
+      "text": "En hebreo, ¿qué significa principalmente la palabra 'Hesed' atribuida a Dios?",
+      "options": [
+        "Misericordia y amor fiel del pacto",
+        "Juicio",
+        "Silencio",
+        "Riqueza"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Lamentaciones 3:22-23"
+      ]
+    },
+    {
+      "id": "ava-0002",
+      "text": "¿Qué significa la palabra hebrea 'Shalom'?",
+      "options": [
+        "Guerra",
+        "Paz, plenitud y bienestar integral",
+        "Sacrificio",
+        "Templo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Números 6:24-26"
+      ]
+    },
+    {
+      "id": "ava-0003",
+      "text": "El nombre 'Elohim', usado para Dios en Génesis 1, es una forma...",
+      "options": [
+        "Femenina singular",
+        "De un ídolo pagano",
+        "Plural que expresa majestad y plenitud",
+        "De un ángel"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Génesis 1:1"
+      ]
+    },
+    {
+      "id": "ava-0004",
+      "text": "En griego, ¿qué tipo de amor designa la palabra 'Ágape'?",
+      "options": [
+        "El amor erótico",
+        "La amistad solamente",
+        "El amor al dinero",
+        "El amor incondicional y sacrificial de Dios"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Juan 3:16",
+        "1 Corintios 13:4-7"
+      ]
+    },
+    {
+      "id": "ava-0005",
+      "text": "En Juan 1:1, ¿qué término griego ('el Verbo') se aplica a Cristo?",
+      "options": [
+        "Logos",
+        "Charis",
+        "Pneuma",
+        "Doxa"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Juan 1:1"
+      ]
+    },
+    {
+      "id": "ava-0006",
+      "text": "¿Qué significa la palabra griega 'Charis', central en el evangelio?",
+      "options": [
+        "Ley",
+        "Gracia, el favor inmerecido de Dios",
+        "Pecado",
+        "Juicio"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Efesios 2:8-9"
+      ]
+    },
+    {
+      "id": "ava-0007",
+      "text": "Según Romanos, ¿cómo es justificado el ser humano delante de Dios?",
+      "options": [
+        "Por sus méritos",
+        "Por su linaje",
+        "Por la fe, sin las obras de la ley",
+        "Por sacrificios de animales"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Romanos 3:28"
+      ]
+    },
+    {
+      "id": "ava-0008",
+      "text": "Según Romanos 6, ¿cuál es la paga del pecado y el don de Dios?",
+      "options": [
+        "Pobreza; y el don es riqueza",
+        "Nada; y el don es la ley",
+        "Enfermedad; y el don es salud",
+        "Muerte; pero el don de Dios es vida eterna en Cristo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Romanos 6:23"
+      ]
+    },
+    {
+      "id": "ava-0009",
+      "text": "En Hebreos, ¿de qué orden sacerdotal es Cristo, superior al de Aarón?",
+      "options": [
+        "Del orden de Melquisedec",
+        "Del orden de Leví",
+        "Del orden de Moisés",
+        "Del orden de Sadoc"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Hebreos 7:17"
+      ]
+    },
+    {
+      "id": "ava-0010",
+      "text": "Según Hebreos, ¿por qué el sacrificio de Cristo es superior al de los animales?",
+      "options": [
+        "Porque se repite cada año",
+        "Porque se ofreció una sola vez y para siempre quita el pecado",
+        "Porque es solo simbólico",
+        "Porque lo repiten los sacerdotes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Hebreos 10:10-12"
+      ]
+    },
+    {
+      "id": "ava-0011",
+      "text": "Según Hebreos 11, ¿qué es la fe?",
+      "options": [
+        "Un sentimiento pasajero",
+        "Una obra de la ley",
+        "La certeza de lo que se espera y la convicción de lo que no se ve",
+        "Una tradición humana"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Hebreos 11:1"
+      ]
+    },
+    {
+      "id": "ava-0012",
+      "text": "¿Qué enseña Romanos 8 sobre los que están en Cristo Jesús?",
+      "options": [
+        "Siguen condenados",
+        "Deben más sacrificios",
+        "Pierden la salvación fácilmente",
+        "Ninguna condenación hay para ellos"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Romanos 8:1"
+      ]
+    },
+    {
+      "id": "ava-0013",
+      "text": "En Getsemaní, ¿cómo describe Lucas la intensidad de la oración de Jesús?",
+      "options": [
+        "Su sudor era como grandes gotas de sangre",
+        "Oró en silencio",
+        "Durmió primero",
+        "No quiso orar"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Lucas 22:44"
+      ]
+    },
+    {
+      "id": "ava-0014",
+      "text": "¿Qué pidió Jesús en Getsemaní, sometiéndose al Padre?",
+      "options": [
+        "Que lo libraran sus discípulos",
+        "Que pasara la copa, pero que se hiciera la voluntad del Padre",
+        "Huir de Jerusalén",
+        "Llamar a los romanos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Lucas 22:42"
+      ]
+    },
+    {
+      "id": "ava-0015",
+      "text": "Según Romanos 8:26, ¿cómo nos ayuda el Espíritu en la oración?",
+      "options": [
+        "Nos deja solos",
+        "Solo escucha",
+        "Intercede por nosotros con gemidos indecibles",
+        "Nos exige perfección"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Romanos 8:26"
+      ]
+    },
+    {
+      "id": "ava-0016",
+      "text": "Según Hebreos, ¿qué hace Cristo a la diestra del Padre por los suyos?",
+      "options": [
+        "Descansa sin actuar",
+        "Juzga sin misericordia",
+        "Espera en silencio",
+        "Vive siempre para interceder por ellos"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Hebreos 7:25"
+      ]
+    },
+    {
+      "id": "ava-0017",
+      "text": "Según 1 Tesalonicenses, ¿con qué frecuencia exhorta Pablo a orar?",
+      "options": [
+        "Sin cesar",
+        "Una vez al mes",
+        "Solo en el templo",
+        "Solo en crisis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "1 Tesalonicenses 5:17"
+      ]
+    },
+    {
+      "id": "ava-0018",
+      "text": "¿Cómo se conoce el periodo de unos 400 años entre Malaquías y el Nuevo Testamento?",
+      "options": [
+        "La cautividad babilónica",
+        "Los 400 años de silencio",
+        "La era apostólica",
+        "El éxodo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Malaquías 4:5-6"
+      ]
+    },
+    {
+      "id": "ava-0019",
+      "text": "En la profecía de Daniel 8, el macho cabrío representa al imperio que helenizó la región. ¿Cuál?",
+      "options": [
+        "El Imperio Romano",
+        "El Imperio Persa",
+        "El Imperio Griego",
+        "Egipto"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Daniel 8:21"
+      ]
+    },
+    {
+      "id": "ava-0020",
+      "text": "¿Qué familia lideró la revuelta judía contra la opresión helénica?",
+      "options": [
+        "Los Herodianos",
+        "Los Saduceos",
+        "Los Zelotes",
+        "Los Macabeos"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Daniel 11:32"
+      ]
+    },
+    {
+      "id": "ava-0021",
+      "text": "¿En qué idioma común del mundo grecorromano se escribió el Nuevo Testamento?",
+      "options": [
+        "Griego koiné",
+        "Latín clásico",
+        "Arameo",
+        "Hebreo moderno"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Juan 19:20"
+      ]
+    },
+    {
+      "id": "ava-0022",
+      "text": "En Daniel 2, la gran estatua que vio Nabucodonosor representaba...",
+      "options": [
+        "Solo a Babilonia",
+        "Una sucesión de reinos o imperios",
+        "A los ángeles",
+        "A las tribus de Israel"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Daniel 2:36-40"
+      ]
+    },
+    {
+      "id": "ava-0023",
+      "text": "¿Qué derribó la estatua de Daniel 2, simbolizando el reino eterno de Dios?",
+      "options": [
+        "Un rayo",
+        "Un ejército",
+        "Una piedra cortada no con mano",
+        "Un terremoto"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Daniel 2:34-35",
+        "Daniel 2:44"
+      ]
+    },
+    {
+      "id": "ava-0024",
+      "text": "En Daniel 7, ¿qué representan las cuatro bestias que suben del mar?",
+      "options": [
+        "Cuatro profetas",
+        "Cuatro ángeles",
+        "Cuatro tribus",
+        "Cuatro reinos o reyes"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Daniel 7:17"
+      ]
+    },
+    {
+      "id": "ava-0025",
+      "text": "¿Qué visión de Ezequiel simboliza la restauración y resurrección de Israel?",
+      "options": [
+        "El valle de los huesos secos",
+        "La rueda dentro de la rueda",
+        "El templo en llamas",
+        "El río de fuego"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Ezequiel 37:1-14"
+      ]
+    },
+    {
+      "id": "ava-0026",
+      "text": "¿A cuántas iglesias de Asia se dirigen los mensajes del libro de Apocalipsis?",
+      "options": [
+        "Tres",
+        "Siete",
+        "Doce",
+        "Cuarenta"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Apocalipsis 1:11"
+      ]
+    },
+    {
+      "id": "ava-0027",
+      "text": "¿Qué se reprochó a la iglesia de Éfeso en Apocalipsis?",
+      "options": [
+        "Ser pobre",
+        "Ser perseguidora",
+        "Haber dejado su primer amor",
+        "Ser numerosa"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "Apocalipsis 2:4"
+      ]
+    },
+    {
+      "id": "ava-0028",
+      "text": "¿Qué iglesia es reprendida por ser 'tibia, ni fría ni caliente'?",
+      "options": [
+        "Esmirna",
+        "Filadelfia",
+        "Pérgamo",
+        "Laodicea"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Apocalipsis 3:15-16"
+      ]
+    },
+    {
+      "id": "ava-0029",
+      "text": "¿Qué iglesia, pobre y perseguida, recibe solo elogios y la promesa de la corona de la vida?",
+      "options": [
+        "Esmirna",
+        "Sardis",
+        "Laodicea",
+        "Tiatira"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Apocalipsis 2:8-10"
+      ]
+    },
+    {
+      "id": "ava-0030",
+      "text": "Según Apocalipsis 21, ¿qué promete Dios al final, enjugando toda lágrima?",
+      "options": [
+        "Destruirá a los justos",
+        "Hará nuevas todas las cosas: cielo nuevo y tierra nueva",
+        "Repetirá la creación de Adán",
+        "Dejará el mundo igual"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Apocalipsis 21:1-5"
+      ]
+    },
+    {
+      "id": "ava-0031",
+      "text": "Según 1 Tesalonicenses 4:3, ¿cuál es la voluntad de Dios para el creyente?",
+      "options": [
+        "Su riqueza",
+        "Su fama",
+        "Su santificación",
+        "Su comodidad"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "1 Tesalonicenses 4:3"
+      ]
+    },
+    {
+      "id": "ava-0032",
+      "text": "Según Romanos 8:15, ¿qué espíritu recibimos para clamar 'Abba, Padre'?",
+      "options": [
+        "El de esclavitud",
+        "El de temor",
+        "El de juicio",
+        "El espíritu de adopción"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "Romanos 8:15"
+      ]
+    },
+    {
+      "id": "ava-0033",
+      "text": "¿Qué ciudadanía usó Pablo para apelar al César?",
+      "options": [
+        "La ciudadanía romana",
+        "La griega",
+        "La egipcia",
+        "La persa"
+      ],
+      "correctIndex": 0,
+      "difficulty": "avanzado",
+      "references": [
+        "Hechos 22:25-28"
+      ]
+    },
+    {
+      "id": "ava-0034",
+      "text": "Según Génesis 1:27, ¿a imagen de quién fue creado el ser humano?",
+      "options": [
+        "De los ángeles",
+        "De Dios",
+        "De los animales",
+        "De sí mismo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "avanzado",
+      "references": [
+        "Génesis 1:27"
+      ]
+    },
+    {
+      "id": "ava-0035",
+      "text": "Según 1 Tesalonicenses 5:23, ¿qué tres aspectos del ser humano menciona Pablo?",
+      "options": [
+        "Mente, voluntad y emoción",
+        "Pasado, presente y futuro",
+        "Espíritu, alma y cuerpo",
+        "Cielo, tierra y mar"
+      ],
+      "correctIndex": 2,
+      "difficulty": "avanzado",
+      "references": [
+        "1 Tesalonicenses 5:23"
+      ]
+    },
+    {
+      "id": "ava-0036",
+      "text": "Según 1 Corintios 12, ¿cuál de estos es un don del Espíritu?",
+      "options": [
+        "La riqueza material",
+        "La elocuencia natural",
+        "La fuerza física",
+        "Palabra de sabiduría"
+      ],
+      "correctIndex": 3,
+      "difficulty": "avanzado",
+      "references": [
+        "1 Corintios 12:8"
+      ]
+    }
+  ]
+}

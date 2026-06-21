@@ -1,0 +1,547 @@
+{
+  "level": "entrada",
+  "questions": [
+    {
+      "id": "ent-0001",
+      "text": "Según Hebreos 12:2, ¿en quién debemos poner los ojos para correr la carrera de la fe?",
+      "options": [
+        "En los líderes de la iglesia",
+        "En nuestras propias fuerzas",
+        "En Jesús, el autor y consumador de la fe",
+        "En los profetas del pasado"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Hebreos 12:2"
+      ]
+    },
+    {
+      "id": "ent-0002",
+      "text": "Cuando Pedro caminaba sobre el agua y vio el viento fuerte, ¿qué le ocurrió al apartar la mirada de Jesús?",
+      "options": [
+        "Comenzó a hundirse",
+        "Caminó más rápido",
+        "Calmó la tormenta",
+        "Se quedó quieto sobre el agua"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 14:30"
+      ]
+    },
+    {
+      "id": "ent-0003",
+      "text": "Al comenzar a hundirse por el miedo, ¿qué clamó Pedro a Jesús?",
+      "options": [
+        "¡No es justo!",
+        "¡Yo puedo solo!",
+        "¡Espérame!",
+        "¡Señor, sálvame!"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 14:30"
+      ]
+    },
+    {
+      "id": "ent-0004",
+      "text": "Según Proverbios 3:5, ¿en quién debemos confiar en lugar de apoyarnos en nuestra propia prudencia?",
+      "options": [
+        "En nuestra inteligencia",
+        "En el Señor de todo nuestro corazón",
+        "En nuestro dinero",
+        "En nuestros amigos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Proverbios 3:5"
+      ]
+    },
+    {
+      "id": "ent-0005",
+      "text": "Según Mateo 6:14-15, si perdonamos a los hombres sus ofensas, ¿qué hará nuestro Padre celestial?",
+      "options": [
+        "Nada en particular",
+        "Nos dará riquezas",
+        "También nos perdonará a nosotros",
+        "Nos pondrá a prueba"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 6:14-15"
+      ]
+    },
+    {
+      "id": "ent-0006",
+      "text": "En la parábola del siervo despiadado, ¿qué hizo el siervo a quien el rey le perdonó una enorme deuda?",
+      "options": [
+        "No perdonó a su consiervo una deuda pequeña",
+        "Perdonó a todos sus deudores",
+        "Repartió su dinero a los pobres",
+        "Huyó del país"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 18:28-30"
+      ]
+    },
+    {
+      "id": "ent-0007",
+      "text": "Cuando Pedro preguntó cuántas veces debía perdonar a su hermano, ¿qué le respondió Jesús?",
+      "options": [
+        "Solo tres veces",
+        "Una sola vez",
+        "Siete veces y basta",
+        "Hasta setenta veces siete"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 18:21-22"
+      ]
+    },
+    {
+      "id": "ent-0008",
+      "text": "En la cruz, ¿qué oró Jesús a favor de quienes lo crucificaban?",
+      "options": [
+        "Que fueran castigados pronto",
+        "Padre, perdónalos, porque no saben lo que hacen",
+        "No dijo nada por ellos",
+        "Que se arrepintieran o murieran"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 23:34"
+      ]
+    },
+    {
+      "id": "ent-0009",
+      "text": "Según Lucas 6:36, ¿cómo nos llama Jesús a ser, igual que nuestro Padre?",
+      "options": [
+        "Ricos",
+        "Famosos",
+        "Misericordiosos",
+        "Severos con los demás"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 6:36"
+      ]
+    },
+    {
+      "id": "ent-0010",
+      "text": "Cuando llevaron ante Jesús a una mujer sorprendida en adulterio, ¿qué dijo a sus acusadores?",
+      "options": [
+        "El que esté sin pecado, arroje la primera piedra",
+        "Apedréenla conforme a la ley",
+        "Llévensela de aquí",
+        "Que pague una multa"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Juan 8:7"
+      ]
+    },
+    {
+      "id": "ent-0011",
+      "text": "Cuando los acusadores se fueron, ¿qué le dijo Jesús a la mujer?",
+      "options": [
+        "Estás condenada",
+        "Paga tu castigo",
+        "Vuelve mañana",
+        "Ni yo te condeno; vete y no peques más"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Juan 8:11"
+      ]
+    },
+    {
+      "id": "ent-0012",
+      "text": "Según las Bienaventuranzas, ¿quiénes alcanzarán misericordia?",
+      "options": [
+        "Los ricos",
+        "Los misericordiosos",
+        "Los fuertes",
+        "Los sabios"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 5:7"
+      ]
+    },
+    {
+      "id": "ent-0013",
+      "text": "Según el Salmo 51:17, ¿qué sacrificio no despreciará Dios?",
+      "options": [
+        "Un corazón contrito y humillado",
+        "Mucho oro y plata",
+        "Gran cantidad de animales",
+        "Palabras muy elocuentes"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Salmo 51:17"
+      ]
+    },
+    {
+      "id": "ent-0014",
+      "text": "En la parábola del fariseo y el publicano, ¿quién descendió a su casa justificado?",
+      "options": [
+        "El fariseo",
+        "Ninguno de los dos",
+        "El publicano",
+        "Ambos por igual"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 18:14"
+      ]
+    },
+    {
+      "id": "ent-0015",
+      "text": "¿Qué oró el publicano, golpeándose el pecho sin atreverse a alzar los ojos al cielo?",
+      "options": [
+        "Gracias porque soy mejor que otros",
+        "Dios, sé propicio a mí, pecador",
+        "No necesito nada de ti",
+        "Mira todas mis buenas obras"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 18:13"
+      ]
+    },
+    {
+      "id": "ent-0016",
+      "text": "¿Qué enseñó Jesús con la parábola de la viuda y el juez injusto sobre la oración?",
+      "options": [
+        "Que oremos solo una vez al año",
+        "Que la oración no cambia nada",
+        "Que oremos únicamente en público",
+        "Que es necesario orar siempre y no desmayar"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 18:1"
+      ]
+    },
+    {
+      "id": "ent-0017",
+      "text": "Según Filipenses 4:6, en lugar de afanarnos por nada, ¿qué debemos hacer?",
+      "options": [
+        "Presentar a Dios nuestras peticiones con oración y acción de gracias",
+        "Quejarnos hasta sentirnos mejor",
+        "Guardar siempre silencio",
+        "Resolverlo todo por nuestra cuenta"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Filipenses 4:6"
+      ]
+    },
+    {
+      "id": "ent-0018",
+      "text": "Cuando los discípulos le pidieron a Jesús que les enseñara a orar, ¿qué oración modelo les dio?",
+      "options": [
+        "El Salmo 23",
+        "Los Diez Mandamientos",
+        "El Padre Nuestro",
+        "El Cántico de María"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 6:9-13",
+        "Lucas 11:1-4"
+      ]
+    },
+    {
+      "id": "ent-0019",
+      "text": "Según Mateo 22:37-38, ¿cuál es el primer y gran mandamiento?",
+      "options": [
+        "No robar",
+        "Amar a Dios con todo el corazón, alma y mente",
+        "Guardar el día de reposo",
+        "Honrar a padre y madre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 22:37-38"
+      ]
+    },
+    {
+      "id": "ent-0020",
+      "text": "¿Cuál dijo Jesús que es el segundo mandamiento, semejante al primero?",
+      "options": [
+        "Amarás a tu prójimo como a ti mismo",
+        "No dirás falso testimonio",
+        "Ayunarás cada semana",
+        "Darás el diezmo de todo"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 22:39"
+      ]
+    },
+    {
+      "id": "ent-0021",
+      "text": "En la parábola del Buen Samaritano, ¿quién se compadeció del hombre herido y lo socorrió?",
+      "options": [
+        "Un sacerdote",
+        "Un levita",
+        "Un soldado romano",
+        "Un samaritano"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 10:33"
+      ]
+    },
+    {
+      "id": "ent-0022",
+      "text": "En esa misma parábola, ¿quiénes vieron al herido y pasaron de largo?",
+      "options": [
+        "Un sacerdote y un levita",
+        "Dos pescadores",
+        "Unos soldados",
+        "Unos niños"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 10:31-32"
+      ]
+    },
+    {
+      "id": "ent-0023",
+      "text": "Después del diluvio, ¿qué puso Dios en las nubes como señal de su pacto?",
+      "options": [
+        "El sol",
+        "Una estrella nueva",
+        "El arco iris",
+        "La luna llena"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Génesis 9:13"
+      ]
+    },
+    {
+      "id": "ent-0024",
+      "text": "Según Génesis 1:1, ¿qué creó Dios en el principio?",
+      "options": [
+        "Solo a los ángeles",
+        "Los cielos y la tierra",
+        "Únicamente el mar",
+        "Solo las estrellas"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Génesis 1:1"
+      ]
+    },
+    {
+      "id": "ent-0025",
+      "text": "Según el relato de la creación, ¿en cuántos días hizo Dios la obra, descansando en el séptimo?",
+      "options": [
+        "En seis días",
+        "En tres días",
+        "En diez días",
+        "En un solo día"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Génesis 2:2",
+        "Éxodo 20:11"
+      ]
+    },
+    {
+      "id": "ent-0026",
+      "text": "¿A quién llamó Dios para sacar a su pueblo Israel de la esclavitud en Egipto?",
+      "options": [
+        "A David",
+        "A Pedro",
+        "A Elías",
+        "A Moisés"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 3:10"
+      ]
+    },
+    {
+      "id": "ent-0027",
+      "text": "¿Cuál fue la última plaga sobre Egipto, tras la cual el faraón dejó ir a Israel?",
+      "options": [
+        "La plaga de ranas",
+        "La muerte de los primogénitos",
+        "Las tinieblas",
+        "El granizo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 12:29-31"
+      ]
+    },
+    {
+      "id": "ent-0028",
+      "text": "¿Con qué venció el joven David al gigante Goliat?",
+      "options": [
+        "Con una honda y una piedra",
+        "Con una espada",
+        "Con un arco y flechas",
+        "Con una lanza"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "1 Samuel 17:49-50"
+      ]
+    },
+    {
+      "id": "ent-0029",
+      "text": "¿Por qué fue arrojado Daniel al foso de los leones?",
+      "options": [
+        "Por robar en el palacio",
+        "Por mentirle al rey",
+        "Por seguir orando a Dios pese al decreto",
+        "Por huir de una batalla"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Daniel 6:10-16"
+      ]
+    },
+    {
+      "id": "ent-0030",
+      "text": "¿Qué sucedió con los leones mientras Daniel estuvo en el foso?",
+      "options": [
+        "Devoraron a Daniel",
+        "Dios cerró sus bocas y no lo dañaron",
+        "Huyeron del foso",
+        "Se durmieron de hambre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Daniel 6:22"
+      ]
+    },
+    {
+      "id": "ent-0031",
+      "text": "Según Gálatas 5:22-23, ¿cuál es el primer fruto del Espíritu mencionado?",
+      "options": [
+        "La riqueza",
+        "La fama",
+        "El amor",
+        "La fuerza"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Gálatas 5:22-23"
+      ]
+    },
+    {
+      "id": "ent-0032",
+      "text": "¿Cuál es el primer mandamiento de los Diez Mandamientos?",
+      "options": [
+        "No matarás",
+        "Honra a tu padre",
+        "No robarás",
+        "No tendrás dioses ajenos delante de mí"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 20:3"
+      ]
+    },
+    {
+      "id": "ent-0033",
+      "text": "¿Cuántos mandamientos recibió Moisés en las tablas de la Ley?",
+      "options": [
+        "Diez",
+        "Siete",
+        "Doce",
+        "Cinco"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 34:28"
+      ]
+    },
+    {
+      "id": "ent-0034",
+      "text": "¿Cómo se llamaba la madre de Jesús?",
+      "options": [
+        "Marta",
+        "María",
+        "Ana",
+        "Isabel"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Lucas 1:31"
+      ]
+    },
+    {
+      "id": "ent-0035",
+      "text": "¿Qué evento, al tercer día, se celebra como el centro de la fe cristiana?",
+      "options": [
+        "Su nacimiento",
+        "Su bautismo",
+        "La resurrección de Jesús",
+        "Su huida a Egipto"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "1 Corintios 15:4"
+      ]
+    },
+    {
+      "id": "ent-0036",
+      "text": "Según Hebreos 11, ¿quién creyó a Dios y es llamado padre de la fe?",
+      "options": [
+        "Moisés",
+        "Noé",
+        "David",
+        "Abraham"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Hebreos 11:8"
+      ]
+    }
+  ]
+}

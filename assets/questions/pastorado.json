@@ -1,0 +1,680 @@
+{
+  "level": "pastorado",
+  "questions": [
+    {
+      "id": "pas-0001",
+      "text": "Según 1 Timoteo 3, ¿cómo debe ser el obispo (anciano)?",
+      "options": [
+        "Irreprensible, marido de una sola mujer, sobrio",
+        "Rico y de familia noble",
+        "Joven e inexperto",
+        "Amigo de contiendas"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Timoteo 3:2"
+      ]
+    },
+    {
+      "id": "pas-0002",
+      "text": "Según 1 Timoteo 3, ¿qué se requiere de los diáconos?",
+      "options": [
+        "Ser ancianos de edad",
+        "Honestos, sin doblez, no dados al vino ni a ganancias deshonestas",
+        "Ser ricos",
+        "Ser solteros obligatoriamente"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Timoteo 3:8"
+      ]
+    },
+    {
+      "id": "pas-0003",
+      "text": "Según Tito 1, ¿para qué dejó Pablo a Tito en Creta?",
+      "options": [
+        "Para recaudar dinero",
+        "Para construir templos",
+        "Para corregir lo deficiente y establecer ancianos en cada ciudad",
+        "Para gobernar políticamente"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Tito 1:5"
+      ]
+    },
+    {
+      "id": "pas-0004",
+      "text": "Según 1 Timoteo, ¿qué no debe ser el anciano respecto a la fe?",
+      "options": [
+        "Un hombre casado",
+        "Un trabajador",
+        "Un maestro",
+        "Un recién convertido, para que no se envanezca"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Timoteo 3:6"
+      ]
+    },
+    {
+      "id": "pas-0005",
+      "text": "Según 2 Timoteo 4, ¿qué encargo solemne da Pablo a Timoteo?",
+      "options": [
+        "Que predique la palabra, a tiempo y fuera de tiempo",
+        "Que se retire del ministerio",
+        "Que solo lea la ley",
+        "Que evite enseñar"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 4:2"
+      ]
+    },
+    {
+      "id": "pas-0006",
+      "text": "Según 1 Timoteo 3, el obispo debe gobernar bien...",
+      "options": [
+        "La ciudad entera",
+        "Su propia casa, teniendo a sus hijos en sujeción",
+        "El ejército",
+        "El comercio"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Timoteo 3:4-5"
+      ]
+    },
+    {
+      "id": "pas-0007",
+      "text": "Según Mateo 18, ¿cuál es el primer paso para tratar a un hermano que peca?",
+      "options": [
+        "Anunciarlo a todos",
+        "Expulsarlo de inmediato",
+        "Ir y reprenderlo a solas, entre tú y él",
+        "Ignorarlo"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Mateo 18:15"
+      ]
+    },
+    {
+      "id": "pas-0008",
+      "text": "Si no escucha a solas, según Mateo 18, ¿qué sigue?",
+      "options": [
+        "Demandarlo",
+        "Maldecirlo",
+        "Olvidarlo",
+        "Llevar uno o dos testigos más"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Mateo 18:16"
+      ]
+    },
+    {
+      "id": "pas-0009",
+      "text": "En el Concilio de Jerusalén (Hechos 15), ¿qué se debatió?",
+      "options": [
+        "Si los gentiles debían circuncidarse para salvarse",
+        "Quién dirigiría la iglesia",
+        "El calendario de fiestas",
+        "La construcción del templo"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 15:5-11"
+      ]
+    },
+    {
+      "id": "pas-0010",
+      "text": "¿Qué ordenanza instituyó Jesús con pan y copa, en memoria de su muerte?",
+      "options": [
+        "El lavamiento anual",
+        "La Cena del Señor",
+        "La ofrenda de incienso",
+        "El voto nazareo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Corintios 11:23-26"
+      ]
+    },
+    {
+      "id": "pas-0011",
+      "text": "Según la Gran Comisión, ¿en qué nombre deben ser bautizados los discípulos?",
+      "options": [
+        "Solo de Jesús de Nazaret",
+        "De los apóstoles",
+        "Del Padre, del Hijo y del Espíritu Santo",
+        "De la iglesia"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Mateo 28:19"
+      ]
+    },
+    {
+      "id": "pas-0012",
+      "text": "Según Hechos 6, ¿por qué se eligió a siete hombres llenos del Espíritu?",
+      "options": [
+        "Para cobrar impuestos",
+        "Para juzgar a Roma",
+        "Para construir casas",
+        "Para servir las mesas y que los apóstoles se dieran a la oración y la palabra"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 6:2-4"
+      ]
+    },
+    {
+      "id": "pas-0013",
+      "text": "Según Hechos 6:4, ¿a qué se dedicaban prioritariamente los apóstoles?",
+      "options": [
+        "A la oración y al ministerio de la palabra",
+        "A administrar el dinero",
+        "A la política",
+        "A los viajes de placer"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 6:4"
+      ]
+    },
+    {
+      "id": "pas-0014",
+      "text": "En Efesios 3, ¿en qué postura describe Pablo su oración por la iglesia?",
+      "options": [
+        "De pie y orgulloso",
+        "De rodillas ante el Padre",
+        "En silencio absoluto",
+        "Sin orar"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Efesios 3:14"
+      ]
+    },
+    {
+      "id": "pas-0015",
+      "text": "¿Cómo describió Pablo su servicio en Éfeso ante los ancianos?",
+      "options": [
+        "Con dureza y orgullo",
+        "Buscando fama",
+        "Sirviendo al Señor con lágrimas y humildad",
+        "Sin esfuerzo"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 20:19"
+      ]
+    },
+    {
+      "id": "pas-0016",
+      "text": "¿Por qué advierte Pablo contra poner a un novato como líder?",
+      "options": [
+        "Para que gane más dinero",
+        "Para que viaje menos",
+        "Para que hable más",
+        "Para que no caiga, envanecido, en la condenación del diablo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Timoteo 3:6"
+      ]
+    },
+    {
+      "id": "pas-0017",
+      "text": "Según Santiago 5, ¿qué deben hacer los ancianos por el enfermo?",
+      "options": [
+        "Orar por él, ungiéndolo en el nombre del Señor",
+        "Cobrarle",
+        "Apartarlo",
+        "Ignorarlo"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Santiago 5:14"
+      ]
+    },
+    {
+      "id": "pas-0018",
+      "text": "¿Con quién hizo Dios un pacto, poniendo el arco iris como señal de no destruir la tierra con diluvio?",
+      "options": [
+        "Con Abraham",
+        "Con Noé",
+        "Con Moisés",
+        "Con David"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Génesis 9:12-13"
+      ]
+    },
+    {
+      "id": "pas-0019",
+      "text": "¿A quién prometió Dios bendecir y, en él, a todas las familias de la tierra?",
+      "options": [
+        "A Noé",
+        "A Saúl",
+        "A Abraham",
+        "A Salomón"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Génesis 12:2-3"
+      ]
+    },
+    {
+      "id": "pas-0020",
+      "text": "¿Por medio de quién dio Dios la Ley en el Sinaí (pacto mosaico)?",
+      "options": [
+        "Josué",
+        "Aarón",
+        "Samuel",
+        "Moisés"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Éxodo 24:7-8"
+      ]
+    },
+    {
+      "id": "pas-0021",
+      "text": "¿A qué rey prometió Dios que su trono sería establecido para siempre (pacto davídico)?",
+      "options": [
+        "A David",
+        "A Saúl",
+        "A Salomón",
+        "A Ezequías"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Samuel 7:16"
+      ]
+    },
+    {
+      "id": "pas-0022",
+      "text": "Según Jeremías 31, ¿qué pacto nuevo prometió Dios, escribiendo su ley en el corazón?",
+      "options": [
+        "Otro pacto con Noé",
+        "El Nuevo Pacto",
+        "Un pacto con los ángeles",
+        "La sola renovación del Sinaí"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Jeremías 31:31-33"
+      ]
+    },
+    {
+      "id": "pas-0023",
+      "text": "Según Gálatas 6:1, ¿cómo se debe restaurar al hermano sorprendido en falta?",
+      "options": [
+        "Con dureza pública",
+        "Expulsándolo sin más",
+        "Con espíritu de mansedumbre, cuidándose uno mismo",
+        "Con burla"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Gálatas 6:1"
+      ]
+    },
+    {
+      "id": "pas-0024",
+      "text": "Según 2 Timoteo, ¿con qué debe corregir el siervo del Señor a los que se oponen?",
+      "options": [
+        "Con gritos",
+        "Con amenazas",
+        "Con violencia",
+        "Con mansedumbre, esperando que Dios les conceda arrepentimiento"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 2:24-25"
+      ]
+    },
+    {
+      "id": "pas-0025",
+      "text": "Según Hechos 20, ¿de qué advirtió Pablo que entraría en el rebaño?",
+      "options": [
+        "Lobos rapaces que no perdonarían al rebaño",
+        "Ovejas perdidas",
+        "Ángeles",
+        "Reyes"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 20:29"
+      ]
+    },
+    {
+      "id": "pas-0026",
+      "text": "Según 1 Pedro 5, ¿cómo deben pastorear los ancianos la grey de Dios?",
+      "options": [
+        "Por la fuerza",
+        "Con ánimo pronto, siendo ejemplos, no por ganancia ni señoreándose",
+        "Por dinero",
+        "Con indiferencia"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Pedro 5:2-3"
+      ]
+    },
+    {
+      "id": "pas-0027",
+      "text": "Según 2 Timoteo 3:16, ¿para qué es útil toda la Escritura?",
+      "options": [
+        "Solo para leer en público",
+        "Para decorar",
+        "Para enseñar, redargüir, corregir e instruir en justicia",
+        "Para discutir"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 3:16"
+      ]
+    },
+    {
+      "id": "pas-0028",
+      "text": "Según Tito, ¿qué debe hacer el anciano frente a los que contradicen la sana doctrina?",
+      "options": [
+        "Callar siempre",
+        "Unirse a ellos",
+        "Abandonar la iglesia",
+        "Exhortar con sana enseñanza y convencer a los que contradicen"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Tito 1:9"
+      ]
+    },
+    {
+      "id": "pas-0029",
+      "text": "Según Santiago 1, ¿qué debe pedir a Dios quien tiene falta de sabiduría?",
+      "options": [
+        "Pedirla a Dios, que la da abundantemente y sin reproche",
+        "Pagarla",
+        "Inventarla",
+        "Callarla"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Santiago 1:5"
+      ]
+    },
+    {
+      "id": "pas-0030",
+      "text": "Según Gálatas 6:2, ¿qué cumple la ley de Cristo en el cuidado mutuo?",
+      "options": [
+        "Acumular bienes",
+        "Sobrellevar los unos las cargas de los otros",
+        "Juzgar a todos",
+        "Vivir aislado"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Gálatas 6:2"
+      ]
+    },
+    {
+      "id": "pas-0031",
+      "text": "Según 1 Pedro 3:15, ¿con qué actitud debe el creyente dar razón de su esperanza?",
+      "options": [
+        "Con agresividad",
+        "Con indiferencia",
+        "Con mansedumbre y reverencia",
+        "Solo con silencio"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Pedro 3:15"
+      ]
+    },
+    {
+      "id": "pas-0032",
+      "text": "¿Cómo razonaba Pablo en la sinagoga para defender la fe (método apologético)?",
+      "options": [
+        "Con filosofía pagana",
+        "Solo con milagros",
+        "Sin dar argumentos",
+        "Declarando y probando por las Escrituras que Jesús es el Cristo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 17:2-3"
+      ]
+    },
+    {
+      "id": "pas-0033",
+      "text": "¿Qué es la homilética?",
+      "options": [
+        "El arte y la técnica de preparar y predicar sermones",
+        "El estudio de los idiomas",
+        "El gobierno de la iglesia",
+        "El canto congregacional"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 4:2"
+      ]
+    },
+    {
+      "id": "pas-0034",
+      "text": "¿Qué caracteriza a la predicación expositiva?",
+      "options": [
+        "Parte de una idea propia",
+        "Explica el texto bíblico en su contexto",
+        "Evita usar la Biblia",
+        "Solo cuenta anécdotas"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Nehemías 8:8"
+      ]
+    },
+    {
+      "id": "pas-0035",
+      "text": "Según 2 Timoteo 2:15, ¿qué debe hacer el obrero aprobado con la palabra de verdad?",
+      "options": [
+        "Evitar su estudio",
+        "Predicar sin preparación",
+        "Usarla (trazarla) bien",
+        "Agradar a los hombres"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 2:15"
+      ]
+    },
+    {
+      "id": "pas-0036",
+      "text": "Según 1 Corintios 4:2, ¿qué se requiere de los administradores (mayordomos)?",
+      "options": [
+        "Que sean ricos",
+        "Que sean elocuentes",
+        "Que sean muchos",
+        "Que cada uno sea hallado fiel"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Corintios 4:2"
+      ]
+    },
+    {
+      "id": "pas-0037",
+      "text": "Según 1 Corintios 14:40, ¿cómo debe hacerse todo en la iglesia?",
+      "options": [
+        "Decentemente y con orden",
+        "Con prisa",
+        "En secreto",
+        "Como cada quien prefiera"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Corintios 14:40"
+      ]
+    },
+    {
+      "id": "pas-0038",
+      "text": "Según el Salmo 150, ¿con qué se exhorta a alabar a Dios?",
+      "options": [
+        "Solo en silencio",
+        "Con instrumentos y todo lo que respira",
+        "Solo una vez al año",
+        "Sin alegría"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "Salmo 150:3-6"
+      ]
+    },
+    {
+      "id": "pas-0039",
+      "text": "Según Colosenses 3:16, ¿cómo deben enseñarse y exhortarse los creyentes?",
+      "options": [
+        "Solo con sermones",
+        "Con danzas paganas",
+        "Con salmos, himnos y cánticos espirituales",
+        "Sin palabras"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Colosenses 3:16"
+      ]
+    },
+    {
+      "id": "pas-0040",
+      "text": "En el Antiguo Testamento, ¿qué grupo tenía a su cargo la música del templo?",
+      "options": [
+        "Los sacerdotes egipcios",
+        "Los filisteos",
+        "Los jueces",
+        "Los levitas"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "1 Crónicas 25:1-7"
+      ]
+    },
+    {
+      "id": "pas-0041",
+      "text": "¿Qué corriente filosófica del mundo del NT enseñaba dominar las pasiones por la razón, y contrasta con la dependencia del Espíritu?",
+      "options": [
+        "El estoicismo",
+        "El epicureísmo",
+        "El gnosticismo",
+        "El fariseísmo"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Hechos 17:18"
+      ]
+    },
+    {
+      "id": "pas-0042",
+      "text": "Según 2 Timoteo 2:2, ¿a quiénes debe Timoteo encargar lo aprendido?",
+      "options": [
+        "A cualquiera",
+        "A hombres fieles e idóneos para enseñar a otros",
+        "A los más ricos",
+        "A nadie"
+      ],
+      "correctIndex": 1,
+      "difficulty": "pastorado",
+      "references": [
+        "2 Timoteo 2:2"
+      ]
+    },
+    {
+      "id": "pas-0043",
+      "text": "Según Marcos 10:43-44, ¿en qué consiste la grandeza en el reino?",
+      "options": [
+        "En tener más poder",
+        "En ser el más rico",
+        "En que el que quiera ser grande sea servidor de todos",
+        "En ser el más temido"
+      ],
+      "correctIndex": 2,
+      "difficulty": "pastorado",
+      "references": [
+        "Marcos 10:43-44"
+      ]
+    },
+    {
+      "id": "pas-0044",
+      "text": "Según Romanos 12:18, ¿qué actitud debe buscar el líder ante los conflictos?",
+      "options": [
+        "Ganar siempre la discusión",
+        "Evitar a todos",
+        "Imponerse por la fuerza",
+        "Estar en paz con todos, en cuanto dependa de él"
+      ],
+      "correctIndex": 3,
+      "difficulty": "pastorado",
+      "references": [
+        "Romanos 12:18"
+      ]
+    },
+    {
+      "id": "pas-0045",
+      "text": "Según Romanos 10:14-15, ¿por qué son necesarios los predicadores enviados?",
+      "options": [
+        "Porque nadie creerá en aquel de quien no ha oído",
+        "Porque dan dinero",
+        "Porque construyen templos",
+        "Porque gobiernan ciudades"
+      ],
+      "correctIndex": 0,
+      "difficulty": "pastorado",
+      "references": [
+        "Romanos 10:14-15"
+      ]
+    }
+  ]
+}

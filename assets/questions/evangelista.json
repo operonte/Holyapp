@@ -1,0 +1,460 @@
+{
+  "level": "evangelista",
+  "questions": [
+    {
+      "id": "evg-0001",
+      "text": "¿Quién escribió \"Ningún hombre es más grande que su vida de oración\" en 'Why Revival Tarries'?",
+      "options": [
+        "Leonard Ravenhill",
+        "David Wilkerson",
+        "A.W. Tozer",
+        "Charles Spurgeon"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Leonard Ravenhill, 'Why Revival Tarries'"
+      ]
+    },
+    {
+      "id": "evg-0002",
+      "text": "¿Qué predicador fundó el ministerio Teen Challenge y escribió 'La cruz y el puñal'?",
+      "options": [
+        "Billy Graham",
+        "David Wilkerson",
+        "Nicky Cruz",
+        "D.L. Moody"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "David Wilkerson, 'La cruz y el puñal' (1963)"
+      ]
+    },
+    {
+      "id": "evg-0003",
+      "text": "¿Cómo se titula el célebre sermón de Jonathan Edwards que avivó el Gran Despertar?",
+      "options": [
+        "El costo del discipulado",
+        "En pos de Dios",
+        "Pecadores en manos de un Dios airado",
+        "La cruz y el puñal"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "Jonathan Edwards (sermón, 1741)",
+        "Hebreos 10:31"
+      ]
+    },
+    {
+      "id": "evg-0004",
+      "text": "¿Qué hombre de fe sostuvo orfanatos en Bristol confiando solo en la oración, sin pedir dinero a nadie?",
+      "options": [
+        "Hudson Taylor",
+        "William Booth",
+        "Charles Finney",
+        "George Müller"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "George Müller",
+        "Filipenses 4:19"
+      ]
+    },
+    {
+      "id": "evg-0005",
+      "text": "¿Quién fundó el Ejército de Salvación para predicar y servir a los más necesitados?",
+      "options": [
+        "William Booth",
+        "John Wesley",
+        "Charles Spurgeon",
+        "D.L. Moody"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "William Booth (Ejército de Salvación, 1865)"
+      ]
+    },
+    {
+      "id": "evg-0006",
+      "text": "¿Qué misionero es célebre por llevar el evangelio al interior de China (Misión al Interior de la China)?",
+      "options": [
+        "David Livingstone",
+        "Hudson Taylor",
+        "William Carey",
+        "Jim Elliot"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Hudson Taylor",
+        "Marcos 16:15"
+      ]
+    },
+    {
+      "id": "evg-0007",
+      "text": "¿Quién, llamado 'el padre de las misiones modernas', dijo \"Espera grandes cosas de Dios; intenta grandes cosas para Dios\"?",
+      "options": [
+        "George Whitefield",
+        "John Wesley",
+        "William Carey",
+        "Charles Finney"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "William Carey (sermón, 1792)"
+      ]
+    },
+    {
+      "id": "evg-0008",
+      "text": "¿Quién escribió \"No es necio el que da lo que no puede retener para ganar lo que no puede perder\", y murió mártir en Ecuador?",
+      "options": [
+        "Leonard Ravenhill",
+        "David Wilkerson",
+        "Nate Saint",
+        "Jim Elliot"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "Jim Elliot (diario, 1949)"
+      ]
+    },
+    {
+      "id": "evg-0009",
+      "text": "¿Quién fue el joven galés usado poderosamente por Dios en el Avivamiento de Gales de 1904?",
+      "options": [
+        "Evan Roberts",
+        "Charles Finney",
+        "Smith Wigglesworth",
+        "George Whitefield"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Avivamiento de Gales (1904)"
+      ]
+    },
+    {
+      "id": "evg-0010",
+      "text": "¿Qué avivamiento de 1906 en Los Ángeles, liderado por William Seymour, marcó el inicio del movimiento pentecostal moderno?",
+      "options": [
+        "El Gran Despertar",
+        "El avivamiento de la Calle Azusa",
+        "El avivamiento de las Hébridas",
+        "La Reforma Protestante"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Avivamiento de la Calle Azusa (1906)",
+        "Hechos 2:1-4"
+      ]
+    },
+    {
+      "id": "evg-0011",
+      "text": "¿Qué autor es conocido por sus libros sobre la oración, como 'El poder a través de la oración'?",
+      "options": [
+        "A.W. Tozer",
+        "Charles Spurgeon",
+        "E.M. Bounds",
+        "Charles Finney"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "E.M. Bounds, 'El poder a través de la oración'"
+      ]
+    },
+    {
+      "id": "evg-0012",
+      "text": "Según la Gran Comisión, ¿cuál es la tarea central que impulsa al evangelista a la acción?",
+      "options": [
+        "Construir grandes templos",
+        "Acumular conocimiento en secreto",
+        "Esperar pasivamente el fin",
+        "Ir y hacer discípulos a todas las naciones"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "Mateo 28:19-20"
+      ]
+    },
+    {
+      "id": "evg-0013",
+      "text": "¿Quién fundó el metodismo y dijo \"El mundo es mi parroquia\"?",
+      "options": [
+        "John Wesley",
+        "George Whitefield",
+        "Charles Finney",
+        "William Booth"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "John Wesley"
+      ]
+    },
+    {
+      "id": "evg-0014",
+      "text": "¿Qué predicador del Gran Despertar era famoso por su poderosa predicación al aire libre ante multitudes?",
+      "options": [
+        "Jonathan Edwards",
+        "George Whitefield",
+        "D.L. Moody",
+        "Billy Sunday"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Gran Despertar (s. XVIII)"
+      ]
+    },
+    {
+      "id": "evg-0015",
+      "text": "¿Qué evangelista del Segundo Gran Despertar escribió 'Lecciones sobre el avivamiento'?",
+      "options": [
+        "Jonathan Edwards",
+        "Leonard Ravenhill",
+        "Charles Finney",
+        "A.W. Tozer"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "Charles Finney, 'Lectures on Revivals of Religion' (1835)"
+      ]
+    },
+    {
+      "id": "evg-0016",
+      "text": "¿Qué evangelista estadounidense fundó el instituto bíblico que lleva su nombre en Chicago?",
+      "options": [
+        "Billy Graham",
+        "Charles Finney",
+        "R.A. Torrey",
+        "D.L. Moody"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "D.L. Moody"
+      ]
+    },
+    {
+      "id": "evg-0017",
+      "text": "¿Qué predicador bautista de Londres del siglo XIX es llamado 'el príncipe de los predicadores'?",
+      "options": [
+        "Charles Spurgeon",
+        "John Wesley",
+        "George Whitefield",
+        "D.L. Moody"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Charles Spurgeon"
+      ]
+    },
+    {
+      "id": "evg-0018",
+      "text": "¿Qué autor sudafricano escribió clásicos sobre la oración como 'La escuela de la oración'?",
+      "options": [
+        "E.M. Bounds",
+        "Andrew Murray",
+        "A.W. Tozer",
+        "Watchman Nee"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Andrew Murray"
+      ]
+    },
+    {
+      "id": "evg-0019",
+      "text": "¿Qué predicador británico, llamado 'apóstol de la fe', fue conocido por su ministerio de fe y sanidad?",
+      "options": [
+        "Evan Roberts",
+        "William Seymour",
+        "Smith Wigglesworth",
+        "John Wesley"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "Smith Wigglesworth"
+      ]
+    },
+    {
+      "id": "evg-0020",
+      "text": "¿Qué mujer holandesa, sobreviviente de un campo nazi, escribió 'El refugio secreto' y predicó el perdón?",
+      "options": [
+        "Amy Carmichael",
+        "Gladys Aylward",
+        "Elisabeth Elliot",
+        "Corrie ten Boom"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "Corrie ten Boom, 'El refugio secreto'"
+      ]
+    },
+    {
+      "id": "evg-0021",
+      "text": "¿Con qué predicador se asocia el Avivamiento de las Hébridas (Escocia, ~1949)?",
+      "options": [
+        "Duncan Campbell",
+        "Evan Roberts",
+        "George Whitefield",
+        "William Seymour"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Avivamiento de las Hébridas (1949-1952)"
+      ]
+    },
+    {
+      "id": "evg-0022",
+      "text": "Junto a la oración, ¿qué disciplina enfatizaron muchos líderes de avivamiento para buscar a Dios con intensidad?",
+      "options": [
+        "El descanso",
+        "El ayuno",
+        "El entretenimiento",
+        "La acumulación de bienes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Joel 2:12",
+        "Mateo 6:16-18"
+      ]
+    },
+    {
+      "id": "evg-0023",
+      "text": "Según Hechos 1:8, ¿qué recibirían los discípulos para ser testigos?",
+      "options": [
+        "Riquezas",
+        "Cargos políticos",
+        "Poder, cuando viniera sobre ellos el Espíritu Santo",
+        "Sabiduría humana"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "Hechos 1:8"
+      ]
+    },
+    {
+      "id": "evg-0024",
+      "text": "Según Hechos 1:8, ¿hasta dónde serían testigos los discípulos?",
+      "options": [
+        "Solo en Jerusalén",
+        "Solo entre los judíos",
+        "Solo en el templo",
+        "Hasta lo último de la tierra"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "Hechos 1:8"
+      ]
+    },
+    {
+      "id": "evg-0025",
+      "text": "¿Qué misionera en la India rescató a niños del abuso y escribió numerosos libros devocionales?",
+      "options": [
+        "Amy Carmichael",
+        "Corrie ten Boom",
+        "Gladys Aylward",
+        "Elisabeth Elliot"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Amy Carmichael"
+      ]
+    },
+    {
+      "id": "evg-0026",
+      "text": "Según 1 Pedro 3:15, ¿qué debe estar siempre preparado a presentar el creyente?",
+      "options": [
+        "Una defensa legal",
+        "Razón de su esperanza, con mansedumbre y reverencia",
+        "Sus propios méritos",
+        "Su genealogía"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "1 Pedro 3:15"
+      ]
+    },
+    {
+      "id": "evg-0027",
+      "text": "¿Qué evangelista del libro de Hechos explicó la Escritura a un funcionario etíope y lo bautizó?",
+      "options": [
+        "Pedro",
+        "Pablo",
+        "Felipe",
+        "Esteban"
+      ],
+      "correctIndex": 2,
+      "difficulty": "evangelista",
+      "references": [
+        "Hechos 8:26-39"
+      ]
+    },
+    {
+      "id": "evg-0028",
+      "text": "¿Qué dijo Pablo sobre su obligación de predicar, en 1 Corintios 9:16?",
+      "options": [
+        "Predico por dinero",
+        "Solo predico a los judíos",
+        "No es mi deber",
+        "¡Ay de mí si no anunciare el evangelio!"
+      ],
+      "correctIndex": 3,
+      "difficulty": "evangelista",
+      "references": [
+        "1 Corintios 9:16"
+      ]
+    },
+    {
+      "id": "evg-0029",
+      "text": "Según Mateo 9:37-38, ¿qué debemos rogar al Señor de la mies?",
+      "options": [
+        "Que envíe obreros a su mies",
+        "Que detenga la cosecha",
+        "Que envíe juicio",
+        "Que cierre las puertas"
+      ],
+      "correctIndex": 0,
+      "difficulty": "evangelista",
+      "references": [
+        "Mateo 9:37-38"
+      ]
+    },
+    {
+      "id": "evg-0030",
+      "text": "Según Daniel 12:3, ¿cómo resplandecerán los que enseñan justicia a la multitud?",
+      "options": [
+        "Como el polvo",
+        "Como las estrellas, a perpetua eternidad",
+        "Por un solo día",
+        "En secreto"
+      ],
+      "correctIndex": 1,
+      "difficulty": "evangelista",
+      "references": [
+        "Daniel 12:3"
+      ]
+    }
+  ]
+}

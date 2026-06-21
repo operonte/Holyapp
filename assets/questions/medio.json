@@ -1,0 +1,548 @@
+{
+  "level": "medio",
+  "questions": [
+    {
+      "id": "med-0001",
+      "text": "Tras la muerte de Salomón, ¿en qué dos reinos se dividió la nación?",
+      "options": [
+        "Israel (norte) y Judá (sur)",
+        "Egipto e Israel",
+        "Judá y Babilonia",
+        "Samaria y Galilea"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "1 Reyes 12:16-20"
+      ]
+    },
+    {
+      "id": "med-0002",
+      "text": "¿Quién fue el primer rey del reino del norte (Israel) tras la división?",
+      "options": [
+        "Roboam",
+        "Jeroboam",
+        "Acab",
+        "Omri"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "1 Reyes 12:20"
+      ]
+    },
+    {
+      "id": "med-0003",
+      "text": "¿Qué rey de Judá hizo una gran reforma al hallar el libro de la Ley en el templo?",
+      "options": [
+        "Manasés",
+        "Acaz",
+        "Josías",
+        "Joacim"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "2 Reyes 22:8-11"
+      ]
+    },
+    {
+      "id": "med-0004",
+      "text": "¿Qué rey de Judá confió en Dios y vio destruido el ejército asirio que sitiaba Jerusalén?",
+      "options": [
+        "Acab",
+        "Sedequías",
+        "Amón",
+        "Ezequías"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "2 Reyes 19:35-36"
+      ]
+    },
+    {
+      "id": "med-0005",
+      "text": "¿Qué rey idólatra del norte, junto a su esposa Jezabel, persiguió a los profetas de Dios?",
+      "options": [
+        "Acab",
+        "Josías",
+        "Ezequías",
+        "Asa"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "1 Reyes 16:30-33"
+      ]
+    },
+    {
+      "id": "med-0006",
+      "text": "¿Qué rey de Judá fue célebre por su gran maldad e idolatría, aunque al final se humilló?",
+      "options": [
+        "Josías",
+        "Manasés",
+        "Ezequías",
+        "David"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "2 Crónicas 33:9-13"
+      ]
+    },
+    {
+      "id": "med-0007",
+      "text": "¿Qué profeta mayor anunció al 'siervo' herido por nuestras rebeliones?",
+      "options": [
+        "Amós",
+        "Oseas",
+        "Isaías",
+        "Abdías"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Isaías 53:5"
+      ]
+    },
+    {
+      "id": "med-0008",
+      "text": "¿Qué profeta es llamado 'el profeta llorón' y vivió la caída de Jerusalén?",
+      "options": [
+        "Ezequiel",
+        "Daniel",
+        "Joel",
+        "Jeremías"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Jeremías 9:1"
+      ]
+    },
+    {
+      "id": "med-0009",
+      "text": "¿A qué profeta mandó Dios casarse con una mujer infiel, como señal del adulterio espiritual de Israel?",
+      "options": [
+        "Oseas",
+        "Amós",
+        "Jonás",
+        "Miqueas"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Oseas 1:2"
+      ]
+    },
+    {
+      "id": "med-0010",
+      "text": "¿Qué profeta, pastor de Tecoa, clamó por justicia 'como las aguas'?",
+      "options": [
+        "Oseas",
+        "Amós",
+        "Joel",
+        "Nahúm"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Amós 5:24"
+      ]
+    },
+    {
+      "id": "med-0011",
+      "text": "¿Qué profeta huyó de Dios en un barco y fue tragado por un gran pez?",
+      "options": [
+        "Elías",
+        "Eliseo",
+        "Jonás",
+        "Habacuc"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Jonás 1:17"
+      ]
+    },
+    {
+      "id": "med-0012",
+      "text": "¿Qué profeta anunció que el Mesías nacería en Belén?",
+      "options": [
+        "Sofonías",
+        "Hageo",
+        "Zacarías",
+        "Miqueas"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Miqueas 5:2"
+      ]
+    },
+    {
+      "id": "med-0013",
+      "text": "¿Tras qué pecado escribió David la oración de arrepentimiento del Salmo 51?",
+      "options": [
+        "Su pecado con Betsabé",
+        "Adorar ídolos",
+        "Censar al pueblo",
+        "Mentir a Saúl"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Salmo 51:1-4",
+        "2 Samuel 12:13"
+      ]
+    },
+    {
+      "id": "med-0014",
+      "text": "Según el Salmo 32, ¿qué experimenta el hombre cuyo pecado es perdonado?",
+      "options": [
+        "Permanece triste",
+        "Es bienaventurado y libre de culpa",
+        "Lo pierde todo",
+        "Es condenado"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Salmo 32:1-5"
+      ]
+    },
+    {
+      "id": "med-0015",
+      "text": "En su oración de Daniel 9, ¿qué hizo Daniel respecto a los pecados de su nación?",
+      "options": [
+        "Acusó al pueblo",
+        "Pidió venganza",
+        "Los confesó como propios y pidió misericordia",
+        "Calló por temor"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Daniel 9:4-5"
+      ]
+    },
+    {
+      "id": "med-0016",
+      "text": "¿Qué es un salmo de lamentación?",
+      "options": [
+        "Un canto de guerra",
+        "Una lista de leyes",
+        "Una genealogía",
+        "Una oración que expresa dolor y clama a Dios en la angustia"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Salmo 13:1-2"
+      ]
+    },
+    {
+      "id": "med-0017",
+      "text": "Junto al ayuno, ¿qué actitud pedía Dios por medio del profeta Joel?",
+      "options": [
+        "Rasgar el corazón y no los vestidos, y volverse a Él",
+        "Solo ofrendas costosas",
+        "Solo grandes gritos",
+        "Construir altares"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Joel 2:12-13"
+      ]
+    },
+    {
+      "id": "med-0018",
+      "text": "¿Qué estructura portátil mandó Dios construir para habitar entre Israel en el desierto?",
+      "options": [
+        "El Templo de Salomón",
+        "El Tabernáculo",
+        "Una sinagoga",
+        "Una torre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Éxodo 25:8-9"
+      ]
+    },
+    {
+      "id": "med-0019",
+      "text": "¿En qué libro se detalla el sistema de sacrificios y la santidad del pueblo?",
+      "options": [
+        "Números",
+        "Jueces",
+        "Levítico",
+        "Rut"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Levítico 1:1-4"
+      ]
+    },
+    {
+      "id": "med-0020",
+      "text": "¿Qué objeto sagrado, en el Lugar Santísimo, contenía las tablas de la Ley?",
+      "options": [
+        "El candelabro",
+        "El altar de bronce",
+        "La mesa de los panes",
+        "El Arca del Pacto"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Éxodo 25:10-16"
+      ]
+    },
+    {
+      "id": "med-0021",
+      "text": "¿Qué fiesta conmemoraba la salida de Egipto, cuando la muerte 'pasó por alto' las casas con sangre?",
+      "options": [
+        "La Pascua",
+        "Pentecostés",
+        "Los Tabernáculos",
+        "El Día de la Expiación"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Éxodo 12:13-14"
+      ]
+    },
+    {
+      "id": "med-0022",
+      "text": "¿Qué día, una vez al año, entraba el sumo sacerdote al Lugar Santísimo para la expiación?",
+      "options": [
+        "La Pascua",
+        "El Día de la Expiación",
+        "El sábado semanal",
+        "La fiesta de las Trompetas"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Levítico 16:34"
+      ]
+    },
+    {
+      "id": "med-0023",
+      "text": "Según Santiago, ¿cómo se demuestra una fe verdadera?",
+      "options": [
+        "Por las riquezas",
+        "Por el silencio",
+        "Por las obras que la acompañan",
+        "Por los sacrificios"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Santiago 2:17"
+      ]
+    },
+    {
+      "id": "med-0024",
+      "text": "Según 1 Pedro, ¿cómo deben los creyentes enfrentar el sufrimiento por causa de Cristo?",
+      "options": [
+        "Con venganza",
+        "Negando la fe",
+        "Con indiferencia",
+        "Con gozo, participando de los padecimientos de Cristo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "1 Pedro 4:12-13"
+      ]
+    },
+    {
+      "id": "med-0025",
+      "text": "Según 1 Juan, ¿qué prueba muestra que conocemos a Dios?",
+      "options": [
+        "Que amamos a los hermanos",
+        "Que somos ricos",
+        "Que hablamos mucho",
+        "Que guardamos secretos"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "1 Juan 4:7-8"
+      ]
+    },
+    {
+      "id": "med-0026",
+      "text": "¿A qué exhorta la epístola de Judas a los creyentes?",
+      "options": [
+        "A abandonar la fe",
+        "A contender ardientemente por la fe dada a los santos",
+        "A buscar riquezas",
+        "A callar siempre"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Judas 1:3"
+      ]
+    },
+    {
+      "id": "med-0027",
+      "text": "¿Qué profeta confrontó al rey Acab y a los profetas de Baal en el monte Carmelo?",
+      "options": [
+        "Eliseo",
+        "Isaías",
+        "Elías",
+        "Natán"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "1 Reyes 18:21-39"
+      ]
+    },
+    {
+      "id": "med-0028",
+      "text": "¿Qué rey de Babilonia destruyó Jerusalén y el templo, llevando cautivo a Judá?",
+      "options": [
+        "Ciro",
+        "Darío",
+        "Senaquerib",
+        "Nabucodonosor"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "2 Reyes 25:8-11"
+      ]
+    },
+    {
+      "id": "med-0029",
+      "text": "¿Qué profeta tuvo la visión de un valle de huesos secos que cobraban vida?",
+      "options": [
+        "Ezequiel",
+        "Jeremías",
+        "Daniel",
+        "Zacarías"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Ezequiel 37:1-6"
+      ]
+    },
+    {
+      "id": "med-0030",
+      "text": "Según 2 Pedro, ¿cómo fueron inspiradas las profecías de la Escritura?",
+      "options": [
+        "Por sueños paganos",
+        "Hombres santos hablaron movidos por el Espíritu Santo",
+        "Por voluntad humana",
+        "Por tradición oral"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "2 Pedro 1:21"
+      ]
+    },
+    {
+      "id": "med-0031",
+      "text": "¿Quién dirigió la enseñanza de la Ley al pueblo tras el retorno del exilio?",
+      "options": [
+        "Nehemías",
+        "Zorobabel",
+        "Esdras",
+        "Hageo"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "Esdras 7:10"
+      ]
+    },
+    {
+      "id": "med-0032",
+      "text": "¿Quién dirigió la reconstrucción de los muros de Jerusalén tras el exilio?",
+      "options": [
+        "Esdras",
+        "Ester",
+        "Daniel",
+        "Nehemías"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Nehemías 2:17"
+      ]
+    },
+    {
+      "id": "med-0033",
+      "text": "¿Qué sacrificio del AT es figura (tipo) de Cristo, el Cordero de Dios?",
+      "options": [
+        "El cordero de la Pascua",
+        "El becerro de oro",
+        "Las primicias de trigo",
+        "El incienso"
+      ],
+      "correctIndex": 0,
+      "difficulty": "medio",
+      "references": [
+        "Éxodo 12:5-7",
+        "Juan 1:29"
+      ]
+    },
+    {
+      "id": "med-0034",
+      "text": "¿Qué objeto levantado por Moisés es figura de Cristo en la cruz?",
+      "options": [
+        "El arca del pacto",
+        "La serpiente de bronce",
+        "La vara de Aarón",
+        "El maná"
+      ],
+      "correctIndex": 1,
+      "difficulty": "medio",
+      "references": [
+        "Números 21:9",
+        "Juan 3:14"
+      ]
+    },
+    {
+      "id": "med-0035",
+      "text": "Según 1 Corintios 12, ¿de quién provienen los diversos dones espirituales?",
+      "options": [
+        "Del esfuerzo humano",
+        "De los ángeles",
+        "Del mismo Espíritu",
+        "De la ley"
+      ],
+      "correctIndex": 2,
+      "difficulty": "medio",
+      "references": [
+        "1 Corintios 12:4"
+      ]
+    },
+    {
+      "id": "med-0036",
+      "text": "¿Qué ciudad cayó cuando Israel marchó y sus muros se derrumbaron?",
+      "options": [
+        "Hai",
+        "Babilonia",
+        "Nínive",
+        "Jericó"
+      ],
+      "correctIndex": 3,
+      "difficulty": "medio",
+      "references": [
+        "Josué 6:20"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "level": "basico",
+  "questions": [
+    {
+      "id": "bas-0001",
+      "text": "¿Cuántos libros componen la Biblia completa?",
+      "options": [
+        "66",
+        "72",
+        "40",
+        "27"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "2 Timoteo 3:16"
+      ]
+    },
+    {
+      "id": "bas-0002",
+      "text": "¿En qué dos grandes partes se divide la Biblia?",
+      "options": [
+        "Ley y Profetas solamente",
+        "Antiguo Testamento y Nuevo Testamento",
+        "Evangelios y Cartas",
+        "Salmos y Proverbios"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Hebreos 1:1-2"
+      ]
+    },
+    {
+      "id": "bas-0003",
+      "text": "¿Cómo se llama el conjunto de los primeros cinco libros de la Biblia?",
+      "options": [
+        "Los Evangelios",
+        "Los Profetas Mayores",
+        "El Pentateuco",
+        "Las Epístolas"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Lucas 24:44"
+      ]
+    },
+    {
+      "id": "bas-0004",
+      "text": "¿Cuántos evangelios hay y cuáles son?",
+      "options": [
+        "Tres: Mateo, Lucas y Juan",
+        "Cinco evangelios",
+        "Dos: Marcos y Juan",
+        "Cuatro: Mateo, Marcos, Lucas y Juan"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 1:1",
+        "Juan 21:25"
+      ]
+    },
+    {
+      "id": "bas-0005",
+      "text": "¿Cuál es el primer libro del Antiguo Testamento?",
+      "options": [
+        "Génesis",
+        "Éxodo",
+        "Job",
+        "Salmos"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Génesis 1:1"
+      ]
+    },
+    {
+      "id": "bas-0006",
+      "text": "¿Cuál es el último libro de la Biblia?",
+      "options": [
+        "Malaquías",
+        "Apocalipsis",
+        "Judas",
+        "Hechos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Apocalipsis 22:21"
+      ]
+    },
+    {
+      "id": "bas-0007",
+      "text": "¿Qué juez de Israel era célebre por su enorme fuerza ligada a su cabello?",
+      "options": [
+        "Gedeón",
+        "Barac",
+        "Sansón",
+        "Otoniel"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Jueces 16:17"
+      ]
+    },
+    {
+      "id": "bas-0008",
+      "text": "¿Qué juez venció a los madianitas con solo 300 hombres?",
+      "options": [
+        "Jefté",
+        "Sansón",
+        "Aod",
+        "Gedeón"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Jueces 7:7"
+      ]
+    },
+    {
+      "id": "bas-0009",
+      "text": "¿Quién fue jueza y profetisa que guió a Israel junto a Barac?",
+      "options": [
+        "Débora",
+        "Ester",
+        "Rut",
+        "Ana"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Jueces 4:4"
+      ]
+    },
+    {
+      "id": "bas-0010",
+      "text": "¿Quién fue el primer rey de Israel?",
+      "options": [
+        "David",
+        "Saúl",
+        "Salomón",
+        "Samuel"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "1 Samuel 10:1"
+      ]
+    },
+    {
+      "id": "bas-0011",
+      "text": "¿Qué rey, hijo de David, construyó el templo de Jerusalén?",
+      "options": [
+        "Saúl",
+        "Roboam",
+        "Salomón",
+        "Ezequías"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "1 Reyes 6:1"
+      ]
+    },
+    {
+      "id": "bas-0012",
+      "text": "¿Qué mujer oró con angustia pidiendo un hijo, y Dios le concedió a Samuel?",
+      "options": [
+        "Sara",
+        "Rut",
+        "Lía",
+        "Ana"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "1 Samuel 1:10-11"
+      ]
+    },
+    {
+      "id": "bas-0013",
+      "text": "Cuando Dios le dio el hijo que pidió, ¿qué hizo Ana con Samuel?",
+      "options": [
+        "Lo dedicó al servicio del Señor",
+        "Lo escondió",
+        "Se mudó de país",
+        "No hizo nada especial"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "1 Samuel 1:27-28"
+      ]
+    },
+    {
+      "id": "bas-0014",
+      "text": "Cuando Israel gimió bajo la esclavitud en Egipto, ¿qué hizo Dios al oír su clamor?",
+      "options": [
+        "Los ignoró",
+        "Se acordó de su pacto y decidió librarlos",
+        "Los castigó",
+        "No hizo nada"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Éxodo 2:23-25"
+      ]
+    },
+    {
+      "id": "bas-0015",
+      "text": "Al comenzar su reinado, ¿qué le pidió Salomón a Dios en oración?",
+      "options": [
+        "Riquezas",
+        "Larga vida",
+        "Sabiduría para gobernar al pueblo",
+        "Venganza de sus enemigos"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "1 Reyes 3:9"
+      ]
+    },
+    {
+      "id": "bas-0016",
+      "text": "¿Qué hizo el rey Ezequías al recibir una carta amenazante de Asiria?",
+      "options": [
+        "Se rindió de inmediato",
+        "Huyó de la ciudad",
+        "Pagó tributo",
+        "La extendió delante del Señor y oró"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Isaías 37:14-15"
+      ]
+    },
+    {
+      "id": "bas-0017",
+      "text": "En la parábola del sembrador, ¿qué representa la buena tierra?",
+      "options": [
+        "El que oye la palabra, la entiende y da fruto",
+        "El que la rechaza",
+        "Las espinas que ahogan",
+        "El camino duro"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 13:23"
+      ]
+    },
+    {
+      "id": "bas-0018",
+      "text": "¿A qué comparó Jesús el reino de los cielos, que siendo semilla pequeñísima se hace árbol?",
+      "options": [
+        "A la levadura",
+        "Al grano de mostaza",
+        "A una perla",
+        "A una red"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 13:31-32"
+      ]
+    },
+    {
+      "id": "bas-0019",
+      "text": "Según las Bienaventuranzas, ¿qué verán los de limpio corazón?",
+      "options": [
+        "Tendrán riquezas",
+        "Gobernarán naciones",
+        "Verán a Dios",
+        "Nunca sufrirán"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 5:8"
+      ]
+    },
+    {
+      "id": "bas-0020",
+      "text": "¿Qué dijo Jesús que son sus discípulos para el mundo?",
+      "options": [
+        "Los jueces del mundo",
+        "Los reyes del mundo",
+        "El temor del mundo",
+        "La sal de la tierra y la luz del mundo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 5:13-14"
+      ]
+    },
+    {
+      "id": "bas-0021",
+      "text": "Según las Bienaventuranzas, ¿qué recibirán los mansos?",
+      "options": [
+        "Heredarán la tierra",
+        "Serán los más ricos",
+        "Reinarán por la fuerza",
+        "No recibirán nada"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 5:5"
+      ]
+    },
+    {
+      "id": "bas-0022",
+      "text": "¿De quiénes dijo Jesús que es el reino de los cielos, al inicio de las Bienaventuranzas?",
+      "options": [
+        "De los poderosos",
+        "De los pobres en espíritu",
+        "De los sabios",
+        "De los sacerdotes"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 5:3"
+      ]
+    },
+    {
+      "id": "bas-0023",
+      "text": "¿Qué libro del Nuevo Testamento narra el inicio y la expansión de la iglesia?",
+      "options": [
+        "Romanos",
+        "Hebreos",
+        "Hechos de los Apóstoles",
+        "Apocalipsis"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Hechos 1:8"
+      ]
+    },
+    {
+      "id": "bas-0024",
+      "text": "¿Cómo se llamaba el apóstol Pablo antes de su conversión?",
+      "options": [
+        "Silas",
+        "Bernabé",
+        "Esteban",
+        "Saulo de Tarso"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Hechos 9:1-4"
+      ]
+    },
+    {
+      "id": "bas-0025",
+      "text": "¿Qué le ocurrió a Saulo camino a Damasco?",
+      "options": [
+        "Una luz del cielo lo rodeó y oyó la voz de Jesús",
+        "Se perdió en el desierto",
+        "Fue arrestado",
+        "Halló un tesoro"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Hechos 9:3-5"
+      ]
+    },
+    {
+      "id": "bas-0026",
+      "text": "¿En qué día descendió el Espíritu Santo con lenguas como de fuego sobre los discípulos?",
+      "options": [
+        "En la Pascua",
+        "En Pentecostés",
+        "En el día de reposo",
+        "En la fiesta de los Tabernáculos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Hechos 2:1-4"
+      ]
+    },
+    {
+      "id": "bas-0027",
+      "text": "¿En qué río fue bautizado Jesús por Juan el Bautista?",
+      "options": [
+        "El Nilo",
+        "El Éufrates",
+        "El río Jordán",
+        "El Tigris"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Mateo 3:13"
+      ]
+    },
+    {
+      "id": "bas-0028",
+      "text": "¿En qué ciudad creció Jesús?",
+      "options": [
+        "Belén",
+        "Jerusalén",
+        "Jericó",
+        "Nazaret"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Lucas 2:39-40"
+      ]
+    },
+    {
+      "id": "bas-0029",
+      "text": "¿En qué mar calmó Jesús la tempestad y llamó a pescadores como discípulos?",
+      "options": [
+        "El mar de Galilea",
+        "El mar Muerto",
+        "El mar Rojo",
+        "El mar Mediterráneo"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Marcos 1:16-17",
+        "Marcos 4:39"
+      ]
+    },
+    {
+      "id": "bas-0030",
+      "text": "¿Cuál era la ciudad principal de Israel, donde estaba el templo?",
+      "options": [
+        "Samaria",
+        "Jerusalén",
+        "Damasco",
+        "Cesarea"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "1 Reyes 8:1"
+      ]
+    },
+    {
+      "id": "bas-0031",
+      "text": "¿Cuántos apóstoles escogió Jesús como sus discípulos cercanos?",
+      "options": [
+        "Diez",
+        "Siete",
+        "Doce",
+        "Setenta"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Marcos 3:14"
+      ]
+    },
+    {
+      "id": "bas-0032",
+      "text": "¿Cómo se llamaba el hijo de la promesa de Abraham y Sara?",
+      "options": [
+        "Ismael",
+        "Jacob",
+        "Esaú",
+        "Isaac"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Génesis 21:3"
+      ]
+    },
+    {
+      "id": "bas-0033",
+      "text": "¿Qué nombre recibió Jacob después de luchar con Dios?",
+      "options": [
+        "Israel",
+        "Edom",
+        "Abraham",
+        "Leví"
+      ],
+      "correctIndex": 0,
+      "difficulty": "basico",
+      "references": [
+        "Génesis 32:28"
+      ]
+    },
+    {
+      "id": "bas-0034",
+      "text": "Las doce tribus de Israel descienden de los hijos de...",
+      "options": [
+        "Abraham",
+        "Jacob",
+        "Moisés",
+        "David"
+      ],
+      "correctIndex": 1,
+      "difficulty": "basico",
+      "references": [
+        "Génesis 49:28"
+      ]
+    },
+    {
+      "id": "bas-0035",
+      "text": "¿Cuál de estos libros es una carta (epístola) escrita por el apóstol Pablo?",
+      "options": [
+        "Josué",
+        "Apocalipsis",
+        "Romanos",
+        "Génesis"
+      ],
+      "correctIndex": 2,
+      "difficulty": "basico",
+      "references": [
+        "Romanos 1:1"
+      ]
+    },
+    {
+      "id": "bas-0036",
+      "text": "¿Cuál es el libro de la Biblia compuesto por 150 cánticos y oraciones?",
+      "options": [
+        "Proverbios",
+        "Job",
+        "Cantares",
+        "Salmos"
+      ],
+      "correctIndex": 3,
+      "difficulty": "basico",
+      "references": [
+        "Salmo 1:1"
+      ]
+    }
+  ]
+}

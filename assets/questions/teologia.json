@@ -1,0 +1,734 @@
+{
+  "level": "teologia",
+  "questions": [
+    {
+      "id": "teo-0001",
+      "text": "La Hipótesis Documental identifica cuatro fuentes del Pentateuco. ¿Cuáles son?",
+      "options": [
+        "Yavista (J), Elohísta (E), Deuteronomista (D) y Sacerdotal (P)",
+        "Mateo, Marcos, Lucas y Juan",
+        "Ley, Profetas, Escritos y Salmos",
+        "Nicea, Éfeso, Calcedonia y Trento"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Génesis 1:1",
+        "Génesis 2:4"
+      ]
+    },
+    {
+      "id": "teo-0002",
+      "text": "Un criterio clásico para distinguir las fuentes J y E es...",
+      "options": [
+        "El idioma griego o latín",
+        "El nombre usado para Dios (YHWH frente a Elohim)",
+        "El autor del Nuevo Testamento",
+        "El número de capítulos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Génesis 2:4",
+        "Éxodo 3:14-15"
+      ]
+    },
+    {
+      "id": "teo-0003",
+      "text": "La fuente Sacerdotal (P) se asocia especialmente con material sobre...",
+      "options": [
+        "Las parábolas de Jesús",
+        "Las cartas de Pablo",
+        "Genealogías, leyes rituales y el culto sacerdotal",
+        "La poesía de los Salmos"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Levítico 1:1-3",
+        "Génesis 1:1-2:3"
+      ]
+    },
+    {
+      "id": "teo-0004",
+      "text": "La fuente Deuteronomista (D) se vincula principalmente con el libro de...",
+      "options": [
+        "Génesis",
+        "Apocalipsis",
+        "Hechos",
+        "Deuteronomio"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Deuteronomio 12:1"
+      ]
+    },
+    {
+      "id": "teo-0005",
+      "text": "Un dato citado a favor de varias fuentes son los dos relatos de la creación en...",
+      "options": [
+        "Génesis 1 y Génesis 2",
+        "Éxodo 1 y 2",
+        "Mateo 1 y Lucas 2",
+        "Juan 1 y 3"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Génesis 1:1-2:3",
+        "Génesis 2:4-25"
+      ]
+    },
+    {
+      "id": "teo-0006",
+      "text": "La 'hermenéutica de la sospecha' propone leer el texto atendiendo a...",
+      "options": [
+        "Solo el sentido literal",
+        "Las estructuras de poder e intereses tras la redacción",
+        "Solo los milagros",
+        "Solo la cronología"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Santiago 2:1-6"
+      ]
+    },
+    {
+      "id": "teo-0007",
+      "text": "¿Qué disciplina estudia el contexto histórico, social y económico tras un texto bíblico?",
+      "options": [
+        "La numerología",
+        "La astrología",
+        "La crítica histórico-cultural",
+        "La caligrafía"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Nehemías 5:1-5"
+      ]
+    },
+    {
+      "id": "teo-0008",
+      "text": "La crítica de las formas (Formgeschichte) analiza...",
+      "options": [
+        "El precio de los manuscritos",
+        "La biografía del lector",
+        "El clima de la región",
+        "Los géneros literarios y su contexto previo a la escritura"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Salmo 13:1-2"
+      ]
+    },
+    {
+      "id": "teo-0009",
+      "text": "Un riesgo señalado de los métodos críticos sin fe es...",
+      "options": [
+        "Reducir la Escritura a un mero documento humano, perdiendo su mensaje",
+        "Leer demasiado rápido",
+        "Usar otro idioma",
+        "Memorizar versículos"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "2 Timoteo 3:16"
+      ]
+    },
+    {
+      "id": "teo-0010",
+      "text": "¿Qué mujer fue jueza y profetisa que llevó a Israel a la victoria junto a Barac?",
+      "options": [
+        "Ester",
+        "Débora",
+        "Rut",
+        "Priscila"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Jueces 4:4-9"
+      ]
+    },
+    {
+      "id": "teo-0011",
+      "text": "¿Qué reina arriesgó su vida ante el rey para salvar a su pueblo de la aniquilación?",
+      "options": [
+        "Betsabé",
+        "Mical",
+        "Ester",
+        "Dalila"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Ester 4:14-16"
+      ]
+    },
+    {
+      "id": "teo-0012",
+      "text": "¿Qué moabita fiel llegó a ser bisabuela del rey David?",
+      "options": [
+        "Rahab",
+        "Ana",
+        "Noemí",
+        "Rut"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Rut 4:13-17"
+      ]
+    },
+    {
+      "id": "teo-0013",
+      "text": "¿Qué mujer, junto a su esposo Aquila, instruyó con más exactitud a Apolos?",
+      "options": [
+        "Priscila",
+        "Lidia",
+        "Febe",
+        "Dorcas"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Hechos 18:24-26"
+      ]
+    },
+    {
+      "id": "teo-0014",
+      "text": "En Romanos 16, ¿cómo recomienda Pablo a Febe?",
+      "options": [
+        "Como una opositora",
+        "Como diaconisa (sierva) de la iglesia de Cencrea",
+        "Como una desconocida",
+        "Como una reina"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Romanos 16:1-2"
+      ]
+    },
+    {
+      "id": "teo-0015",
+      "text": "Según los Evangelios, ¿quiénes fueron las primeras en hallar la tumba vacía y anunciar la resurrección?",
+      "options": [
+        "Los soldados",
+        "Los sumos sacerdotes",
+        "Unas mujeres, entre ellas María Magdalena",
+        "Los doce apóstoles"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Lucas 24:1-10",
+        "Juan 20:1"
+      ]
+    },
+    {
+      "id": "teo-0016",
+      "text": "¿Qué advierte 1 Corintios 8:1 sobre el solo conocimiento?",
+      "options": [
+        "Que el conocimiento salva por sí mismo",
+        "Que la fe es inútil",
+        "Que no hay que estudiar",
+        "Que el conocimiento envanece, pero el amor edifica"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "1 Corintios 8:1"
+      ]
+    },
+    {
+      "id": "teo-0017",
+      "text": "La frase 'la verdadera teología se hace de rodillas' enfatiza...",
+      "options": [
+        "Que el estudio profundo debe unirse a la oración y la piedad",
+        "Que no hay que estudiar",
+        "Que la oración reemplaza la Biblia",
+        "Que la academia es inútil"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Salmo 111:10"
+      ]
+    },
+    {
+      "id": "teo-0018",
+      "text": "Según Proverbios 1:7, ¿cuál es el principio de la sabiduría y el conocimiento?",
+      "options": [
+        "La duda",
+        "El temor de Jehová",
+        "La riqueza",
+        "La fama"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Proverbios 1:7"
+      ]
+    },
+    {
+      "id": "teo-0019",
+      "text": "¿Qué peligro señala la Biblia para quien tiene mucho saber sin amor?",
+      "options": [
+        "La pobreza",
+        "El olvido",
+        "Un conocimiento estéril que envanece y no edifica",
+        "La enfermedad"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "1 Corintios 13:2"
+      ]
+    },
+    {
+      "id": "teo-0020",
+      "text": "¿Qué concilio (325 d.C.) afirmó la plena divinidad del Hijo frente al arrianismo?",
+      "options": [
+        "El Concilio de Trento",
+        "El Concilio Vaticano II",
+        "El Sínodo de Dort",
+        "El Concilio de Nicea"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Juan 1:1",
+        "Colosenses 2:9"
+      ]
+    },
+    {
+      "id": "teo-0021",
+      "text": "¿Qué término griego del Credo Niceno afirma que el Hijo es de la misma sustancia que el Padre?",
+      "options": [
+        "Homoousios",
+        "Homoiousios",
+        "Kenosis",
+        "Theosis"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Juan 10:30"
+      ]
+    },
+    {
+      "id": "teo-0022",
+      "text": "¿Qué concilio (451 d.C.) definió que Cristo es una persona en dos naturalezas?",
+      "options": [
+        "El Concilio de Nicea",
+        "El Concilio de Calcedonia",
+        "El de Jerusalén",
+        "El de Constanza"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Juan 1:14",
+        "Filipenses 2:6-7"
+      ]
+    },
+    {
+      "id": "teo-0023",
+      "text": "El Concilio de Éfeso (431) afirmó el título 'Theotokos' para María, que significa...",
+      "options": [
+        "Reina del cielo",
+        "Co-redentora",
+        "Madre de Dios (portadora de Dios)",
+        "Sin pecado"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Lucas 1:43"
+      ]
+    },
+    {
+      "id": "teo-0024",
+      "text": "¿Qué tema central trataron los primeros concilios ecuménicos?",
+      "options": [
+        "El calendario litúrgico",
+        "El idioma de la misa",
+        "La arquitectura de los templos",
+        "La Trinidad y la persona de Cristo"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Mateo 28:19"
+      ]
+    },
+    {
+      "id": "teo-0025",
+      "text": "¿Qué rama de la teología sistemática estudia la doctrina de la salvación?",
+      "options": [
+        "La Soteriología",
+        "La Pneumatología",
+        "La Escatología",
+        "La Eclesiología"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Efesios 2:8-9"
+      ]
+    },
+    {
+      "id": "teo-0026",
+      "text": "¿Qué rama estudia la persona y obra del Espíritu Santo?",
+      "options": [
+        "La Cristología",
+        "La Pneumatología",
+        "La Antropología",
+        "La Hamartiología"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Juan 16:13"
+      ]
+    },
+    {
+      "id": "teo-0027",
+      "text": "¿Qué estudia la crítica textual?",
+      "options": [
+        "La crítica de sermones",
+        "La traducción a idiomas modernos",
+        "Los manuscritos, para establecer el texto original más fiable",
+        "El conteo de capítulos"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Jeremías 36:4"
+      ]
+    },
+    {
+      "id": "teo-0028",
+      "text": "¿Cuál es uno de los manuscritos griegos más antiguos y completos de la Biblia (siglo IV)?",
+      "options": [
+        "El Códice de Hammurabi",
+        "Los rollos de cobre",
+        "La Piedra de Rosetta",
+        "El Códice Sinaítico"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Isaías 40:8"
+      ]
+    },
+    {
+      "id": "teo-0029",
+      "text": "¿Qué afirma la doctrina de la inspiración sobre las Escrituras?",
+      "options": [
+        "Que toda la Escritura es inspirada por Dios",
+        "Que fue escrita por ángeles",
+        "Que es un mito",
+        "Que solo el Nuevo Testamento es inspirado"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "2 Timoteo 3:16",
+        "2 Pedro 1:21"
+      ]
+    },
+    {
+      "id": "teo-0030",
+      "text": "¿Qué rama de la teología estudia las últimas cosas (muerte, juicio, fin)?",
+      "options": [
+        "La Bibliología",
+        "La Escatología",
+        "La Teología propia",
+        "La Angelología"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "1 Tesalonicenses 4:16-17"
+      ]
+    },
+    {
+      "id": "teo-0031",
+      "text": "¿Cuál es la primera letra del alefato hebreo?",
+      "options": [
+        "Bet",
+        "Guímel",
+        "Álef",
+        "Tav"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Salmo 119 (acróstico alfabético)"
+      ]
+    },
+    {
+      "id": "teo-0032",
+      "text": "'Alfa y Omega', título de Cristo, ¿qué representan en el alfabeto griego?",
+      "options": [
+        "Dos números sagrados",
+        "Dos ciudades",
+        "Dos ángeles",
+        "La primera y la última letra (el principio y el fin)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Apocalipsis 22:13"
+      ]
+    },
+    {
+      "id": "teo-0033",
+      "text": "¿En qué dirección se escribe y se lee el hebreo bíblico?",
+      "options": [
+        "De derecha a izquierda",
+        "De izquierda a derecha",
+        "De arriba hacia abajo",
+        "En zigzag"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Alfabeto hebreo"
+      ]
+    },
+    {
+      "id": "teo-0034",
+      "text": "En la gramática del griego koiné, ¿qué caso marca el complemento directo?",
+      "options": [
+        "El nominativo",
+        "El acusativo",
+        "El genitivo",
+        "El dativo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné"
+      ]
+    },
+    {
+      "id": "teo-0035",
+      "text": "En griego, ¿qué indica principalmente el caso genitivo?",
+      "options": [
+        "El sujeto",
+        "El complemento directo",
+        "Posesión o relación ('de')",
+        "El instrumento"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Gramática del griego koiné"
+      ]
+    },
+    {
+      "id": "teo-0036",
+      "text": "¿Qué es la exégesis, frente a la eiségesis?",
+      "options": [
+        "Imponer al texto ideas propias",
+        "Memorizar versículos",
+        "Traducir a otro idioma",
+        "Extraer del texto su sentido original"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "2 Timoteo 2:15"
+      ]
+    },
+    {
+      "id": "teo-0037",
+      "text": "¿Qué principio hermenéutico básico evita malinterpretar un versículo?",
+      "options": [
+        "Leerlo en su contexto",
+        "Leerlo aislado",
+        "Ignorar el género literario",
+        "Usar solo la imaginación"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "2 Pedro 1:20-21"
+      ]
+    },
+    {
+      "id": "teo-0038",
+      "text": "¿Qué imperio llevó a Judá al exilio en el 586 a.C.?",
+      "options": [
+        "Asiria",
+        "Babilonia",
+        "Persia",
+        "Roma"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "2 Reyes 25:1-11"
+      ]
+    },
+    {
+      "id": "teo-0039",
+      "text": "¿Qué rey persa permitió a los judíos volver y reconstruir el templo?",
+      "options": [
+        "Darío",
+        "Jerjes",
+        "Ciro",
+        "Nabucodonosor"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Esdras 1:1-2"
+      ]
+    },
+    {
+      "id": "teo-0040",
+      "text": "¿Quién inició la Reforma Protestante al publicar las 95 tesis en 1517?",
+      "options": [
+        "Juan Calvino",
+        "Ulrico Zuinglio",
+        "Juan Knox",
+        "Martín Lutero"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Reforma Protestante (1517)",
+        "Romanos 1:17"
+      ]
+    },
+    {
+      "id": "teo-0041",
+      "text": "¿Quién escribió 'La Institución de la Religión Cristiana'?",
+      "options": [
+        "Juan Calvino",
+        "Martín Lutero",
+        "Agustín de Hipona",
+        "Tomás de Aquino"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Juan Calvino, 'Institución' (1536)"
+      ]
+    },
+    {
+      "id": "teo-0042",
+      "text": "¿Qué padre de la iglesia escribió 'Confesiones' y 'La Ciudad de Dios'?",
+      "options": [
+        "Jerónimo",
+        "Agustín de Hipona",
+        "Orígenes",
+        "Atanasio"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Agustín de Hipona"
+      ]
+    },
+    {
+      "id": "teo-0043",
+      "text": "¿Quién tradujo la Biblia al latín en la versión conocida como la Vulgata?",
+      "options": [
+        "Erasmo de Róterdam",
+        "John Wycliffe",
+        "Jerónimo",
+        "William Tyndale"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Vulgata latina (s. IV-V)"
+      ]
+    },
+    {
+      "id": "teo-0044",
+      "text": "¿Qué hallazgo de 1947 en Qumrán confirmó la fidelidad de la transmisión del Antiguo Testamento?",
+      "options": [
+        "La Piedra de Rosetta",
+        "El Códice de Hammurabi",
+        "Las cartas de Amarna",
+        "Los Rollos del Mar Muerto"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Rollos del Mar Muerto (Qumrán, 1947)"
+      ]
+    },
+    {
+      "id": "teo-0045",
+      "text": "¿En qué nación fue esclavizado Israel antes del Éxodo?",
+      "options": [
+        "Egipto",
+        "Babilonia",
+        "Asiria",
+        "Persia"
+      ],
+      "correctIndex": 0,
+      "difficulty": "teologia",
+      "references": [
+        "Éxodo 1:8-14"
+      ]
+    },
+    {
+      "id": "teo-0046",
+      "text": "¿Cuál de estos libros es considerado deuterocanónico (fuera del canon protestante)?",
+      "options": [
+        "Isaías",
+        "Macabeos",
+        "Romanos",
+        "Génesis"
+      ],
+      "correctIndex": 1,
+      "difficulty": "teologia",
+      "references": [
+        "Canon protestante (libros deuterocanónicos)"
+      ]
+    },
+    {
+      "id": "teo-0047",
+      "text": "¿Con qué filósofos discutió Pablo en el Areópago de Atenas?",
+      "options": [
+        "Fariseos y saduceos",
+        "Esenios",
+        "Epicúreos y estoicos",
+        "Gnósticos"
+      ],
+      "correctIndex": 2,
+      "difficulty": "teologia",
+      "references": [
+        "Hechos 17:18"
+      ]
+    },
+    {
+      "id": "teo-0048",
+      "text": "¿Cómo se llama la traducción griega del Antiguo Testamento usada por la iglesia primitiva?",
+      "options": [
+        "La Vulgata",
+        "La Peshitta",
+        "El Textus Receptus",
+        "La Septuaginta (LXX)"
+      ],
+      "correctIndex": 3,
+      "difficulty": "teologia",
+      "references": [
+        "Septuaginta (LXX, s. III-II a.C.)"
+      ]
+    }
+  ]
+}
