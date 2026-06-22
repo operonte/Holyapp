@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../models/difficulty_level.dart';
 import '../state/app_state.dart';
@@ -100,6 +101,10 @@ class SettingsScreen extends StatelessWidget {
               minimumSize: const Size.fromHeight(48),
             ),
           ),
+          const Divider(height: 48),
+          _SectionTitle('Legal'),
+          const SizedBox(height: 8),
+          const _LegalSection(),
         ],
       ),
     );
@@ -336,6 +341,58 @@ class _AccountSection extends StatelessWidget {
     messenger.showSnackBar(
       SnackBar(content: Text(error ?? 'Tu cuenta y datos fueron eliminados.')),
     );
+  }
+}
+
+/// Enlaces legales exigidos por las tiendas (privacidad, términos) y contacto.
+class _LegalSection extends StatelessWidget {
+  const _LegalSection();
+
+  static const _base = 'https://holyapp-8b41f.web.app';
+  static const _privacy = '$_base/privacidad';
+  static const _terms = '$_base/terminos';
+  static const _contact = 'mailto:cristian.bravo.droguett@gmail.com';
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Column(
+        children: [
+          ListTile(
+            leading: const Icon(Icons.privacy_tip_outlined),
+            title: const Text('Política de privacidad'),
+            trailing: const Icon(Icons.open_in_new, size: 18),
+            onTap: () => _open(context, _privacy),
+          ),
+          const Divider(height: 1),
+          ListTile(
+            leading: const Icon(Icons.description_outlined),
+            title: const Text('Términos de uso'),
+            trailing: const Icon(Icons.open_in_new, size: 18),
+            onTap: () => _open(context, _terms),
+          ),
+          const Divider(height: 1),
+          ListTile(
+            leading: const Icon(Icons.mail_outline),
+            title: const Text('Contacto'),
+            subtitle: const Text('cristian.bravo.droguett@gmail.com'),
+            onTap: () => _open(context, _contact),
+          ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _open(BuildContext context, String url) async {
+    final ok = await launchUrl(
+      Uri.parse(url),
+      mode: LaunchMode.externalApplication,
+    );
+    if (!ok && context.mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('No se pudo abrir: $url')),
+      );
+    }
   }
 }
 
