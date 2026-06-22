@@ -578,6 +578,203 @@
         "Hebreos 11:8"
       ],
       "explanation": "Abraham creyó a Dios y es presentado como ejemplo y padre de la fe (Hebreos 11)."
+    },
+    {
+      "id": "ent-0037",
+      "text": "Según Gálatas 5:22, ¿cuál es el primer fruto del Espíritu que se menciona?",
+      "options": [
+        "El amor",
+        "El gozo",
+        "La paz",
+        "La paciencia"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Gálatas 5:22"
+      ],
+      "explanation": "Pablo encabeza la lista del fruto del Espíritu con el amor, raíz de las demás virtudes."
+    },
+    {
+      "id": "ent-0038",
+      "text": "¿Cuántas virtudes componen el fruto del Espíritu según Gálatas 5:22-23?",
+      "options": [
+        "Siete",
+        "Diez",
+        "Nueve",
+        "Doce"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Gálatas 5:22-23"
+      ],
+      "explanation": "Son nueve: amor, gozo, paz, paciencia, benignidad, bondad, fe, mansedumbre y templanza."
+    },
+    {
+      "id": "ent-0039",
+      "text": "¿Cuál es el primer mandamiento del Decálogo según Éxodo 20:3?",
+      "options": [
+        "No matarás",
+        "No tendrás dioses ajenos delante de mí",
+        "Honra a tu padre y a tu madre",
+        "No hurtarás"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 20:3"
+      ],
+      "explanation": "El Decálogo comienza exigiendo exclusividad a Dios: no anteponer ningún otro dios."
+    },
+    {
+      "id": "ent-0040",
+      "text": "Según Éxodo 20, ¿cuántos mandamientos entregó Dios a Moisés en el monte Sinaí?",
+      "options": [
+        "Doce",
+        "Siete",
+        "Cinco",
+        "Diez"
+      ],
+      "correctIndex": 3,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 20:1-17",
+        "Deuteronomio 4:13"
+      ],
+      "explanation": "Son los Diez Mandamientos, escritos en dos tablas según Deuteronomio 4:13."
+    },
+    {
+      "id": "ent-0041",
+      "text": "¿Cuál fue el primer milagro que hizo Jesús, según el evangelio de Juan?",
+      "options": [
+        "Convertir el agua en vino en Caná",
+        "Multiplicar los panes",
+        "Caminar sobre el agua",
+        "Resucitar a Lázaro"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Juan 2:11"
+      ],
+      "explanation": "En las bodas de Caná, Jesús convirtió el agua en vino; Juan lo llama el principio de sus señales."
+    },
+    {
+      "id": "ent-0042",
+      "text": "¿A quién resucitó Jesús después de cuatro días en el sepulcro, en Betania?",
+      "options": [
+        "A Jairo",
+        "A Lázaro",
+        "Al hijo de la viuda de Naín",
+        "A Tabita"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Juan 11:43-44"
+      ],
+      "explanation": "Jesús llamó a Lázaro fuera del sepulcro tras cuatro días, mostrando su poder sobre la muerte."
+    },
+    {
+      "id": "ent-0043",
+      "text": "Cuando Jesús alimentó a los cinco mil, ¿con qué contaban según los evangelios?",
+      "options": [
+        "Siete panes y unos pececillos",
+        "Doce panes",
+        "Cinco panes y dos peces",
+        "Tres panes y tres peces"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 14:17-21",
+        "Juan 6:9"
+      ],
+      "explanation": "Con cinco panes y dos peces de un muchacho, Jesús alimentó a más de cinco mil personas."
+    },
+    {
+      "id": "ent-0044",
+      "text": "Según Hebreos 11:7, ¿qué hizo Noé por la fe al ser advertido por Dios?",
+      "options": [
+        "Construyó una ciudad",
+        "Preparó el arca para salvar a su familia",
+        "Edificó un altar en el monte",
+        "Salió de Ur de los caldeos"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Hebreos 11:7"
+      ],
+      "explanation": "Advertido sobre cosas que aún no se veían, Noé preparó por fe el arca para la salvación de su casa."
+    },
+    {
+      "id": "ent-0045",
+      "text": "Según Hebreos 11:8, ¿qué hizo Abraham por la fe cuando fue llamado?",
+      "options": [
+        "Obedeció y salió sin saber a dónde iba",
+        "Pidió una señal antes de partir",
+        "Se quedó en Harán",
+        "Construyó el arca"
+      ],
+      "correctIndex": 0,
+      "difficulty": "entrada",
+      "references": [
+        "Hebreos 11:8"
+      ],
+      "explanation": "Abraham obedeció el llamado de Dios y salió hacia la tierra prometida sin conocer el destino."
+    },
+    {
+      "id": "ent-0046",
+      "text": "¿En qué ciudad nació Jesús, según los evangelios de Mateo y Lucas?",
+      "options": [
+        "Nazaret",
+        "Jerusalén",
+        "Belén",
+        "Capernaúm"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 2:1",
+        "Lucas 2:4-7"
+      ],
+      "explanation": "Jesús nació en Belén de Judea, cumpliendo la profecía de Miqueas 5:2."
+    },
+    {
+      "id": "ent-0047",
+      "text": "¿Cuántos apóstoles escogió Jesús para que le acompañaran de cerca?",
+      "options": [
+        "Siete",
+        "Diez",
+        "Doce",
+        "Setenta"
+      ],
+      "correctIndex": 2,
+      "difficulty": "entrada",
+      "references": [
+        "Mateo 10:1-4",
+        "Marcos 3:14"
+      ],
+      "explanation": "Jesús eligió a doce apóstoles para estar con Él y ser enviados a predicar."
+    },
+    {
+      "id": "ent-0048",
+      "text": "Según Éxodo 20:12, ¿qué mandamiento incluye una promesa de larga vida?",
+      "options": [
+        "No darás falso testimonio",
+        "Honra a tu padre y a tu madre",
+        "No codiciarás",
+        "Guarda el día de reposo"
+      ],
+      "correctIndex": 1,
+      "difficulty": "entrada",
+      "references": [
+        "Éxodo 20:12",
+        "Efesios 6:2-3"
+      ],
+      "explanation": "Honrar a los padres es, como recuerda Pablo, el primer mandamiento con promesa."
     }
   ]
 }
