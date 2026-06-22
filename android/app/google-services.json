@@ -14,6 +14,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "884925060769-8fbaq6bvkifsvf78e1q5qf36iqojhngj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.holyapp.holyapp",
+            "certificate_hash": "9eb2a54fcc67af29aece16c140d3b9097d6be237"
+          }
+        },
+        {
+          "client_id": "884925060769-ob3tdlonhsh5dev7h5r1rlkdc9fi2m7b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.holyapp.holyapp",
+            "certificate_hash": "d0ed1f92105cf99213ddc673294db9c3f589107f"
+          }
+        },
+        {
           "client_id": "884925060769-cdpdf0jsjqikjj5381mpakes79edhvu4.apps.googleusercontent.com",
           "client_type": 3
         }
