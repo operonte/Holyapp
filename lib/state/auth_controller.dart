@@ -44,10 +44,13 @@ class AuthController extends ChangeNotifier {
     notifyListeners();
   }
 
-  /// Inicia sesión con Google. Devuelve `true` si tuvo éxito.
-  Future<bool> signInWithGoogle() async {
+  /// Inicia sesión con Google. Devuelve `null` si tuvo éxito, o un mensaje de
+  /// error legible (con la causa real) para mostrar al usuario.
+  Future<String?> signInWithGoogle() async {
     final auth = _auth;
-    if (auth == null) return false;
+    if (auth == null) {
+      return 'El servicio de cuentas no está disponible en este momento.';
+    }
     try {
       final provider = GoogleAuthProvider();
       if (kIsWeb) {
@@ -55,10 +58,38 @@ class AuthController extends ChangeNotifier {
       } else {
         await auth.signInWithProvider(provider);
       }
-      return auth.currentUser != null;
+      return auth.currentUser != null ? null : 'No se pudo iniciar sesión.';
+    } on FirebaseAuthException catch (e) {
+      debugPrint('Error en login con Google: ${e.code} — ${e.message}');
+      return _friendlyAuthError(e);
     } catch (e) {
-      debugPrint('Error en login con Google: $e');
-      return false;
+      debugPrint('Error inesperado en login con Google: $e');
+      return 'No se pudo iniciar sesión. Revisa tu conexión e inténtalo de nuevo.';
+    }
+  }
+
+  /// Traduce los códigos de FirebaseAuth a mensajes claros (y accionables).
+  String _friendlyAuthError(FirebaseAuthException e) {
+    switch (e.code) {
+      case 'popup-closed-by-user':
+      case 'cancelled-popup-request':
+      case 'user-cancelled':
+        return 'Cancelaste el inicio de sesión.';
+      case 'popup-blocked':
+        return 'El navegador bloqueó la ventana de Google. Permite las '
+            'ventanas emergentes e inténtalo de nuevo.';
+      case 'unauthorized-domain':
+        return 'Este dominio no está autorizado en Firebase '
+            '(Authentication → Settings → Dominios autorizados).';
+      case 'operation-not-allowed':
+        return 'El proveedor de Google no está habilitado en Firebase '
+            '(Authentication → Sign-in method).';
+      case 'network-request-failed':
+        return 'Sin conexión. Revisa tu red e inténtalo de nuevo.';
+      case 'account-exists-with-different-credential':
+        return 'Ya existe una cuenta con ese correo usando otro método.';
+      default:
+        return 'No se pudo iniciar sesión (${e.code}).';
     }
   }
 
