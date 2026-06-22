@@ -44,6 +44,9 @@ dependencies:
   firebase_auth: ^6.5.3
   cloud_firestore: ^6.6.0
   audioplayers: ^6.7.1
+  # Abre la política de privacidad / términos (enlaces externos) y el correo
+  # de contacto. Requerido para el enlace de privacidad exigido por las tiendas.
+  url_launcher: ^6.3.1
 
 dev_dependencies:
   flutter_test:
