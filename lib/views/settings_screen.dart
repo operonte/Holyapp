@@ -287,19 +287,15 @@ class _AccountSection extends StatelessWidget {
 
   Future<void> _onSignIn(BuildContext context) async {
     final auth = context.read<AuthController>();
-    final ok = await auth.signInWithGoogle();
+    final error = await auth.signInWithGoogle();
     if (!context.mounted) return;
-    if (ok) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('¡Sesión iniciada! Tu progreso se guardará.')),
-      );
-    } else {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(
-          content: Text('No se pudo iniciar sesión. Inténtalo de nuevo.'),
-        ),
-      );
-    }
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(error ??
+            '¡Sesión iniciada! Tu progreso se guardará en la nube.'),
+        duration: Duration(seconds: error == null ? 3 : 6),
+      ),
+    );
   }
 
   Future<void> _confirmDelete(BuildContext context) async {
