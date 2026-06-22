@@ -45,6 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         title: const Text('HolyApp · Trivia Bíblica'),
         actions: [
+          if (app.isSignedIn) _SyncIndicator(status: app.syncStatus),
           IconButton(
             tooltip: 'Configuración',
             icon: const Icon(Icons.settings),
@@ -278,6 +279,54 @@ class _LengthSelector extends StatelessWidget {
       selected: {selected},
       onSelectionChanged: (s) => onChanged(s.first),
     );
+  }
+}
+
+/// Indicador discreto del estado de guardado en la nube (solo con sesión).
+class _SyncIndicator extends StatelessWidget {
+  const _SyncIndicator({required this.status});
+  final SyncStatus status;
+
+  @override
+  Widget build(BuildContext context) {
+    final onPrimary = Theme.of(context).colorScheme.onPrimary;
+    switch (status) {
+      case SyncStatus.syncing:
+        return Center(
+          child: Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 12),
+            child: SizedBox(
+              width: 18,
+              height: 18,
+              child: CircularProgressIndicator(strokeWidth: 2, color: onPrimary),
+            ),
+          ),
+        );
+      case SyncStatus.synced:
+        return IconButton(
+          tooltip: 'Progreso guardado en la nube',
+          icon: const Icon(Icons.cloud_done_outlined),
+          onPressed: () => _toast(context, 'Tu progreso está guardado en la nube.'),
+        );
+      case SyncStatus.error:
+        return IconButton(
+          tooltip: 'No se pudo sincronizar (guardado local OK)',
+          icon: Icon(Icons.cloud_off_outlined, color: Colors.amber.shade200),
+          onPressed: () => _toast(
+            context,
+            'No se pudo sincronizar con la nube. Tu progreso está a salvo en '
+            'el dispositivo y se reintentará.',
+          ),
+        );
+      case SyncStatus.offline:
+        return const SizedBox.shrink();
+    }
+  }
+
+  void _toast(BuildContext context, String msg) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(msg)));
   }
 }
 

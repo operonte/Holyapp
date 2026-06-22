@@ -75,4 +75,12 @@ flutter build apk --release --split-per-abi   # APKs más livianos por arquitect
 > keystore propio (`android/key.properties`). Para Google Play, usa un keystore
 > de publicación.
 
+## Licencia
+
+El **código** de este proyecto se publica bajo licencia [MIT](LICENSE).
+
+El **contenido del banco de preguntas** (textos en `assets/questions/`, citas
+bíblicas y explicaciones) es material educativo del autor; reutilízalo solo con
+fines no comerciales y verificando la exactitud bíblica antes de redistribuir.
+
 ## Generado parcialmente con [Claude Code](https://claude.com/claude-code).

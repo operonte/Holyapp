@@ -8,6 +8,21 @@ import '../services/firestore_service.dart';
 import '../services/storage_service.dart';
 import 'test_controller.dart';
 
+/// Estado de la sincronización con la nube, para dar feedback visual.
+enum SyncStatus {
+  /// Sin sesión: solo se guarda localmente (no es un error).
+  offline,
+
+  /// Subiendo cambios a la nube.
+  syncing,
+
+  /// Último guardado en la nube exitoso.
+  synced,
+
+  /// Falló el último intento (se conserva el guardado local).
+  error,
+}
+
 /// Estado global y persistente: nivel, puntaje ponderado e historiales
 /// (correctas / repasar). Es **offline-first**: la fuente local
 /// (shared_preferences) siempre funciona; si hay sesión iniciada, sincroniza
@@ -37,9 +52,16 @@ class AppState extends ChangeNotifier {
   String? _uid;
   AppUser? _profile;
 
+  SyncStatus _syncStatus = SyncStatus.offline;
+
   DifficultyLevel get level => _level;
   bool get isLoaded => _loaded;
-  bool get isSyncing => _uid != null;
+
+  /// `true` si hay sesión iniciada (el progreso se replica en la nube).
+  bool get isSignedIn => _uid != null;
+
+  /// Estado del último guardado en la nube (para feedback en la UI).
+  SyncStatus get syncStatus => _syncStatus;
 
   /// Puntaje acumulado ponderado por nivel.
   int get score => _score;
@@ -113,6 +135,7 @@ class AppState extends ChangeNotifier {
       _cloud = null;
       _uid = null;
       _profile = null;
+      _setSync(SyncStatus.offline);
       return;
     }
     if (_uid == user.uid) {
@@ -192,16 +215,26 @@ class AppState extends ChangeNotifier {
     final cloud = _cloud;
     final uid = _uid;
     if (cloud == null || uid == null) return;
-    cloud.saveProgress(uid, _cloudData()).catchError(
-          (e) => debugPrint('Error subiendo a la nube: $e'),
-        );
-    // Entrada pública del ranking (solo nombre, foto y puntaje).
-    cloud.saveLeaderboard(uid, {
-      'displayName': _profile?.displayName ?? 'Anónimo',
-      'photoUrl': _profile?.photoUrl,
-      'score': _score,
-      'updatedAt': _updatedAt,
-    }).catchError((e) => debugPrint('Error subiendo al ranking: $e'));
+    _setSync(SyncStatus.syncing);
+    // Progreso privado + entrada pública del ranking (nombre, foto y puntaje).
+    Future.wait([
+      cloud.saveProgress(uid, _cloudData()),
+      cloud.saveLeaderboard(uid, {
+        'displayName': _profile?.displayName ?? 'Anónimo',
+        'photoUrl': _profile?.photoUrl,
+        'score': _score,
+        'updatedAt': _updatedAt,
+      }),
+    ]).then((_) => _setSync(SyncStatus.synced)).catchError((e) {
+      debugPrint('Error subiendo a la nube: $e');
+      _setSync(SyncStatus.error);
+    });
+  }
+
+  void _setSync(SyncStatus status) {
+    if (_syncStatus == status) return;
+    _syncStatus = status;
+    notifyListeners();
   }
 
   Map<String, dynamic> _cloudData() => {
