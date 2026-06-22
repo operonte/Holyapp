@@ -9,8 +9,8 @@ import '../models/difficulty_level.dart';
 ///
 /// - Es asíncrono: nunca bloquea el hilo de UI.
 /// - Cachea por nivel: el JSON de un nivel se lee y parsea una sola vez por
-///   sesión. Como solo se necesita el nivel que se está jugando, la memoria
-///   usada es ~400 preguntas, no las 2000.
+///   sesión. Con el acceso en cascada, jugar el nivel N mantiene en memoria la
+///   unión de los niveles 1..N (no todo el banco salvo en el nivel más alto).
 class QuestionService {
   QuestionService._();
   static final QuestionService instance = QuestionService._();
