@@ -45,12 +45,20 @@ docs/guia_niveles.md          # Guía de autoría de preguntas (temas y reglas p
 - **Reglas de seguridad** en [`firestore.rules`](firestore.rules): cada usuario
   solo lee/escribe su documento; el ranking es de solo lectura para autenticados.
 
-### Nota de seguridad
+### Configuración de Firebase
 
-Las claves de `firebase_options.dart` y `android/app/google-services.json` son
-**config de cliente, no secretos** (Google las diseña para ir embebidas). La
-protección de los datos son las **reglas de Firestore** + Auth. Endurecimiento
-recomendado en producción:
+`lib/firebase_options.dart` y `android/app/google-services.json` **no se
+versionan**: llevan las claves del proyecto. En el repositorio quedan sus
+plantillas (`.example`). Para compilar, genera los tuyos con tu propio proyecto
+de Firebase:
+
+    dart pub global activate flutterfire_cli
+    flutterfire configure
+
+Esas claves son **config de cliente, no secretos** (Google las diseña para ir
+embebidas en la app), pero se mantienen fuera del repositorio para que nadie las
+use contra la cuota del proyecto. La protección de los datos son las **reglas de
+Firestore** + Auth. Endurecimiento recomendado en producción:
 
 - Restringir la API key en Google Cloud (referrers HTTP para web, firma de app
   para Android).
